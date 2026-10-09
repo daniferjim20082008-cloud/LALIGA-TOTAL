@@ -36,6 +36,12 @@ class Parser(HTMLParser):
 def norm(s):
     s=unicodedata.normalize('NFKD',s or '');s=''.join(c for c in s if not unicodedata.combining(c));return re.sub(r'[^a-z0-9]+',' ',s.lower()).strip()
 
+def abs_url(src):
+    if not src:return ''
+    if src.startswith('//'):return 'https:'+src
+    if src.startswith('/'):return 'https://www.laliga.com'+src
+    return src
+
 def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; LALIGATOTAL/6.0)','Accept-Language':'es-ES,es;q=0.9'})
     with urllib.request.urlopen(req,timeout=12) as r:return r.read().decode('utf-8','replace')
@@ -44,10 +50,12 @@ def image_for(name,images):
     n=norm(name)
     for alt,src in images:
         a=norm(alt)
-        if n and (n in a or a in n) and len(a)>2:
-            if src.startswith('//'):src='https:'+src
-            if src.startswith('/'):src='https://www.laliga.com'+src
-            return src
+        if n and (n in a or a in n) and len(a)>2:return abs_url(src)
+    return ''
+
+def crest_for(images):
+    for alt,src in images:
+        if 'escudo' in norm(alt):return abs_url(src)
     return ''
 
 def field(block,label):
@@ -76,7 +84,7 @@ def parse(html,url):
                                 'sofaSearch':f"https://www.sofascore.com/es/search?q={urllib.parse.quote(name)}"}
                         players.append(player);seen.add(norm(name));i+=4;continue
             i+=1
-    return players
+    return players,crest_for(p.images)
 
 def load_old():
     try:return json.loads(OUT.read_text('utf-8'))
@@ -94,8 +102,8 @@ def main():
     for code,(slug,name) in CLUBS.items():
         url=BASE.format(slug=slug)
         try:
-            players=parse(fetch(url),url)
-            if players:clubs[code]={'name':name,'url':url,'players':players}
+            players,crest=parse(fetch(url),url)
+            if players:clubs[code]={'name':name,'url':url,'crest':crest,'players':players}
             else:warnings.append(f'{code}: sin jugadores parseados')
         except Exception as e:warnings.append(f'{code}: {e}')
     result={'updated':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),'source':'LALIGA oficial','clubs':clubs,'warnings':warnings[-20:]}
