@@ -1,0 +1,52 @@
+name: Activar nuevas funciones de LALIGA TOTAL
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wire-new-features.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Enlazar centro de partido y fichas de jugadores
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace(
+              '<link rel="stylesheet" href="players.css">',
+              '<link rel="stylesheet" href="players.css">\n<link rel="stylesheet" href="match-center.css">\n<link rel="stylesheet" href="player-sofascore.css">'
+          )
+          s = s.replace(
+              'Todos los partidos tienen predicción, porra, foro y ficha avanzada con previa, H2H, alineaciones y postpartido.',
+              'Todos los partidos tienen resultado real, goles, tarjetas y estadísticas disponibles, además de cuenta atrás, dónde verlo, predicción, porra, foro, H2H y alineaciones.'
+          )
+          s = s.replace(
+              'Escudo, plantilla, fichas individuales con foto y estadísticas, forma de los últimos cinco, puntos en casa y fuera, bajas, once probable, calendario completo y cómo llegar al estadio.',
+              'Escudo, plantilla, fichas individuales estilo Pericos 1900 con foto, estadísticas y acceso a SofaScore, forma de los últimos cinco, puntos en casa y fuera, bajas, once probable, calendario completo y cómo llegar al estadio.'
+          )
+          s = s.replace(
+              '<script src="app.js"></script>',
+              '<script src="match-seed.js"></script>\n<script src="app.js"></script>'
+          )
+          s = s.replace(
+              '<script src="client-rosters.js"></script>',
+              '<script src="client-rosters.js"></script>\n<script src="match-center.js"></script>\n<script src="player-sofascore.js"></script>'
+          )
+          p.write_text(s, encoding='utf-8')
+          PY
+          git config user.name "LALIGA TOTAL Bot"
+          git config user.email "actions@users.noreply.github.com"
+          rm .github/workflows/wire-new-features.yml
+          git add index.html .github/workflows/wire-new-features.yml
+          git commit -m "Activar centro de partido y fichas SofaScore"
+          git push origin HEAD:main
