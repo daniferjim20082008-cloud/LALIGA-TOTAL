@@ -6,6 +6,10 @@
   const slug=s=>String(s||"jugador").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"jugador";
   const sofaUrl=(name,id)=>id?`${SOFA}/es/football/player/${slug(name)}/${id}`:`${SOFA}/es`;
   const photo=id=>id?`https://img.sofascore.com/api/v1/player/${id}/image`:"";
+  function loadRosterFallback(){
+    if(document.querySelector('script[data-sofa-rosters]'))return;
+    const s=document.createElement('script');s.src='sofa-rosters.js';s.defer=true;s.dataset.sofaRosters='1';document.body.appendChild(s);
+  }
   async function load(){
     try{const r=await fetch(`live-data.json?v=${Date.now()}`,{cache:"no-store"});if(r.ok)state.live=await r.json();}catch(_){}
   }
@@ -107,7 +111,7 @@
     const fb=e.target.closest("[data-fallback-player][data-fallback-team]");if(fb)state.active={code:fb.dataset.fallbackTeam,id:fb.dataset.fallbackPlayer,name:fb.querySelector("strong")?.textContent||"",fallback:true};
   },true);
   function patch(){addCardLinks();addFallbackLinks();decorateDetail();}
-  async function init(){await load();patch();}
+  async function init(){loadRosterFallback();await load();patch();}
   document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();
   new MutationObserver(()=>requestAnimationFrame(patch)).observe(document.documentElement,{subtree:true,childList:true});
 })();
