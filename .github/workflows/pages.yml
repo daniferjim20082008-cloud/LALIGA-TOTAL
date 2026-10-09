@@ -51,17 +51,38 @@ jobs:
       - name: Guardar actualización y publicar en gh-pages
         shell: bash
         run: |
-          touch .nojekyll
+          cp live-data.json /tmp/laliga-live-data.json
+          cp broadcast-data.json /tmp/laliga-broadcast-data.json
           git config user.name "LALIGA TOTAL Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add live-data.json broadcast-data.json .nojekyll
-          if ! git diff --cached --quiet; then
-            git commit -m "Actualizar datos de LALIGA TOTAL"
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-          else
+
+          pushed=0
+          for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
+            cp /tmp/laliga-live-data.json live-data.json
+            cp /tmp/laliga-broadcast-data.json broadcast-data.json
+            touch .nojekyll
+            git add live-data.json broadcast-data.json .nojekyll
+            if ! git diff --cached --quiet; then
+              git commit -m "Actualizar datos de LALIGA TOTAL"
+              if git push origin HEAD:main; then
+                pushed=1
+                break
+              fi
+              echo "Cambio concurrente detectado; reintentando ($attempt/3)…"
+              sleep 2
+            else
+              pushed=1
+              break
+            fi
+          done
+
+          if [ "$pushed" -ne 1 ]; then
+            echo "No se pudo guardar la actualización tras 3 intentos"
+            exit 1
           fi
+
+          git fetch origin main
+          git reset --hard origin/main
           git push origin HEAD:gh-pages --force
