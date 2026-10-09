@@ -41,14 +41,31 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
 
 
+ALIAS_ROWS = [
+    (norm(alias), code)
+    for code, aliases in ALIASES.items()
+    for alias in aliases
+]
+
+
 def code_for(name: str):
+    """Devuelve el club priorizando coincidencias exactas y nombres más específicos."""
     n = norm(name)
-    for code, aliases in ALIASES.items():
-        for alias in aliases:
-            a = norm(alias)
-            if n == a or (len(a) >= 4 and (a in n or n in a)):
-                return code
-    return None
+    if not n:
+        return None
+    exact = [code for alias, code in ALIAS_ROWS if n == alias]
+    if exact:
+        return exact[0]
+    candidates = []
+    for alias, code in ALIAS_ROWS:
+        if len(alias) < 4:
+            continue
+        if alias in n or n in alias:
+            candidates.append((len(alias), code))
+    if not candidates:
+        return None
+    candidates.sort(reverse=True)
+    return candidates[0][1]
 
 
 class TableParser(HTMLParser):
@@ -88,7 +105,7 @@ class TableParser(HTMLParser):
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; LaLigaTotalBot/4.0)",
+        "User-Agent": "Mozilla/5.0 (compatible; LaLigaTotalBot/4.1)",
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "es-ES,es;q=0.9",
     })
@@ -109,18 +126,26 @@ def clean_operator(text: str):
     if not text or text in ("-", "OPERADOR"):
         return []
     known = [
-        "DAZN EN ABIERTO", "DAZN", "Movistar LALIGA", "Movistar Plus+",
-        "Orange Fútbol 1", "Orange Futbol 1", "LALIGA TV por M+",
+        ("DAZN EN ABIERTO", "DAZN EN ABIERTO"),
+        ("Movistar LALIGA", "Movistar LALIGA"),
+        ("Movistar Plus+", "Movistar Plus+"),
+        ("Orange Fútbol 1", "Orange Fútbol 1"),
+        ("Orange Futbol 1", "Orange Fútbol 1"),
+        ("LALIGA TV por M+", "LALIGA TV por M+"),
+        ("DAZN", "DAZN"),
     ]
     found = []
     low = norm(text)
-    for operator in known:
-        if norm(operator) in low and operator not in found:
-            found.append(operator.replace("Orange Futbol 1", "Orange Fútbol 1"))
+    for needle, canonical in known:
+        if norm(needle) in low and canonical not in found:
+            found.append(canonical)
     if found:
-        # DAZN is contained in DAZN EN ABIERTO; keep both only if source actually says both.
-        if "DAZN EN ABIERTO" in found and "DAZN" not in text.replace("DAZN EN ABIERTO", ""):
-            found = [x for x in found if x != "DAZN"]
+        # DAZN está contenido en “DAZN EN ABIERTO”; conserva ambos solo si la fuente
+        # contiene además una mención independiente a DAZN.
+        if "DAZN EN ABIERTO" in found:
+            remainder = text.replace("DAZN EN ABIERTO", "")
+            if "DAZN" not in remainder:
+                found = [x for x in found if x != "DAZN"]
         return found
     return [text]
 
@@ -145,15 +170,7 @@ def parse_rows(html: str):
     return broadcasts
 
 
-def load_previous():
-    try:
-        return json.loads(OUT.read_text("utf-8"))
-    except Exception:
-        return {"broadcasts": {}}
-
-
 def main():
-    previous = load_previous()
     parsed = {}
     used_url = None
     errors = []
