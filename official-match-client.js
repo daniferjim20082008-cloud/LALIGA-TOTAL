@@ -21,10 +21,10 @@
       card.classList.add("is-finished","official-result");
       const pred=card.querySelector(".prediction");
       if(pred&&pred.dataset.officialPrediction!==key){pred.classList.add("prediction-small");pred.innerHTML=predictionHTML(key);pred.dataset.officialPrediction=key;}
-    }
-    if(!card.querySelector(".official-match-badge")){
-      const badge=document.createElement("div");badge.className="official-match-badge";badge.textContent="✓ Resultado verificado · LALIGA";
-      card.querySelector(".match-actions")?.before(badge);
+      if(!card.querySelector(".official-match-badge")){
+        const badge=document.createElement("div");badge.className="official-match-badge";badge.textContent="✓ Resultado verificado · LALIGA";
+        card.querySelector(".match-actions")?.before(badge);
+      }
     }
   }
 
@@ -58,7 +58,7 @@
   }
   function patchDetail(){
     const root=document.getElementById("detail-content");if(!root)return;
-    const key=detailKey(root),item=itemFor(key);if(!item)return;
+    const key=detailKey(root),item=itemFor(key);if(!item||(!isFinished(item)&&item.status!=="inprogress"))return;
     const panel=root.querySelector(".real-match-center");if(!panel)return;
     panel.classList.add("official-match-center");
     const status=panel.querySelector(".real-title b");const wantedStatus=isFinished(item)?"Finalizado · oficial":item.status==="inprogress"?"En directo · oficial":"Datos oficiales";if(status&&status.textContent!==wantedStatus)status.textContent=wantedStatus;
@@ -83,4 +83,36 @@
   document.addEventListener("click",markActive,true);
   document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();
   new MutationObserver(()=>requestAnimationFrame(patch)).observe(document.documentElement,{subtree:true,childList:true});
+})();
+
+(() => {
+  "use strict";
+  const loadCss=href=>{if(document.querySelector(`link[href="${href}"]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;document.head.appendChild(l);};
+  const loadScript=src=>new Promise(resolve=>{if(document.querySelector(`script[src="${src}"]`))return resolve();const s=document.createElement('script');s.src=src;s.defer=true;s.onload=resolve;s.onerror=resolve;document.body.appendChild(s);});
+  function injectSections(){
+    const calendar=document.getElementById('calendario');
+    if(calendar&&!document.getElementById('resultados-reales')){
+      const section=document.createElement('section');section.className='soft';section.id='resultados-reales';section.innerHTML=`<div class="wrap reveal-on-scroll"><div class="section-head"><div><span class="tag">Marcadores reales</span><h2>Últimos resultados</h2></div><p>Solo marcadores de partidos ya finalizados. Las predicciones aparecen aparte y nunca sustituyen al resultado real.</p></div><div class="real-results-grid" id="real-results-list"><p>Cargando resultados reales…</p></div></div>`;calendar.before(section);
+    }
+    const fan=document.getElementById('aficion');
+    if(fan&&!document.getElementById('juego')){
+      const section=document.createElement('section');section.id='juego';section.innerHTML=`<div class="wrap reveal-on-scroll"><div class="section-head"><div><span class="tag">Minijuego web</span><h2>Reto de penaltis</h2></div><p>Elige un club y lanza cinco penaltis. Tu mejor marca diaria se guarda en el navegador y puedes compartirla.</p></div><div class="game-shell"><div class="penalty-game" id="penalty-game"><div class="game-goal"></div><div class="game-keeper" id="game-keeper">🧤</div><div class="game-ball" id="game-ball">⚽</div></div><aside class="game-controls"><label><b>Tu club</b><select id="game-team"></select></label><div class="game-meta"><b id="game-score">0 goles · 0/5 tiros</b><span id="game-best">Récord de hoy: 0/5</span></div><p class="game-message" id="game-message">Elige dónde chutar</p><div class="shot-buttons"><button data-shot="izq">↙ Izquierda</button><button data-shot="centro">⬆ Centro</button><button data-shot="der">↘ Derecha</button></div><div class="game-actions"><button class="btn ghost compact" id="game-reset">Reiniciar</button><button class="btn primary compact" id="game-share">Compartir resultado</button></div></aside></div></div>`;fan.before(section);
+    }
+    const nav=document.querySelector('.navlinks');
+    if(nav&&!nav.querySelector('a[href="#resultados-reales"]')){
+      const a=document.createElement('a');a.href='#resultados-reales';a.textContent='Resultados';nav.insertBefore(a,nav.querySelector('a[href="#calendario"]'));
+      const g=document.createElement('a');g.href='#juego';g.textContent='Minijuego';nav.appendChild(g);
+    }
+    document.querySelectorAll('main > section .wrap').forEach(x=>x.classList.add('reveal-on-scroll'));
+  }
+  function reveal(){const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:.08});document.querySelectorAll('.reveal-on-scroll').forEach(x=>io.observe(x));}
+  async function boot(){
+    loadCss('experience.css');injectSections();reveal();
+    await loadScript('club-crests.js');
+    await loadScript('sofa-rosters.js');
+    await loadScript('match-sofa-fallback.js');
+    await loadScript('real-results.js');
+    await loadScript('minigame.js');
+  }
+  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',boot):boot();
 })();
