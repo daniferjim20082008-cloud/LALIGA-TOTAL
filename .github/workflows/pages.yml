@@ -3,6 +3,9 @@ name: Actualizar y publicar LALIGA TOTAL
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "live-data.json"
+      - ".nojekyll"
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
@@ -49,6 +52,11 @@ jobs:
           git add live-data.json .nojekyll
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar datos de LALIGA TOTAL"
+            git fetch origin main
+            git rebase origin/main
             git push origin HEAD:main
+          else
+            git fetch origin main
+            git reset --hard origin/main
           fi
           git push origin HEAD:gh-pages --force
