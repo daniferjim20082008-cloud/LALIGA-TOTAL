@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Cachea las plantillas oficiales 2026/27 desde las páginas públicas de LALIGA."""
 from __future__ import annotations
-import json, re, unicodedata, urllib.request
+import json, re, unicodedata, urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
