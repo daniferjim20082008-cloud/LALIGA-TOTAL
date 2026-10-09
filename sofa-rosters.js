@@ -4,7 +4,7 @@
   const teams=D.teams||{};
   const BASES=["https://www.sofascore.com/api/v1","https://api.sofascore.com/api/v1"];
   const SOFA="https://www.sofascore.com";
-  const cache={teamIds:{},rosters:{},searching:new Set()};
+  const cache={teamIds:{},rosters:{},playerStats:{},searching:new Set(),seasonId:null,seasonPromise:null};
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const norm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
   const slug=s=>norm(s).replace(/\s+/g,"-")||"jugador";
@@ -34,6 +34,23 @@
       Object.values(x).forEach(v=>{if(v&&typeof v==="object")walk(v);});
     };
     walk(root);return out;
+  }
+  async function seasonId(){
+    if(cache.seasonId)return cache.seasonId;
+    if(cache.seasonPromise)return cache.seasonPromise;
+    cache.seasonPromise=(async()=>{
+      const data=await json('/unique-tournament/8/seasons');
+      const seasons=data?.seasons||[];
+      const s=seasons.find(x=>/26\s*\/\s*27|2026\s*\/\s*27|2026-27|2026/.test(`${x.name||''} ${x.year||''}`))||seasons[0];
+      cache.seasonId=s?.id?String(s.id):null;return cache.seasonId;
+    })();
+    return cache.seasonPromise;
+  }
+  async function statsForPlayer(id){
+    if(Object.prototype.hasOwnProperty.call(cache.playerStats,id))return cache.playerStats[id];
+    const sid=await seasonId();if(!sid){cache.playerStats[id]=null;return null;}
+    const data=await json(`/player/${encodeURIComponent(id)}/unique-tournament/8/season/${encodeURIComponent(sid)}/statistics/overall`);
+    const st=data?.statistics||data?.playerStatistics||null;cache.playerStats[id]=st;return st;
   }
   async function teamId(code){
     if(cache.teamIds[code])return cache.teamIds[code];
@@ -73,13 +90,25 @@
     return `<article class="sofa-roster-card" data-sofa-player="${esc(p.id)}" data-sofa-team="${code}"><div class="pericos-player-number">${esc(p.number||"—")}</div><button class="sofa-player-open" type="button"><span class="pericos-player-photo"><img src="${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.display='none'"></span><span class="pericos-player-copy"><small>${esc(pos(p.position))}</small><strong>${esc(p.shortName)}</strong><em>Ver ficha →</em></span></button><a class="player-sofa-card-link" href="${esc(p.sofa)}" target="_blank" rel="noopener">SofaScore ↗</a></article>`;
   }
   function age(ts){if(!ts)return null;const d=new Date(Number(ts)*1000);return Number.isNaN(d.getTime())?null:Math.floor((Date.now()-d.getTime())/31557600000);}
+  function statTile(label,value){return `<div class="stat-tile"><small>${esc(label)}</small><b>${value==null||value===''?'—':esc(String(value))}</b></div>`;}
+  function statsHTML(st){
+    if(!st)return '<p class="detail-note">Las estadísticas de temporada no están disponibles ahora mismo en el proveedor.</p>';
+    const pct=v=>v==null?null:`${Number(v).toFixed(1)}%`,dec=v=>v==null?null:Number(v).toFixed(2);
+    return `<div class="stat-grid sofa-player-stat-grid">${statTile('Partidos',st.appearances)}${statTile('Titularidades',st.started)}${statTile('Minutos',st.minutesPlayed)}${statTile('Goles',st.goals)}${statTile('Asistencias',st.assists??st.goalAssist)}${statTile('Rating',dec(st.rating))}${statTile('xG',dec(st.expectedGoals))}${statTile('Pases %',pct(st.accuratePassesPercentage))}${statTile('Tiros',st.totalShots)}${statTile('A puerta',st.shotsOnTarget)}${statTile('Entradas',st.tackles)}${statTile('Intercepciones',st.interceptions)}${statTile('Amarillas',st.yellowCards)}${statTile('Rojas',st.redCards)}${statTile('Paradas',st.saves)}${statTile('Porterías a cero',st.cleanSheets)}</div>`;
+  }
+  async function fillPlayerStats(id,root){
+    const box=root.querySelector('.sofa-player-stats');if(!box)return;
+    const st=await statsForPlayer(id);if(!box.isConnected)return;
+    box.innerHTML=`<h3>📊 Estadísticas 2026/27</h3>${statsHTML(st)}`;
+  }
   function showPlayer(code,id){
     const p=(cache.rosters[code]||[]).find(x=>String(x.id)===String(id));if(!p)return;
     const root=document.getElementById("detail-content"),page=document.getElementById("detail-page");if(!root||!page)return;
     const a=age(p.dob),t=teams[code]||{};
-    root.innerHTML=`<button class="back-btn sofa-roster-back">← Volver al equipo</button><div class="pericos-player-detail sofa-roster-detail"><div class="pericos-player-portrait"><img src="${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.style.display='none'"><b>${esc(p.number||"—")}</b></div><div><span class="eyebrow">${esc(t.name||code)}</span><h2>${esc(p.name)}</h2><p>${esc(pos(p.position))}${p.country?` · ${esc(p.country)}`:""}${a!=null?` · ${a} años`:""}${p.height?` · ${esc(String(p.height))} cm`:""}</p><div class="player-profile-facts"><span><small>Dorsal</small><b>${esc(p.number||"—")}</b></span><span><small>Posición</small><b>${esc(pos(p.position))}</b></span><span><small>Equipo</small><b>${esc(t.short||t.name||code)}</b></span></div><div class="player-sofa-actions"><a class="sofa-primary" href="${esc(p.sofa)}" target="_blank" rel="noopener">Ver ficha en SofaScore ↗</a><a class="sofa-secondary" href="${esc(t.official||"#")}" target="_blank" rel="noopener">Web oficial del club ↗</a></div></div></div><p class="detail-note">Ficha cargada desde el respaldo de SofaScore cuando está disponible. Las estadísticas oficiales pueden variar hasta la siguiente actualización.</p>`;
+    root.innerHTML=`<button class="back-btn sofa-roster-back">← Volver al equipo</button><div class="pericos-player-detail sofa-roster-detail"><div class="pericos-player-portrait"><img src="${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.style.display='none'"><b>${esc(p.number||"—")}</b></div><div><span class="eyebrow">${esc(t.name||code)}</span><h2>${esc(p.name)}</h2><p>${esc(pos(p.position))}${p.country?` · ${esc(p.country)}`:""}${a!=null?` · ${a} años`:""}${p.height?` · ${esc(String(p.height))} cm`:""}</p><div class="player-profile-facts"><span><small>Dorsal</small><b>${esc(p.number||"—")}</b></span><span><small>Posición</small><b>${esc(pos(p.position))}</b></span><span><small>Equipo</small><b>${esc(t.short||t.name||code)}</b></span></div><div class="player-sofa-actions"><a class="sofa-primary" href="${esc(p.sofa)}" target="_blank" rel="noopener">Ver ficha en SofaScore ↗</a><a class="sofa-secondary" href="${esc(t.official||"#")}" target="_blank" rel="noopener">Web oficial del club ↗</a></div></div></div><section class="club-panel sofa-player-stats"><h3>📊 Estadísticas 2026/27</h3><p>Cargando estadísticas de temporada…</p></section><p class="detail-note">Ficha cargada desde el respaldo de SofaScore cuando está disponible. Los campos se muestran solo cuando el proveedor los publica.</p>`;
     document.querySelectorAll("main > section").forEach(s=>s.hidden=s!==page);page.hidden=false;scrollTo({top:0,behavior:"smooth"});
     root.querySelector(".sofa-roster-back")?.addEventListener("click",()=>document.querySelector(`#teams [data-team="${code}"]`)?.click());
+    fillPlayerStats(p.id,root);
   }
   async function patch(){
     const code=codeFromHero();if(!code||cache.searching.has(code))return;
