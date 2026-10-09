@@ -1,17 +1,40 @@
 {
-  "updated": "2026-10-09T11:02:00Z",
+  "updated": "2026-10-09T11:03:38.944661Z",
   "source": "LALIGA · guía oficial de operadores",
   "url": "https://www.laliga.com/iframes/external-consumer-broadcast",
   "broadcasts": {
-    "MGA:ESP": ["DAZN"],
-    "RAY:ATH": ["DAZN EN ABIERTO", "DAZN"],
-    "ALA:ATM": ["Movistar LALIGA"],
-    "BAR:GET": ["DAZN"],
-    "RMA:VIL": ["Movistar LALIGA", "Movistar Plus+", "Orange Fútbol 1"],
-    "ELC:CEL": ["Movistar LALIGA"],
-    "RSO:DEP": ["DAZN"],
-    "BET:OSA": ["Movistar LALIGA"],
-    "RAC:VAL": ["DAZN"],
-    "LEV:SEV": ["Movistar LALIGA"]
+    "MGA:ESP": [
+      "DAZN"
+    ],
+    "RAY:ATH": [
+      "DAZN EN ABIERTO",
+      "DAZN"
+    ],
+    "ALA:ATM": [
+      "Movistar LALIGA"
+    ],
+    "BAR:GET": [
+      "DAZN"
+    ],
+    "RMA:VIL": [
+      "Movistar LALIGA",
+      "Movistar Plus+",
+      "Orange Fútbol 1"
+    ],
+    "ELC:CEL": [
+      "Movistar LALIGA"
+    ],
+    "RSO:DEP": [
+      "DAZN"
+    ],
+    "BET:OSA": [
+      "Movistar LALIGA"
+    ],
+    "RAC:VAL": [
+      "DAZN"
+    ],
+    "LEV:SEV": [
+      "Movistar LALIGA"
+    ]
   }
 }
