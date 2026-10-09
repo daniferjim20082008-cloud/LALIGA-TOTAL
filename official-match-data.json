@@ -1,6 +1,620 @@
 {
-  "updated": null,
+  "updated": "2026-10-09T11:23:43.091902Z",
   "source": "LALIGA oficial",
-  "matches": {},
-  "warnings": []
+  "matches": {
+    "8:ALA:ATM": {
+      "round": 8,
+      "home": "ALA",
+      "away": "ATM",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "7",
+          "away": "90"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:21:29.752751Z"
+    },
+    "8:BAR:GET": {
+      "round": 8,
+      "home": "BAR",
+      "away": "GET",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "7",
+          "away": "66"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:21:38.085654Z"
+    },
+    "8:ELC:CEL": {
+      "round": 8,
+      "home": "ELC",
+      "away": "CEL",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "6",
+          "away": "82"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:21:51.749762Z"
+    },
+    "8:LEV:SEV": {
+      "round": 8,
+      "home": "LEV",
+      "away": "SEV",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "9",
+          "away": "63"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:21:58.152950Z"
+    },
+    "8:MGA:ESP": {
+      "round": 8,
+      "home": "MGA",
+      "away": "ESP",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "79"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:22:04.198005Z"
+    },
+    "8:RAC:VAL": {
+      "round": 8,
+      "home": "RAC",
+      "away": "VAL",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "13",
+          "away": "96"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:22:13.297927Z"
+    },
+    "8:RSO:DEP": {
+      "round": 8,
+      "home": "RSO",
+      "away": "DEP",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "8",
+          "away": "69"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:22:41.613357Z"
+    },
+    "7:CEL:RAC": {
+      "round": 7,
+      "home": "CEL",
+      "away": "RAC",
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Iñigo Vicente (Racing de Santander) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 5, Racing de Santander 0. Pablo Durán (Celta de Vigo) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Hugo Álvarez después de un pase en profundidad tras un contraataque."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Sergio Canales (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "78'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 4, Racing de Santander 0. Pablo Durán (Celta de Vigo) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Hugo Álvarez con un centro al área."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Pablo Ramón (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "73'",
+          "type": "yellow",
+          "text": "Yoel Lago (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "69'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 3, Racing de Santander 0. Miguel Román (Celta de Vigo) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Jeanuël Belocian (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "57'",
+          "type": "yellow",
+          "text": "Yassir Zabiri (Racing de Santander) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Javi Rueda (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "43'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 2, Racing de Santander 0. Ilaix Moriba (Celta de Vigo) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Miguel Román."
+        },
+        {
+          "minute": "32'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 1, Racing de Santander 0. Hugo González (Celta de Vigo) convirtió el penalti remate con la derecha por bajo, junto al palo izquierdo."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "41.4%",
+          "away": "58.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "45.5%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "5"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-r-racing-club-7",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:23:05.778753Z"
+    },
+    "7:ESP:ELC": {
+      "round": 7,
+      "home": "ESP",
+      "away": "ELC",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Lucas Cepeda (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "82'",
+          "type": "yellow",
+          "text": "Clemens Riedel (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "78'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 1, Elche 3. Germán Valera (Elche) remate con la izquierda desde el lado izquierdo del interior del área al centro de la portería. Asistencia de Tete Morente tras un contraataque."
+        },
+        {
+          "minute": "72'",
+          "type": "goal",
+          "text": "Gol en propia puerta de Víctor Chust, Elche. Espanyol 1, Elche 2."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Edu Expósito (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "29'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 0, Elche 2. Fer Niño (Elche) remate con la derecha a quemarropa desde el lado derecho por el lado derecho de la portería. Asistencia de Roy Revivo."
+        },
+        {
+          "minute": "26'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 0, Elche 1. Fer Niño (Elche) remate con la izquierda desde el lado izquierdo del interior del área por el centro de la portería. Asistencia de Roy Revivo."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Fer Niño (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "6'",
+          "type": "red",
+          "text": "Federico Redondo (Elche) ha visto tarjeta roja."
+        },
+        {
+          "minute": "4'",
+          "type": "red",
+          "text": "Decisión del VAR: Se revoca la Tarjeta Roja Federico Redondo (Elche)."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "66%",
+          "away": "34%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "5.6%",
+          "away": "37.5%"
+        },
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "9"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "9",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:23:22.193428Z"
+    },
+    "7:GET:MGA": {
+      "round": 7,
+      "home": "GET",
+      "away": "MGA",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "85'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 1, Málaga CF 0. Iván Azón (Getafe) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Martín Satriano tras un contraataque."
+        },
+        {
+          "minute": "68'",
+          "type": "yellow",
+          "text": "Ramón Terrats (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "58'",
+          "type": "yellow",
+          "text": "Francho Serrano (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "54'",
+          "type": "yellow",
+          "text": "Nemanja Gudelj (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "David Larrubia (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "39'",
+          "type": "yellow",
+          "text": "Eneko Jauregi (Málaga CF) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "21'",
+          "type": "yellow",
+          "text": "Johan Mojica (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "44.1%",
+          "away": "55.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "6.3%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "16",
+          "away": "16"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "9"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-malaga-cf-7",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:23:26.906772Z"
+    },
+    "7:OSA:RAY": {
+      "round": 7,
+      "home": "OSA",
+      "away": "RAY",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Alemão (Rayo Vallecano) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "77'",
+          "type": "yellow",
+          "text": "Sergio Herrera (Osasuna) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Jon Moncayola (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "50'",
+          "type": "goal",
+          "text": "¡Gooooool! Osasuna 1, Rayo Vallecano 1. Sergio Camello (Rayo Vallecano) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Adrià Pedrosa."
+        },
+        {
+          "minute": "24'",
+          "type": "yellow",
+          "text": "Pathé Ciss (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "21'",
+          "type": "yellow",
+          "text": "Asier Osambela (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "16'",
+          "type": "goal",
+          "text": "¡Gooooool! Osasuna 1, Rayo Vallecano 0. Ante Budimir (Osasuna) remate con la izquierda desde el centro del área a la escuadra derecha."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "37.2%",
+          "away": "62.8%"
+        },
+        {
+          "name": "Remates",
+          "home": "10",
+          "away": "19"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "9.1%"
+        },
+        {
+          "name": "Faltas",
+          "home": "21",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-rayo-vallecano-7",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:23:34.074975Z"
+    }
+  },
+  "warnings": [
+    "8:BET:OSA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8: The read operation timed out",
+    "8:RAY:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8: The read operation timed out",
+    "8:RMA:VIL: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8: The read operation timed out",
+    "7:ATH:ALA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-deportivo-alaves-7: The read operation timed out",
+    "7:ATM:RMA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7: The read operation timed out",
+    "7:DEP:BET: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-real-betis-7: The read operation timed out",
+    "7:SEV:BAR: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-fc-barcelona-7: The read operation timed out"
+  ],
+  "meta": {
+    "roundLimit": 8,
+    "checkedThisRun": 18,
+    "updatedThisRun": 11,
+    "maxPerRun": 18
+  }
 }
