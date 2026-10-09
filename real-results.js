@@ -28,6 +28,10 @@
     if (/^1\s+\d+%/i.test(text)) return text;
     return card?.dataset.prediction || '';
   }
+  function patchStatusLabels(){
+    const auto=document.querySelector('.topbar .btn.dark');if(auto)auto.textContent='AUTO · 15 MIN';
+    document.querySelectorAll('.hero-stats div').forEach(x=>{if((x.querySelector('small')?.textContent||'').toLowerCase().includes('actualización')){const b=x.querySelector('b');if(b)b.textContent='15m';}});
+  }
   function patchCard(card){
     const btn = card.querySelector('.match-open[data-matchkey]'); if(!btn) return;
     const mk = btn.dataset.matchkey, result = resultFor(mk), schedule = seedFor(mk);
@@ -39,6 +43,7 @@
     if(result){
       if(score) score.textContent = `${result.homeScore} – ${result.awayScore}`;
       card.classList.add('real-result-card');
+      card.querySelector('.result-pending')?.remove();
       let badge = card.querySelector('.real-result-badge');
       if(!badge){ badge=document.createElement('div'); badge.className='real-result-badge'; card.querySelector('.match-teams')?.before(badge); }
       badge.textContent = `✅ RESULTADO REAL · ${result.provider}`;
@@ -49,8 +54,9 @@
       }
     } else {
       if(score) score.textContent = 'VS';
-      card.classList.remove('real-result-card');
+      card.classList.remove('real-result-card','official-result','is-finished');
       card.querySelector('.real-result-badge')?.remove();
+      card.querySelector('.official-match-badge')?.remove();
       if(pred){
         const p = card.dataset.prediction || before;
         pred.classList.add('prediction-small','prediction-only');
@@ -65,7 +71,6 @@
   }
   function patchDetail(){
     const root=document.getElementById('detail-content'); if(!root) return;
-    const open = root.querySelector('[data-team]');
     const big = root.querySelector('.big-match'); if(!big) return;
     const codes=[...big.querySelectorAll('[data-team]')].map(x=>x.dataset.team);
     if(codes.length!==2) return;
@@ -81,22 +86,31 @@
     if(hero && !hero.querySelector('.detail-prediction-note')){
       const prob=hero.querySelector('.probability');
       const note=document.createElement('div'); note.className='detail-prediction-note';
-      note.innerHTML='<small>🔮 Predicción previa</small><span>Estimación recreativa del modelo; el marcador superior es el dato real cuando el partido ha finalizado.</span>';
+      note.innerHTML='<small>🔮 Predicción previa</small><span>Estimación recreativa del modelo; el marcador superior es el resultado real cuando el partido ha finalizado.</span>';
       prob ? prob.before(note) : hero.querySelector('.hero-actions')?.before(note);
     }
     const eyebrow=hero?.querySelector('.eyebrow');
     if(eyebrow && result) eyebrow.textContent=`${eyebrow.textContent.replace(/·.*$/,'').trim()} · FINALIZADO · RESULTADO REAL`;
   }
+  function recentResults(){
+    const map=new Map();
+    seed.filter(x=>x.status==='finished'&&x.homeScore!=null).forEach(x=>map.set(`${x.home}:${x.away}`,{...x,provider:'resultado verificado'}));
+    Object.values(official.matches||{}).filter(x=>x.status==='finished'&&x.homeScore!=null&&x.awayScore!=null).forEach(x=>{
+      const old=map.get(`${x.home}:${x.away}`)||{};map.set(`${x.home}:${x.away}`,{...old,...x,provider:'LALIGA oficial'});
+    });
+    return [...map.values()].sort((a,b)=>new Date(b.kickoff||b.updated||0)-new Date(a.kickoff||a.updated||0)).slice(0,12);
+  }
   function renderRecent(){
     const root=document.getElementById('real-results-list'); if(!root) return;
-    const played=seed.filter(x=>x.status==='finished'&&x.homeScore!=null).sort((a,b)=>new Date(b.kickoff)-new Date(a.kickoff)).slice(0,12);
-    root.innerHTML=played.map(x=>`<article class="recent-result-card"><div class="recent-result-top"><span>FINAL</span><time>${new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',day:'2-digit',month:'short'}).format(new Date(x.kickoff))}</time></div><div class="recent-result-teams"><b>${esc(tname(x.home))}</b><strong>${x.homeScore} – ${x.awayScore}</strong><b>${esc(tname(x.away))}</b></div><small>Resultado real</small></article>`).join('');
+    const played=recentResults();
+    root.innerHTML=played.length?played.map(x=>`<article class="recent-result-card"><div class="recent-result-top"><span>FINAL</span><time>${x.kickoff?new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',day:'2-digit',month:'short'}).format(new Date(x.kickoff)):''}</time></div><div class="recent-result-teams"><b>${esc(tname(x.home))}</b><strong>${x.homeScore} – ${x.awayScore}</strong><b>${esc(tname(x.away))}</b></div><small>${esc(x.provider||'Resultado real')}</small></article>`).join(''):'<p>Todavía no hay resultados reales disponibles.</p>';
   }
   async function loadOfficial(){
     try{const r=await fetch(`official-match-data.json?v=${Date.now()}`,{cache:'no-store'});if(r.ok)official=await r.json();}catch(_){}
   }
-  function patch(){ document.querySelectorAll('.match-card').forEach(patchCard); patchDetail(); renderRecent(); }
-  async function init(){ await loadOfficial(); patch(); }
+  function loadOfficialRosters(){if(document.querySelector('script[src="official-rosters.js"]'))return;const s=document.createElement('script');s.src='official-rosters.js';s.defer=true;document.body.appendChild(s);}
+  function patch(){ patchStatusLabels(); document.querySelectorAll('.match-card').forEach(patchCard); patchDetail(); renderRecent(); }
+  async function init(){ loadOfficialRosters(); await loadOfficial(); patch(); }
   document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
   new MutationObserver(()=>requestAnimationFrame(patch)).observe(document.documentElement,{subtree:true,childList:true});
   setInterval(async()=>{await loadOfficial();patch();},5*60*1000);
