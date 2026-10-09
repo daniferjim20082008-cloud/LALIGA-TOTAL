@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   // Respaldo calculado con los 69 partidos finalizados de LaLiga 2026/27
-  // disponibles disponibles en la fuente consultada hasta el 20 de septiembre de 2026. La capa en vivo tiene prioridad.
+  // disponibles en la fuente consultada hasta el 20 de septiembre de 2026. La capa en vivo tiene prioridad.
   const FALLBACK = {
     ALA:{home:{p:4,w:3,d:0,l:1,gf:9,ga:3,pts:9},away:{p:3,w:0,d:2,l:1,gf:2,ga:3,pts:2}},
     ATH:{home:{p:4,w:1,d:2,l:1,gf:5,ga:4,pts:5},away:{p:2,w:1,d:0,l:1,gf:2,ga:2,pts:3}},
@@ -49,4 +49,23 @@
   function patch(){patchTable();patchClub();}
   document.readyState==="loading"?document.addEventListener("DOMContentLoaded",patch):patch();
   new MutationObserver(()=>requestAnimationFrame(patch)).observe(document.documentElement,{subtree:true,childList:true});
+})();
+
+(() => {
+  const addStyle = href => {
+    if (document.querySelector(`link[href="${href}"]`)) return;
+    const link=document.createElement("link");link.rel="stylesheet";link.href=href;document.head.appendChild(link);
+  };
+  const addScript = src => new Promise(resolve => {
+    if (document.querySelector(`script[src="${src}"]`)) return resolve();
+    const s=document.createElement("script");s.src=src;s.defer=true;s.onload=resolve;s.onerror=resolve;document.body.appendChild(s);
+  });
+  async function loadExtras(){
+    addStyle("match-center.css");
+    addStyle("player-sofascore.css");
+    await addScript("match-seed.js");
+    await addScript("match-center.js");
+    await addScript("player-sofascore.js");
+  }
+  document.readyState==="loading"?document.addEventListener("DOMContentLoaded",loadExtras):loadExtras();
 })();
