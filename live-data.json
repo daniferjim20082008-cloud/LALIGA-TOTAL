@@ -1,0 +1,10 @@
+{
+  "updated": null,
+  "source": "fallback-estatico",
+  "season_id": null,
+  "standings": [],
+  "leaders": {},
+  "events": [],
+  "forums": {},
+  "warnings": ["Hasta que GitHub Actions ejecute la primera actualización se usan los datos de data.js."]
+}

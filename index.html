@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="LALIGA TOTAL: portal fan no oficial de LALIGA EA SPORTS 2026/27 con los 20 clubes, clasificación, rendimiento casa y fuera, plantillas, fichas de jugadores, predicciones, foros, alineaciones, H2H y guía de estadios.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<title>LALIGA TOTAL · LaLiga 2026/27</title>
+<link rel="canonical" href="https://daniferjim20082008-cloud.github.io/LALIGA-TOTAL/">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="pro.css">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="players.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="./"><span class="brand-ball">L</span><span>LALIGA <b>TOTAL</b></span></a>
+    <nav class="navlinks" aria-label="Principal">
+      <a href="#clasificacion">Clasificación</a><a href="#rendimiento">Casa/Fuera</a><a href="#calendario">38 jornadas</a><a href="#equipos">Equipos</a><a href="#lideres">Líderes</a><a href="#estadios">Estadios</a><a href="#aficion">Afición</a>
+    </nav>
+    <span class="btn dark">AUTO · 6H</span>
+  </div>
+</header>
+<main id="main">
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Proyecto fan no oficial · temporada 2026/27</span>
+      <h1>LaLiga, <span>sin salir de aquí.</span></h1>
+      <p>Los 20 clubes y los 380 partidos en una sola web independiente: clasificación, rendimiento de casa y fuera, plantillas, fichas de jugadores, forma, bajas, once probable, predicciones, H2H, alineaciones, datos de partido, foros, estadios y rutas.</p>
+      <div class="hero-actions"><a class="btn primary" href="#calendario">Ver jornada</a><a class="btn ghost" href="#equipos">Explorar equipos</a><a class="btn ghost" href="#rendimiento">Casa / fuera</a></div>
+      <div class="next-clock" id="next-clock"><small>PRÓXIMO PARTIDO</small><strong id="clock-match">Calculando…</strong><div id="clock-time">--</div></div>
+    </div>
+    <aside class="hero-card">
+      <span>LALIGA TOTAL · AUTOMÁTICA</span>
+      <h2>Centro de competición</h2>
+      <div class="hero-stats"><div><b>20</b><small>clubes</small></div><div><b>38</b><small>jornadas</small></div><div><b>380</b><small>partidos</small></div><div><b>6h</b><small>actualización</small></div></div>
+      <p>La web se actualiza automáticamente. Horarios, convocatorias y alineaciones pueden cambiar: confirma siempre con LaLiga y los clubes.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="dark-section" id="clasificacion"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Clasificación</span><h2>Así está LaLiga</h2></div><p>Tabla automática. Pulsa cualquier club para abrir su ficha completa.</p></div>
+  <div class="standings-shell"><div class="standings" id="standings"></div></div>
+  <div class="source-row"><a href="https://www.laliga.com/laliga-easports/clasificacion" target="_blank" rel="noopener">Clasificación oficial ↗</a><span>Actualización automática</span></div>
+</div></section>
+
+<section class="soft" id="rendimiento"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Rendimiento real</span><h2>Puntos en casa y fuera</h2></div><p>Los puntos se calculan automáticamente con todos los partidos finalizados: 3 por victoria, 1 por empate y 0 por derrota.</p></div>
+  <div class="home-away-shell"><div id="home-away-table"><div class="ha-empty">Calculando rendimiento local y visitante…</div></div></div>
+</div></section>
+
+<section id="calendario"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Calendario completo</span><h2>Las 38 jornadas</h2></div><p>Todos los partidos tienen predicción, porra, foro y ficha avanzada con previa, H2H, alineaciones y postpartido.</p></div>
+  <div class="round-toolbar"><button class="round-arrow" id="prev-round" aria-label="Jornada anterior">←</button><select id="round-select" aria-label="Seleccionar jornada"></select><button class="round-arrow" id="next-round" aria-label="Jornada siguiente">→</button><a class="btn ghost compact" id="official-round" href="https://www.laliga.com/laliga-easports/resultados" target="_blank" rel="noopener">Resultados oficiales ↗</a></div>
+  <div class="round-meta"><strong id="round-title">Jornada</strong><span id="round-date"></span><span class="prediction-note">Predicciones = modelo fan, no apuestas.</span></div>
+  <div class="matches-grid" id="matches"></div>
+</div></section>
+
+<section class="soft" id="equipos"><div class="wrap">
+  <div class="section-head"><div><span class="tag">20 clubes</span><h2>Cada club, a fondo</h2></div><p>Escudo, plantilla, fichas individuales con foto y estadísticas, forma de los últimos cinco, puntos en casa y fuera, bajas, once probable, calendario completo y cómo llegar al estadio.</p></div>
+  <div class="team-tools"><input id="team-search" type="search" placeholder="Buscar club o ciudad…" aria-label="Buscar equipo"><select id="team-sort"><option value="pos">Ordenar por clasificación</option><option value="name">Ordenar A-Z</option><option value="city">Ordenar por ciudad</option></select></div>
+  <div class="teams-grid" id="teams"></div>
+</div></section>
+
+<section id="lideres"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Estadísticas individuales</span><h2>Líderes de la competición</h2></div><p>Goles, asistencias y disciplina, actualizados automáticamente.</p></div>
+  <div class="leaders-grid" id="leaders"></div>
+  <div class="center-actions"><a class="btn primary" href="https://www.laliga.com/leaderboard" target="_blank" rel="noopener">Leaderboard oficial ↗</a><a class="btn ghost" href="https://www.laliga.com/estadisticas/laliga-easports/tarjetas-amarillas" target="_blank" rel="noopener">Tarjetas ↗</a></div>
+</div></section>
+
+<section class="dark-section" id="comparador"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Herramienta</span><h2>Comparador de equipos</h2></div><p>Compara rendimiento y genera una predicción instantánea de un hipotético enfrentamiento.</p></div>
+  <div class="compare-controls"><select id="compare-a"></select><span>VS</span><select id="compare-b"></select></div>
+  <div id="comparison" class="comparison"></div>
+</div></section>
+
+<section class="soft" id="estadios"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Guía de desplazamiento</span><h2>Cómo llegar a cada estadio</h2></div><p>Dirección, transporte público, coche y acceso directo a Google Maps para los 20 campos.</p></div>
+  <div class="stadiums-grid" id="stadiums"></div>
+</div></section>
+
+<section id="aficion"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Zona de afición</span><h2>Participa</h2></div><p>Favoritos, porras, foros de cada partido, quiz y reseñas guardadas en tu navegador.</p></div>
+  <div class="fan-grid">
+    <article class="fan-card"><h3>⭐ Mis equipos</h3><p>Marca clubes como favoritos desde sus tarjetas. Se guardan en este dispositivo.</p><div id="favorites"></div></article>
+    <article class="fan-card"><h3>🧠 Quiz LaLiga</h3><p id="quiz-question">¿Cuántos equipos disputan LaLiga?</p><div id="quiz-options" class="quiz-options"></div><p id="quiz-result" class="mini"></p></article>
+    <article class="fan-card"><h3>💬 Foro general</h3><p>Debate de la competición en GitHub Issues. Cada partido tiene además su propio hilo.</p><a class="btn primary" id="general-forum-link" href="https://github.com/daniferjim20082008-cloud/LALIGA-TOTAL/issues" target="_blank" rel="noopener">Abrir foros ↗</a></article>
+    <article class="fan-card"><h3>✍️ Tu reseña</h3><textarea id="review-text" maxlength="280" placeholder="¿Qué mejorarías de LALIGA TOTAL?"></textarea><button class="btn primary" id="save-review">Guardar</button><p id="review-status" class="mini"></p></article>
+  </div>
+</div></section>
+
+<section class="history"><div class="wrap">
+  <div class="section-head"><div><span class="tag">Historia</span><h2>LaLiga en cuatro momentos</h2></div><p>Una capa histórica propia para contextualizar la competición.</p></div>
+  <div class="timeline"><article><b>1929</b><h3>Primera edición</h3><p>Arranca el campeonato nacional de Liga.</p></article><article><b>1984</b><h3>Nace la LFP</h3><p>Los clubes profesionales impulsan una nueva organización de la competición.</p></article><article><b>2016</b><h3>Identidad global</h3><p>La competición acelera su expansión internacional y digital.</p></article><article><b>2026/27</b><h3>20 clubes, 380 partidos</h3><p>LALIGA TOTAL reúne la temporada completa en un portal fan independiente.</p></article></div>
+</div></section>
+
+<section class="club-page" id="club-page" hidden><div class="wrap"><button class="back-btn" id="club-back">← Volver al portal</button><div id="club-content"></div></div></section>
+<section class="club-page detail-page" id="detail-page" hidden><div class="wrap"><div id="detail-content"></div></div></section>
+</main>
+<footer><div class="wrap foot"><div><b>LALIGA TOTAL</b><p>Proyecto fan no oficial e independiente.</p></div><p>Las marcas, escudos y competiciones pertenecen a sus titulares. Predicciones recreativas, no recomendaciones de apuestas. Verifica horarios, entradas, convocatorias y transporte en fuentes oficiales.</p></div></footer>
+<script src="data.js"></script>
+<script>
+(() => {
+  if (!window.LIGA_DATA) return;
+  if (location.hostname.endsWith('.github.io')) {
+    const owner = location.hostname.split('.')[0];
+    const parts = location.pathname.split('/').filter(Boolean);
+    if (parts[0]) window.LIGA_DATA.repo = `${owner}/${parts[0]}`;
+  }
+})();
+</script>
+<script src="app.js"></script>
+<script src="enhancements.js"></script>
+<script src="home-away-fallback.js"></script>
+<script src="client-rosters.js"></script>
+</body>
+</html>
