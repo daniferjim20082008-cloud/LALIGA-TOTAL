@@ -1,10 +1,520 @@
 {
-  "updated": null,
-  "source": "fallback-estatico",
+  "updated": "2026-10-09T10:15:28.410371Z",
+  "source": "ESPN (respaldo) + SofaScore (cuando disponible) + GitHub Issues (foros)",
   "season_id": null,
   "standings": [],
   "leaders": {},
   "events": [],
   "forums": {},
-  "warnings": ["Hasta que GitHub Actions ejecute la primera actualización se usan los datos de data.js."]
+  "warnings": [
+    "Temporada: SofaScore /unique-tournament/8/seasons: HTTP Error 403: Forbidden",
+    "ESPN equipos: HTTP Error 403: Forbidden",
+    "ESPN calendario: HTTP Error 403: Forbidden",
+    "ESPN clasificación: HTTP Error 403: Forbidden"
+  ],
+  "teamExtras": {
+    "ALA": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "ATH": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "ATM": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "BAR": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "BET": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "CEL": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "DEP": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "ELC": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "ESP": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "GET": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "LEV": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "MGA": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "OSA": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "RAC": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "RAY": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "RMA": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "RSO": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "SEV": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "VAL": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    },
+    "VIL": {
+      "form": [],
+      "split": {
+        "home": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        },
+        "away": {
+          "p": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "pts": 0
+        }
+      },
+      "probableXI": [],
+      "missing": []
+    }
+  },
+  "matchDetails": {},
+  "brand": "LALIGA TOTAL",
+  "fallback_provider": null
 }
