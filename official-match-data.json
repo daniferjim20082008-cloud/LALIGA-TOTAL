@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T23:42:14.522775Z",
+  "updated": "2026-10-09T23:54:43.352319Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -25,7 +25,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T19:43:37.555644Z"
+      "updated": "2026-10-09T23:54:36.336894Z"
     },
     "8:BAR:GET": {
       "round": 8,
@@ -100,17 +100,52 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T19:43:40.144417Z"
+      "updated": "2026-10-09T23:54:38.951976Z"
     },
     "8:MGA:ESP": {
       "round": 8,
       "home": "MGA",
       "away": "ESP",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 1, Espanyol 1. Adrián Niño (Málaga CF) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Rafita con un centro al área."
+        },
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Adam Aznou (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Roger Hinojo (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Clemens Riedel (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "66'",
+          "type": "yellow",
+          "text": "Carlos Dotor (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "60'",
+          "type": "yellow",
+          "text": "Omar El Hilali (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "41'",
+          "type": "yellow",
+          "text": "Chupe (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "28'",
           "type": "yellow",
@@ -132,10 +167,56 @@
           "text": "¡Gooooool! Málaga CF 0, Espanyol 1. Bryan Zaragoza (Espanyol) remate con la derecha desde el lado izquierdo del interior del área por bajo, junto al palo izquierdo. Asistencia de Javi Hernández tras un contraataque."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "58.4%",
+          "away": "41.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "15",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "7.7%",
+          "away": "16.7%"
+        },
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "15"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "5"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T19:43:42.305667Z"
+      "updated": "2026-10-09T23:54:40.893961Z"
     },
     "8:RAC:VAL": {
       "round": 8,
@@ -160,7 +241,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T19:43:45.828166Z"
+      "updated": "2026-10-09T23:54:43.352288Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -7139,8 +7220,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
