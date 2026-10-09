@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - "live-data.json"
       - "broadcast-data.json"
+      - "official-match-data.json"
       - ".nojekyll"
   workflow_dispatch:
   schedule:
@@ -44,6 +45,10 @@ jobs:
         continue-on-error: true
         run: python scripts/update_laliga_espn.py
 
+      - name: Actualizar postpartidos desde LALIGA oficial
+        continue-on-error: true
+        run: python scripts/update_official_match_details.py
+
       - name: Actualizar operadores oficiales de TV
         continue-on-error: true
         run: python scripts/update_broadcasts.py
@@ -53,6 +58,7 @@ jobs:
         run: |
           cp live-data.json /tmp/laliga-live-data.json
           cp broadcast-data.json /tmp/laliga-broadcast-data.json
+          cp official-match-data.json /tmp/laliga-official-match-data.json
           git config user.name "LALIGA TOTAL Bot"
           git config user.email "actions@users.noreply.github.com"
 
@@ -62,8 +68,9 @@ jobs:
             git reset --hard origin/main
             cp /tmp/laliga-live-data.json live-data.json
             cp /tmp/laliga-broadcast-data.json broadcast-data.json
+            cp /tmp/laliga-official-match-data.json official-match-data.json
             touch .nojekyll
-            git add live-data.json broadcast-data.json .nojekyll
+            git add live-data.json broadcast-data.json official-match-data.json .nojekyll
             if ! git diff --cached --quiet; then
               git commit -m "Actualizar datos de LALIGA TOTAL"
               if git push origin HEAD:main; then
