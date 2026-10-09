@@ -29,7 +29,7 @@ ALIASES = {
     "CEL": ["celta vigo", "rc celta", "celta", "celta de vigo"],
     "DEP": ["deportivo la coruna", "deportivo de la coruna", "deportivo la coruña", "rc deportivo", "deportivo"],
     "ELC": ["elche", "elche cf"],
-    "ESP": ["espanyol", "rcd espanyol", "espanyol barcelona"],
+    "ESP": ["espanyol", "rcd espanyol", "espanyol barcelona", "rcd espanyol de barcelona"],
     "GET": ["getafe", "getafe cf"],
     "LEV": ["levante", "levante ud"],
     "MGA": ["malaga", "malaga cf", "málaga", "málaga cf"],

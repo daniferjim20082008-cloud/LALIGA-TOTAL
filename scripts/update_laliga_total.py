@@ -29,7 +29,7 @@ TEAM_ALIASES = {
     "ATM": ["atletico madrid", "atletico de madrid"], "BAR": ["barcelona", "fc barcelona"],
     "BET": ["real betis", "real betis balompie", "betis"], "CEL": ["celta vigo", "rc celta", "celta"],
     "DEP": ["deportivo la coruna", "deportivo de la coruna", "rc deportivo", "deportivo"],
-    "ELC": ["elche", "elche cf"], "ESP": ["espanyol", "rcd espanyol"],
+    "ELC": ["elche", "elche cf"], "ESP": ["espanyol", "rcd espanyol", "espanyol barcelona", "rcd espanyol de barcelona"],
     "GET": ["getafe", "getafe cf"], "LEV": ["levante", "levante ud"],
     "MGA": ["malaga", "malaga cf"], "OSA": ["osasuna", "ca osasuna"],
     "RAC": ["racing santander", "racing de santander", "real racing club"],

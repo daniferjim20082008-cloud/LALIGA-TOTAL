@@ -14,7 +14,7 @@
   const aliases = {
     ALA:["deportivo alaves","alaves"],ATH:["athletic club","athletic bilbao"],ATM:["atletico madrid","atletico de madrid"],
     BAR:["barcelona","fc barcelona"],BET:["real betis","real betis balompie","betis"],CEL:["celta vigo","rc celta","celta","celta de vigo"],
-    DEP:["deportivo la coruna","deportivo de la coruna","rc deportivo","deportivo"],ELC:["elche","elche cf"],ESP:["espanyol","rcd espanyol","espanyol barcelona"],
+    DEP:["deportivo la coruna","deportivo de la coruna","rc deportivo","deportivo"],ELC:["elche","elche cf"],ESP:["espanyol","rcd espanyol","espanyol barcelona","rcd espanyol de barcelona"],
     GET:["getafe","getafe cf"],LEV:["levante","levante ud"],MGA:["malaga","malaga cf"],OSA:["osasuna","ca osasuna"],RAC:["racing santander","racing de santander","real racing club"],
     RAY:["rayo vallecano","rayo"],RMA:["real madrid","real madrid cf"],RSO:["real sociedad","real sociedad san sebastian"],SEV:["sevilla","sevilla fc"],VAL:["valencia","valencia cf"],VIL:["villarreal","villarreal cf"]
   };
