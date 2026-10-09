@@ -34,14 +34,14 @@
     const existing=[...pred.querySelectorAll("span")].some(x=>/predicci[oó]n previa/i.test(x.textContent||""));
     if(existing)return;
     const text=predictionLabel(matchKey);if(!text)return;
-    const span=document.createElement("span");span.className="model-prior";span.textContent=`Predicción previa: ${text}`;pred.appendChild(span);
+    const span=document.createElement("span");span.className="model-prior";span.textContent=`Estimación del modelo (no es resultado): ${text}`;pred.appendChild(span);
   }
   function preserveDetailPrediction(root,matchKey){
     const hero=root.querySelector(".match-detail-hero");if(!hero||hero.querySelector(".model-prior-detail"))return;
     if(hero.querySelector(".probability"))return;
     const text=predictionLabel(matchKey);if(!text)return;
     const box=document.createElement("div");box.className="probability prediction-small-detail model-prior-detail";
-    box.innerHTML=`<small>🔮 Predicción previa de LALIGA TOTAL</small><span>${esc(text)}</span>`;
+    box.innerHTML=`<small>🔮 Estimación actual del modelo · no es resultado oficial</small><span>${esc(text)}</span>`;
     hero.querySelector(".hero-actions")?.before(box);
   }
 
