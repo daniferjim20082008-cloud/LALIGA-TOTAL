@@ -3,7 +3,9 @@
 
 Guarda marcador, goleadores, goles/tarjetas del minuto a minuto y estadísticas
 principales. Los partidos finalizados con datos completos se conservan sin volver
-a descargarse en cada ejecución; los pendientes se revisan de nuevo.
+a descargarse en cada ejecución. Para no bloquear GitHub Pages, cada ejecución
+procesa un número limitado de encuentros, prioriza los más recientes y va
+rellenando el histórico de forma progresiva.
 """
 from __future__ import annotations
 
@@ -20,6 +22,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "official-match-data.json"
 BASE = "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports"
+FETCH_TIMEOUT = 9
+MAX_MATCHES_PER_RUN = 18
+RECENT_RETRY_HOURS = 4
+OLD_RETRY_HOURS = 24
 
 TEAM = {
     "ALA": {"name":"Deportivo Alavés","slugs":["deportivo-alaves"]},
@@ -106,11 +112,11 @@ def load_previous():
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; LaLigaTotalBot/5.0)",
+        "User-Agent": "Mozilla/5.0 (compatible; LaLigaTotalBot/5.1)",
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "es-ES,es;q=0.9",
     })
-    with urllib.request.urlopen(req, timeout=30) as response:
+    with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as response:
         return response.read().decode("utf-8", "replace")
 
 
@@ -144,7 +150,6 @@ def first_page(round_no: int, home: str, away: str):
 
 
 def find_score(texts: list[str]):
-    # El encabezado oficial usa: local, N, -, N, visitante, Finalizado.
     for i in range(min(len(texts) - 4, 500)):
         if re.fullmatch(r"\d{1,2}", texts[i] or "") and texts[i+1] == "-" and re.fullmatch(r"\d{1,2}", texts[i+2] or ""):
             nearby = " ".join(texts[max(0, i-4):i+8])
@@ -184,7 +189,6 @@ def find_incidents(texts: list[str]):
     while i < len(texts)-1:
         minute = texts[i]
         if re.fullmatch(r"\d{1,3}(?:\+\d+)?'", minute):
-            # El comentario suele ser el siguiente nodo de texto útil.
             text = texts[i+1]
             low = norm(text)
             kind = None
@@ -257,9 +261,19 @@ def complete(item: dict) -> bool:
     )
 
 
+def updated_age_hours(item: dict) -> float:
+    raw = item.get("updated")
+    if not raw:
+        return 10_000
+    try:
+        stamp = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        return max(0.0, (datetime.now(timezone.utc) - stamp).total_seconds() / 3600)
+    except Exception:
+        return 10_000
+
+
 def current_round_limit(round_dates: list[str]):
     today = date.today()
-    # Incluye la ronda que empieza en los próximos dos días para obtener previa/estado.
     limit = 1
     for i, raw in enumerate(round_dates or [], start=1):
         try:
@@ -271,6 +285,41 @@ def current_round_limit(round_dates: list[str]):
     return min(38, max(1, limit))
 
 
+def build_queue(fixtures, limit: int, matches: dict):
+    """Prioriza actualidad y después rellena el histórico sin rehacer caché completa."""
+    candidates = []
+    recent_from = max(1, limit - 2)
+    for round_no in range(1, min(limit, len(fixtures)) + 1):
+        for pair in fixtures[round_no-1]:
+            home, away = pair[0], pair[1]
+            key = f"{round_no}:{home}:{away}"
+            old = matches.get(key) or {}
+            if complete(old):
+                continue
+            age = updated_age_hours(old)
+            missing = not bool(old)
+            recent = round_no >= recent_from
+            if not missing:
+                retry_after = RECENT_RETRY_HOURS if recent else OLD_RETRY_HOURS
+                if age < retry_after:
+                    continue
+            # Menor valor = mayor prioridad.
+            if recent and missing:
+                bucket = 0
+            elif recent:
+                bucket = 1
+            elif missing:
+                bucket = 2
+            else:
+                bucket = 3
+            # Dentro de la actualidad, jornadas más recientes primero; para backlog,
+            # jornadas más antiguas primero para completar el histórico progresivamente.
+            order = -round_no if bucket <= 1 else round_no
+            candidates.append((bucket, order, round_no, home, away, key))
+    candidates.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4]))
+    return candidates[:MAX_MATCHES_PER_RUN]
+
+
 def main():
     schedule = load_schedule()
     fixtures = schedule.get("fixtures") or []
@@ -280,30 +329,31 @@ def main():
     limit = current_round_limit(round_dates)
     warnings = []
     checked = updated = 0
+    queue = build_queue(fixtures, limit, matches)
 
-    for round_no in range(1, min(limit, len(fixtures)) + 1):
-        for pair in fixtures[round_no-1]:
-            home, away = pair[0], pair[1]
-            k = f"{round_no}:{home}:{away}"
-            old = matches.get(k) or {}
-            if complete(old):
+    for _, _, round_no, home, away, key in queue:
+        old = matches.get(key) or {}
+        checked += 1
+        item, errors = parse_match(round_no, home, away)
+        if item:
+            if old.get("status") == "finished" and item.get("status") != "finished":
                 continue
-            checked += 1
-            item, errors = parse_match(round_no, home, away)
-            if item:
-                # No reemplaza una caché final válida por una página temporalmente incompleta.
-                if old.get("status") == "finished" and item.get("status") != "finished":
-                    continue
-                matches[k] = {**old, **item}
-                updated += 1
-            elif errors:
-                warnings.append(f"{k}: {errors[-1]}")
+            matches[key] = {**old, **item}
+            updated += 1
+        elif errors:
+            warnings.append(f"{key}: {errors[-1]}")
 
     result = {
         "updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": "LALIGA oficial",
         "matches": matches,
         "warnings": warnings[-30:],
+        "meta": {
+            "roundLimit": limit,
+            "checkedThisRun": checked,
+            "updatedThisRun": updated,
+            "maxPerRun": MAX_MATCHES_PER_RUN,
+        },
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", "utf-8")
     print(f"Detalles oficiales LALIGA: ronda <= {limit}, revisados {checked}, actualizados {updated}, cacheados {len(matches)}")
