@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T11:34:59.350211Z",
+  "updated": "2026-10-09T11:37:58.472463Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -2073,6 +2073,1814 @@
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rcd-espanyol-de-barcelona-6",
       "source": "LALIGA oficial",
       "updated": "2026-10-09T11:34:59.350179Z"
+    },
+    "6:RSO:CEL": {
+      "round": 6,
+      "home": "RSO",
+      "away": "CEL",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Luka Sucic (Real Sociedad) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "79'",
+          "type": "yellow",
+          "text": "Couhaib Driouech (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "57'",
+          "type": "yellow",
+          "text": "Marcos Alonso (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "52'",
+          "type": "yellow",
+          "text": "Yoel Lago (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Yangel Herrera (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "50.9%",
+          "away": "49.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "16",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "15",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-celta-6",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:36:43.851860Z"
+    },
+    "1:ALA:GET": {
+      "round": 1,
+      "home": "ALA",
+      "away": "GET",
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 3, Getafe 0. Mikel Rodríguez (Deportivo Alavés) remate con la izquierda desde el centro del área por el centro de la portería. Asistencia de Mariano Díaz."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Mariano Díaz (Deportivo Alavés) ha visto tarjeta amarilla por excederse con la celebración."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 2, Getafe 0. Mariano Díaz (Deportivo Alavés) remate con la derecha desde fuera del área a la escuadra derecha tras un contraataque."
+        },
+        {
+          "minute": "85'",
+          "type": "yellow",
+          "text": "Antonio Blanco (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Djené Dakonam (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "73'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 1, Getafe 0. Nahuel Tenaglia (Deportivo Alavés) remate de cabeza desde el centro del área a la escuadra derecha. Asistencia de Mariano Díaz con un centro al área."
+        },
+        {
+          "minute": "66'",
+          "type": "yellow",
+          "text": "Abde Rebbach (Deportivo Alavés) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Denis Suárez (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "42'",
+          "type": "red",
+          "text": "Kiko Femenía (Getafe) ha visto tarjeta roja."
+        },
+        {
+          "minute": "41'",
+          "type": "red",
+          "text": "Decisión del VAR: Se revoca la Tarjeta Roja Kiko Femenía (Getafe)."
+        },
+        {
+          "minute": "23'",
+          "type": "yellow",
+          "text": "Mario Martín (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "10'",
+          "type": "yellow",
+          "text": "Davinchi (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "51.8%",
+          "away": "48.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "18",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "20.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "16",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "4",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-getafe-cf-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:36:47.678805Z"
+    },
+    "1:ATM:MGA": {
+      "round": 1,
+      "home": "ATM",
+      "away": "MGA",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Ramón Enríquez (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "85'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 2, Málaga CF 0. Álex Baena (Atlético de Madrid) marca de libre directo, remate con la derecha a la escuadra izquierda."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Juan Cruz (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "70'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Málaga CF 0. Lee Kang-In (Atlético de Madrid) remate con la izquierda desde fuera del área a la escuadra izquierda. Asistencia de Dávid Hancko."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Carlos Puga (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "37'",
+          "type": "yellow",
+          "text": "Jorge Domínguez (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "15'",
+          "type": "yellow",
+          "text": "Dávid Hancko (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "53.3%",
+          "away": "46.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "15",
+          "away": "5"
+        },
+        {
+          "name": "Efectividad",
+          "home": "18.2%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "17",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "6",
+          "away": "1"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-malaga-cf-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:36:52.226619Z"
+    },
+    "1:BAR:ATH": {
+      "round": 1,
+      "home": "BAR",
+      "away": "ATH",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "82'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 2, Athletic Club 0. Fermín López (Barcelona) remate con la derecha desde muy cerca por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "Johaneko Louis-Jean (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "48'",
+          "type": "yellow",
+          "text": "Gorka Guruzeta (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "37'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Athletic Club 0. Raphinha (Barcelona) remate con la izquierda a quemarropa desde el lado derecho al centro de la portería. Asistencia de Pedri después de un pase en profundidad."
+        },
+        {
+          "minute": "27'",
+          "type": "yellow",
+          "text": "Xavi Espart (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "70.3%",
+          "away": "29.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "22",
+          "away": "5"
+        },
+        {
+          "name": "Efectividad",
+          "home": "11.8%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "13",
+          "away": "6"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "8",
+          "away": "5"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "12",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-athletic-club-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:36:56.807973Z"
+    },
+    "1:CEL:OSA": {
+      "round": 1,
+      "home": "CEL",
+      "away": "OSA",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Ante Budimir (Osasuna) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        },
+        {
+          "minute": "64'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 1, Osasuna 2. Ante Budimir (Osasuna) convirtió el penalti remate con la izquierda por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "54'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 1, Osasuna 1. Kike Barja (Osasuna) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Raúl García."
+        },
+        {
+          "minute": "51'",
+          "type": "red",
+          "text": "Marcos Alonso (Celta de Vigo) ha visto tarjeta roja."
+        },
+        {
+          "minute": "48'",
+          "type": "red",
+          "text": "Decisión del VAR: Se revoca la Tarjeta Roja Marcos Alonso (Celta de Vigo)."
+        },
+        {
+          "minute": "27'",
+          "type": "yellow",
+          "text": "Jonathan Dubasin (Osasuna) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "14'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 1, Osasuna 0. Iago Aspas (Celta de Vigo) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Miguel Román."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "51.7%",
+          "away": "48.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "4",
+          "away": "13"
+        },
+        {
+          "name": "Efectividad",
+          "home": "33.3%",
+          "away": "20.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "7",
+          "away": "16"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "4"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-ca-osasuna-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:02.152717Z"
+    },
+    "1:DEP:ELC": {
+      "round": 1,
+      "home": "DEP",
+      "away": "ELC",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Umaru (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "76'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo de A Coruña 1, Elche 1. Marc Aguado (Elche) remate de cabeza desde el centro del área a la escuadra derecha. Asistencia de Gonzalo Villar con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Gonzalo Villar (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Lorenzo Amatucci (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "26'",
+          "type": "yellow",
+          "text": "Ximo Navarro (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "21'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo de A Coruña 1, Elche 0. Pierre-Emerick Aubameyang (Deportivo de A Coruña) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Lorenzo Amatucci."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "38.6%",
+          "away": "61.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "14.3%",
+          "away": "12.5%"
+        },
+        {
+          "name": "Faltas",
+          "home": "17",
+          "away": "12"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "6"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-elche-cf-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:06.869632Z"
+    },
+    "1:ESP:LEV": {
+      "round": 1,
+      "home": "ESP",
+      "away": "LEV",
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "80'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 3, Levante UD 0. Tyrhys Dolan (Espanyol) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Rafel Bauzà tras un contraataque."
+        },
+        {
+          "minute": "68'",
+          "type": "yellow",
+          "text": "Javi Hernández (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Cala (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "40'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 2, Levante UD 0. Roberto Fernández (Espanyol) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Javi Hernández."
+        },
+        {
+          "minute": "37'",
+          "type": "yellow",
+          "text": "Urko González de Zárate (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "5'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 1, Levante UD 0. Roberto Fernández (Espanyol) remate con la derecha desde muy cerca a la escuadra derecha tras botar una falta."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "53.6%",
+          "away": "46.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "16",
+          "away": "4"
+        },
+        {
+          "name": "Efectividad",
+          "home": "25.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "17",
+          "away": "7"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-levante-ud-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:12.699303Z"
+    },
+    "1:RAC:VIL": {
+      "round": 1,
+      "home": "RAC",
+      "away": "VIL",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Carlos Romero (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Santiago Mouriño (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Pablo Ramón (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "72'",
+          "type": "yellow",
+          "text": "Pape Gueye (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "48'",
+          "type": "yellow",
+          "text": "Juan Foyth (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Gustavo Puerta (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Villarreal 2. Nicolas Pepe (Villarreal) remate con la izquierda desde el lado derecho del interior del área a la escuadra izquierda. Asistencia de Georges Mikautadze.Gol confirmado tras la revisión del VAR"
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Villarreal 1. Pape Gueye (Villarreal) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Alberto Moleiro."
+        },
+        {
+          "minute": "34'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Villarreal 0. Sergio Martínez (Racing de Santander) remate con la derecha desde fuera del área a la escuadra derecha."
+        },
+        {
+          "minute": "21'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 1, Villarreal 0. Andrés Martín (Racing de Santander) convirtió el penalti remate con la izquierda por el lado derecho de la portería."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "41.3%",
+          "away": "58.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "17",
+          "away": "12"
+        },
+        {
+          "name": "Efectividad",
+          "home": "22.2%",
+          "away": "20.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "14"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "6",
+          "away": "10"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-villarreal-cf-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:17.481842Z"
+    },
+    "1:RMA:RSO": {
+      "round": 1,
+      "home": "RMA",
+      "away": "RSO",
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Eduardo Camavinga (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Brahim Díaz (Real Madrid) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        },
+        {
+          "minute": "80'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 4, Real Sociedad 1. Kylian Mbappé (Real Madrid) remate con la izquierda a quemarropa desde el lado izquierdo al centro de la portería. Asistencia de Vinícius Júnior después de un pase en profundidad."
+        },
+        {
+          "minute": "73'",
+          "type": "yellow",
+          "text": "Ibrahima Konaté (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "Luken Beitia (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "68'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 3, Real Sociedad 1. Vinícius Júnior (Real Madrid) remate con la derecha desde muy cerca al centro de la portería. Asistencia de Jude Bellingham."
+        },
+        {
+          "minute": "60'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 2, Real Sociedad 1. Kylian Mbappé (Real Madrid) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Jude Bellingham después de un pase en profundidad."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Jon Aramburu (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "44'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 1, Real Sociedad 1. Luka Sucic (Real Sociedad) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "40'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 1, Real Sociedad 0. Kylian Mbappé (Real Madrid) remate con la izquierda desde el centro del área a la escuadra izquierda. Asistencia de Federico Valverde."
+        },
+        {
+          "minute": "31'",
+          "type": "yellow",
+          "text": "Yangel Herrera (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "10'",
+          "type": "yellow",
+          "text": "Álvaro Carreras (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "50.8%",
+          "away": "49.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "10"
+        },
+        {
+          "name": "Efectividad",
+          "home": "28.6%",
+          "away": "14.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "8"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "7"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-real-sociedad-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:19.087485Z"
+    },
+    "1:SEV:RAY": {
+      "round": 1,
+      "home": "SEV",
+      "away": "RAY",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Alemão (Rayo Vallecano) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Lucien Agoumé (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 2, Rayo Vallecano 1. Peque Fernández (Sevilla) convirtió el penalti remate con la derecha a la escuadra izquierda."
+        },
+        {
+          "minute": "88'",
+          "type": "red",
+          "text": "Kike Salas (Sevilla) ha visto tarjeta roja."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Gabriel Suazo (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Fran Pérez (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Unai López (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Álvaro García (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "60'",
+          "type": "yellow",
+          "text": "Jon Guridi (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "52'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 1, Rayo Vallecano 1. Jon Guridi (Sevilla) convirtió el penalti remate con la izquierda por el lado derecho de la portería."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Isaac Romero (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "4'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 0, Rayo Vallecano 1. Álvaro García (Rayo Vallecano) remate con la izquierda desde muy cerca por el centro de la portería."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "49.1%",
+          "away": "50.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "20.0%",
+          "away": "16.7%"
+        },
+        {
+          "name": "Faltas",
+          "home": "18",
+          "away": "18"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "2 (2)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-rayo-vallecano-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:24.202462Z"
+    },
+    "1:VAL:BET": {
+      "round": 1,
+      "home": "VAL",
+      "away": "BET",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Mouctar Diakhaby (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "83'",
+          "type": "goal",
+          "text": "¡Gooooool! Valencia 0, Real Betis 1. Pablo García (Real Betis) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Fran García con un centro al área tras un contraataque."
+        },
+        {
+          "minute": "42'",
+          "type": "yellow",
+          "text": "Junior Firpo (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "26'",
+          "type": "yellow",
+          "text": "Ryunosuke Sato (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "41.8%",
+          "away": "58.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "16",
+          "away": "15"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "10.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-betis-1",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:28.661022Z"
+    },
+    "2:ATH:SEV": {
+      "round": 2,
+      "home": "ATH",
+      "away": "SEV",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 3,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Nico Guillén (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Isaac Romero (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "86'",
+          "type": "yellow",
+          "text": "Íñigo Ruiz de Galarreta (Athletic Club) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "70'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 1, Sevilla 3. Aitor Paredes (Athletic Club) remate con la derecha a quemarropa desde el lado izquierdo a la escuadra izquierda. Asistencia de Yeray Álvarez tras un saque de esquina."
+        },
+        {
+          "minute": "57'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 0, Sevilla 3. Isaac Romero (Sevilla) remate con la izquierda desde el centro del área al centro de la portería. Asistencia de Oso."
+        },
+        {
+          "minute": "50'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 0, Sevilla 2. Chidera Ejuke (Sevilla) remate con la derecha desde el lado derecho del interior del área al centro de la portería. Asistencia de Isaac Romero tras un contraataque."
+        },
+        {
+          "minute": "39'",
+          "type": "yellow",
+          "text": "Jon Guridi (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "25'",
+          "type": "yellow",
+          "text": "Miguel Sierra (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "25'",
+          "type": "yellow",
+          "text": "Gorka Guruzeta (Athletic Club) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Peque Fernández (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "15'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 0, Sevilla 1. Oso (Sevilla) remate con la izquierda desde el centro del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "11'",
+          "type": "red",
+          "text": "Yuri Berchiche (Athletic Club) ha visto tarjeta roja."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "65.1%",
+          "away": "34.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "18",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "6.7%",
+          "away": "50.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "11",
+          "away": "16"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "10",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-sevilla-fc-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:34.359000Z"
+    },
+    "2:ATM:VIL": {
+      "round": 2,
+      "home": "ATM",
+      "away": "VIL",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 2,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Juan Foyth (Villarreal) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "José María Giménez (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "85'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 2, Villarreal 2. Giuliano Simeone (Atlético de Madrid) remate con la derecha desde el lado derecho del interior del área por bajo, junto al palo izquierdo. Asistencia de Álex Baena después de un pase en profundidad."
+        },
+        {
+          "minute": "78'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Villarreal 2. Georges Mikautadze (Villarreal) convirtió el penalti remate con la derecha por el lado derecho de la portería."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Morten Hjulmand (Atlético de Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "76'",
+          "type": "red",
+          "text": "Robin Le Normand (Atlético de Madrid) ha visto tarjeta roja."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Villarreal 1. Gerard Moreno (Villarreal) convirtió el penalti remate con la izquierda por el lado derecho de la portería."
+        },
+        {
+          "minute": "59'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Villarreal 0. Marc Pubill (Atlético de Madrid) remate con la izquierda desde fuera del área a la escuadra izquierda. Asistencia de Giuliano Simeone."
+        },
+        {
+          "minute": "54'",
+          "type": "yellow",
+          "text": "Álex Baena (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "50'",
+          "type": "yellow",
+          "text": "Santiago Mouriño (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "51.9%",
+          "away": "48.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "19",
+          "away": "13"
+        },
+        {
+          "name": "Efectividad",
+          "home": "22.2%",
+          "away": "22.2%"
+        },
+        {
+          "name": "Faltas",
+          "home": "12",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "2 (2)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-villarreal-cf-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:40.138104Z"
+    },
+    "2:BET:RSO": {
+      "round": 2,
+      "home": "BET",
+      "away": "RSO",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Héctor Bellerín (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Fran García (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Natan (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 1, Real Sociedad 0. Rodrigo Riquelme (Real Betis) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Cucho Hernández tras un contraataque."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "Igor Zubeldia (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "49'",
+          "type": "yellow",
+          "text": "Jon Aramburu (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "46'",
+          "type": "yellow",
+          "text": "Sergio Gómez (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "48.3%",
+          "away": "51.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "18",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "7.1%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "9",
+          "away": "12"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-real-sociedad-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:45.040466Z"
+    },
+    "2:ELC:BAR": {
+      "round": 2,
+      "home": "ELC",
+      "away": "BAR",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 5,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "79'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Barcelona 5. Fermín López (Barcelona) remate con la izquierda desde el centro del área al centro de la portería. Asistencia de Xavi Espart."
+        },
+        {
+          "minute": "71'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Barcelona 4. Fermín López (Barcelona) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Anthony Gordon."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Barcelona 3. Raphinha (Barcelona) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Anthony Gordon."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Barcelona 2. Karim Adeyemi (Barcelona) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Raphinha tras un contraataque."
+        },
+        {
+          "minute": "33'",
+          "type": "yellow",
+          "text": "Ali Houary (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "14'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Barcelona 1. Raphinha (Barcelona) convirtió el penalti remate con la izquierda por el lado derecho de la portería."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "45.6%",
+          "away": "54.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "45.5%"
+        },
+        {
+          "name": "Faltas",
+          "home": "13",
+          "away": "12"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-fc-barcelona-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:50.343289Z"
+    },
+    "2:ESP:RMA": {
+      "round": 2,
+      "home": "ESP",
+      "away": "RMA",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Pol Lozano (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Pere Milla (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 1, Real Madrid 2. Carlos Espí (Real Madrid) remate con la derecha desde muy cerca al centro de la portería."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Edu Expósito (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "59'",
+          "type": "yellow",
+          "text": "Clemens Riedel (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Vinícius Júnior (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Cala (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "30'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 1, Real Madrid 1. Cala (Espanyol) remate con la izquierda desde el centro del área a la escuadra izquierda. Asistencia de Javi Hernández."
+        },
+        {
+          "minute": "9'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 0, Real Madrid 1. Jude Bellingham (Real Madrid) remate de cabeza desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Arda Güler con un centro al área tras botar una falta."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "37.4%",
+          "away": "62.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "8",
+          "away": "21"
+        },
+        {
+          "name": "Efectividad",
+          "home": "14.3%",
+          "away": "13.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "19",
+          "away": "7"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "5",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "0",
+          "away": "8"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-real-madrid-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:52.386412Z"
+    },
+    "2:GET:RAC": {
+      "round": 2,
+      "home": "GET",
+      "away": "RAC",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "81'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 1, Racing de Santander 0. Enes Ünal (Getafe) remate con la derecha desde muy cerca por el centro de la portería."
+        },
+        {
+          "minute": "66'",
+          "type": "yellow",
+          "text": "Manu Hernando (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "16'",
+          "type": "yellow",
+          "text": "Álvaro Mantilla (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "14'",
+          "type": "yellow",
+          "text": "Saba Sazonov (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "12'",
+          "type": "yellow",
+          "text": "Jorge Salinas (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "42.6%",
+          "away": "57.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "10.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "17"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "6"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-r-racing-club-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:56.937537Z"
+    },
+    "2:MGA:DEP": {
+      "round": 2,
+      "home": "MGA",
+      "away": "DEP",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Bil Nsongo (Deportivo de A Coruña) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "79'",
+          "type": "yellow",
+          "text": "Ximo Navarro (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "David Larrubia (Málaga CF) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "57'",
+          "type": "yellow",
+          "text": "Giacomo Quagliata (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "34'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 1, Deportivo de A Coruña 1. Chupe (Málaga CF) convirtió el penalti remate con la derecha a la escuadra izquierda."
+        },
+        {
+          "minute": "25'",
+          "type": "yellow",
+          "text": "Mario Soriano (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "21'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 0, Deportivo de A Coruña 1. Pierre-Emerick Aubameyang (Deportivo de A Coruña) remate con la derecha desde muy cerca por bajo, junto al palo izquierdo. Asistencia de Luismi Cruz después de un pase en profundidad."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "54.9%",
+          "away": "45.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "10.0%",
+          "away": "20.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "12",
+          "away": "12"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rc-deportivo-2",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-09T11:37:58.472433Z"
     }
   },
   "warnings": [],

@@ -1,6 +1,27 @@
 {
-  "updated": null,
+  "updated": "2026-10-09T11:38:14.847168Z",
   "source": "LALIGA oficial",
   "clubs": {},
-  "warnings": []
+  "warnings": [
+    "ALA: sin jugadores parseados",
+    "ATH: sin jugadores parseados",
+    "ATM: sin jugadores parseados",
+    "BET: sin jugadores parseados",
+    "CEL: sin jugadores parseados",
+    "DEP: sin jugadores parseados",
+    "ELC: sin jugadores parseados",
+    "ESP: sin jugadores parseados",
+    "BAR: sin jugadores parseados",
+    "GET: sin jugadores parseados",
+    "LEV: sin jugadores parseados",
+    "MGA: sin jugadores parseados",
+    "OSA: sin jugadores parseados",
+    "RAC: sin jugadores parseados",
+    "RAY: sin jugadores parseados",
+    "RMA: sin jugadores parseados",
+    "RSO: sin jugadores parseados",
+    "SEV: sin jugadores parseados",
+    "VAL: sin jugadores parseados",
+    "VIL: sin jugadores parseados"
+  ]
 }
