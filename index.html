@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="pro.css">
 <link rel="stylesheet" href="theme.css">
 <link rel="stylesheet" href="players.css">
+<link rel="stylesheet" href="match-center.css">
+<link rel="stylesheet" href="player-sofascore.css">
 </head>
 <body>
 <a class="skip" href="#main">Saltar al contenido</a>
@@ -54,14 +56,14 @@
 </div></section>
 
 <section id="calendario"><div class="wrap">
-  <div class="section-head"><div><span class="tag">Calendario completo</span><h2>Las 38 jornadas</h2></div><p>Todos los partidos tienen predicción, porra, foro y ficha avanzada con previa, H2H, alineaciones y postpartido.</p></div>
+  <div class="section-head"><div><span class="tag">Calendario completo</span><h2>Las 38 jornadas</h2></div><p>Todos los partidos tienen resultado real, goles, tarjetas y estadísticas disponibles, además de cuenta atrás, dónde verlo, predicción, porra, foro, H2H y alineaciones.</p></div>
   <div class="round-toolbar"><button class="round-arrow" id="prev-round" aria-label="Jornada anterior">←</button><select id="round-select" aria-label="Seleccionar jornada"></select><button class="round-arrow" id="next-round" aria-label="Jornada siguiente">→</button><a class="btn ghost compact" id="official-round" href="https://www.laliga.com/laliga-easports/resultados" target="_blank" rel="noopener">Resultados oficiales ↗</a></div>
   <div class="round-meta"><strong id="round-title">Jornada</strong><span id="round-date"></span><span class="prediction-note">Predicciones = modelo fan, no apuestas.</span></div>
   <div class="matches-grid" id="matches"></div>
 </div></section>
 
 <section class="soft" id="equipos"><div class="wrap">
-  <div class="section-head"><div><span class="tag">20 clubes</span><h2>Cada club, a fondo</h2></div><p>Escudo, plantilla, fichas individuales con foto y estadísticas, forma de los últimos cinco, puntos en casa y fuera, bajas, once probable, calendario completo y cómo llegar al estadio.</p></div>
+  <div class="section-head"><div><span class="tag">20 clubes</span><h2>Cada club, a fondo</h2></div><p>Escudo, plantilla, fichas individuales estilo Pericos 1900 con foto, estadísticas y acceso a SofaScore, forma de los últimos cinco, puntos en casa y fuera, bajas, once probable, calendario completo y cómo llegar al estadio.</p></div>
   <div class="team-tools"><input id="team-search" type="search" placeholder="Buscar club o ciudad…" aria-label="Buscar equipo"><select id="team-sort"><option value="pos">Ordenar por clasificación</option><option value="name">Ordenar A-Z</option><option value="city">Ordenar por ciudad</option></select></div>
   <div class="teams-grid" id="teams"></div>
 </div></section>
@@ -113,9 +115,12 @@
   }
 })();
 </script>
+<script src="match-seed.js"></script>
 <script src="app.js"></script>
 <script src="enhancements.js"></script>
 <script src="home-away-fallback.js"></script>
 <script src="client-rosters.js"></script>
+<script src="match-center.js"></script>
+<script src="player-sofascore.js"></script>
 </body>
 </html>
