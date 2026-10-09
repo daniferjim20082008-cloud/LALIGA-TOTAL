@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T19:27:23.446438Z",
+  "updated": "2026-10-09T19:43:45.828200Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -25,7 +25,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T15:33:42.744734Z"
+      "updated": "2026-10-09T19:43:37.555644Z"
     },
     "8:BAR:GET": {
       "round": 8,
@@ -100,32 +100,42 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T15:33:56.168712Z"
+      "updated": "2026-10-09T19:43:40.144417Z"
     },
     "8:MGA:ESP": {
       "round": 8,
       "home": "MGA",
       "away": "ESP",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "10",
-          "away": "79"
+          "minute": "28'",
+          "type": "yellow",
+          "text": "Carlos Puga (Málaga CF) ha visto tarjeta amarilla."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "minute": "28'",
+          "type": "yellow",
+          "text": "Bryan Zaragoza (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "24'",
+          "type": "yellow",
+          "text": "Javi Hernández (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "13'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 0, Espanyol 1. Bryan Zaragoza (Espanyol) remate con la derecha desde el lado izquierdo del interior del área por bajo, junto al palo izquierdo. Asistencia de Javi Hernández tras un contraataque."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T15:34:00.437962Z"
+      "updated": "2026-10-09T19:43:42.305667Z"
     },
     "8:RAC:VAL": {
       "round": 8,
@@ -150,7 +160,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T15:34:08.102330Z"
+      "updated": "2026-10-09T19:43:45.828166Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -7129,8 +7139,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
