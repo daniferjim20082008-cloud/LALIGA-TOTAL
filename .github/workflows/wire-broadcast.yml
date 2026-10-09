@@ -1,0 +1,38 @@
+name: Conectar operadores oficiales
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wire-broadcast.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Activar broadcast-client
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text(encoding='utf-8')
+          marker='<script src="match-center.js"></script>'
+          addon=marker+'\n<script src="broadcast-client.js"></script>'
+          if 'broadcast-client.js' not in s:
+              s=s.replace(marker,addon)
+          p.write_text(s,encoding='utf-8')
+          PY
+          git config user.name "LALIGA TOTAL Bot"
+          git config user.email "actions@users.noreply.github.com"
+          rm .github/workflows/wire-broadcast.yml
+          git add index.html .github/workflows/wire-broadcast.yml
+          git commit -m "Activar operadores oficiales por partido"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
