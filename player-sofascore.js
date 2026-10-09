@@ -72,6 +72,14 @@
       await openResolvedSofa(name,null,anchor);
     });
   }
+  function placeLink(btn,a){
+    let wrap=btn.parentElement;
+    if(!wrap?.classList.contains("player-sofa-wrap")){
+      wrap=document.createElement("div");wrap.className="player-sofa-wrap";
+      btn.before(wrap);wrap.appendChild(btn);
+    }
+    wrap.appendChild(a);
+  }
   function addCardLinks(){
     document.querySelectorAll(".player-card[data-player][data-team]").forEach(btn=>{
       if(btn.dataset.sofaLinked)return;btn.dataset.sofaLinked="1";
@@ -82,8 +90,7 @@
         const img=document.createElement("img");img.className="sofa-card-photo";img.src=photo(sid);img.alt=name;img.loading="lazy";img.onerror=()=>img.remove();btn.prepend(img);
       }
       const a=document.createElement("a");a.className="player-sofa-card-link";a.target="_blank";a.rel="noopener";a.textContent="SofaScore ↗";
-      attachDeferredLink(a,name,sid);
-      btn.insertAdjacentElement("afterend",a);
+      attachDeferredLink(a,name,sid);placeLink(btn,a);
     });
   }
   function addFallbackLinks(){
@@ -91,8 +98,7 @@
       if(btn.dataset.sofaLinked)return;btn.dataset.sofaLinked="1";
       const name=btn.querySelector(".pericos-player-copy strong")?.textContent?.trim()||btn.querySelector("strong")?.textContent?.trim()||"Jugador";
       const a=document.createElement("a");a.className="player-sofa-card-link fallback-sofa-link";a.target="_blank";a.rel="noopener";a.textContent="Buscar en SofaScore ↗";
-      attachDeferredLink(a,name,null);
-      btn.insertAdjacentElement("afterend",a);
+      attachDeferredLink(a,name,null);placeLink(btn,a);
     });
   }
   async function decorateDetail(){
