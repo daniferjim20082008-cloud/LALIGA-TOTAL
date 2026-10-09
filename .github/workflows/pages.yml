@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths-ignore:
       - "live-data.json"
+      - "broadcast-data.json"
       - ".nojekyll"
   workflow_dispatch:
   schedule:
@@ -43,13 +44,17 @@ jobs:
         continue-on-error: true
         run: python scripts/update_laliga_espn.py
 
+      - name: Actualizar operadores oficiales de TV
+        continue-on-error: true
+        run: python scripts/update_broadcasts.py
+
       - name: Guardar actualización y publicar en gh-pages
         shell: bash
         run: |
           touch .nojekyll
           git config user.name "LALIGA TOTAL Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add live-data.json .nojekyll
+          git add live-data.json broadcast-data.json .nojekyll
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar datos de LALIGA TOTAL"
             git fetch origin main
