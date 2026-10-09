@@ -1,17 +1,41 @@
 {
-  "updated": "2026-10-09T10:30:00Z",
+  "updated": "2026-10-09T11:01:10.244778Z",
   "source": "LALIGA · guía oficial de operadores",
-  "url": "https://www.laliga.com/donde-ver-laliga-easports",
+  "url": "https://www.laliga.com/iframes/external-consumer-broadcast",
   "broadcasts": {
-    "MGA:ESP": ["DAZN"],
-    "RAY:ATH": ["DAZN", "DAZN EN ABIERTO"],
-    "ALA:ATM": ["Movistar LALIGA"],
-    "BAR:GET": ["DAZN"],
-    "RMA:VIL": ["Movistar LALIGA", "Movistar Plus+", "Orange Fútbol 1"],
-    "ELC:CEL": ["Movistar LALIGA"],
-    "RSO:DEP": ["DAZN"],
-    "BET:OSA": ["Movistar LALIGA"],
-    "RAC:VAL": ["DAZN"],
-    "LEV:SEV": ["Movistar LALIGA"]
+    "MGA:BAR": [
+      "DAZN"
+    ],
+    "RAY:ATH": [
+      "DAZN EN ABIERTO",
+      "DAZN"
+    ],
+    "ALA:ATM": [
+      "Movistar LALIGA"
+    ],
+    "BAR:GET": [
+      "DAZN"
+    ],
+    "RMA:VIL": [
+      "Movistar LALIGA",
+      "Movistar Plus+",
+      "Orange Fútbol 1",
+      "Orange Fútbol 1"
+    ],
+    "ELC:CEL": [
+      "Movistar LALIGA"
+    ],
+    "RSO:DEP": [
+      "DAZN"
+    ],
+    "BET:OSA": [
+      "Movistar LALIGA"
+    ],
+    "RAC:VAL": [
+      "DAZN"
+    ],
+    "LEV:SEV": [
+      "Movistar LALIGA"
+    ]
   }
 }
