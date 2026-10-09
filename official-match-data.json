@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T15:14:41.351767Z",
+  "updated": "2026-10-09T15:34:17.377491Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -25,7 +25,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T11:21:29.752751Z"
+      "updated": "2026-10-09T15:33:42.744734Z"
     },
     "8:BAR:GET": {
       "round": 8,
@@ -100,7 +100,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T11:21:58.152950Z"
+      "updated": "2026-10-09T15:33:56.168712Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -125,7 +125,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T11:22:04.198005Z"
+      "updated": "2026-10-09T15:34:00.437962Z"
     },
     "8:RAC:VAL": {
       "round": 8,
@@ -150,7 +150,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-09T11:22:13.297927Z"
+      "updated": "2026-10-09T15:34:08.102330Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -7126,11 +7126,15 @@
       "updated": "2026-10-09T12:11:45.079360Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "8:BAR:GET: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8: HTTP 502",
+    "8:ELC:CEL: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-celta-8: HTTP 502",
+    "8:RSO:DEP: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 7,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
