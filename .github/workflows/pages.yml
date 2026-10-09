@@ -1,4 +1,4 @@
-name: Deploy LALIGA TOTAL independiente
+name: Actualizar y publicar LALIGA TOTAL
 
 on:
   push:
@@ -10,70 +10,27 @@ on:
 permissions:
   contents: write
   issues: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: "laliga-total-pages"
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - name: Checkout LALIGA TOTAL
         uses: actions/checkout@v4
-
-      - name: Migración inicial desde Pericos 1900
-        shell: bash
-        run: |
-          if [ ! -f index.html ]; then
-            git clone --depth 1 https://github.com/daniferjim20082008-cloud/pericos1900.git /tmp/pericos1900
-            cp -a /tmp/pericos1900/laliga/. .
-            mkdir -p scripts
-            cp /tmp/pericos1900/scripts/update_laliga_total.py scripts/update_laliga_total.py
-            cp /tmp/pericos1900/scripts/update_laliga_espn.py scripts/update_laliga_espn.py
-
-            python - <<'PY'
-          from pathlib import Path
-
-          replacements = {
-              "https://daniferjim20082008-cloud.github.io/pericos1900/laliga/": "https://daniferjim20082008-cloud.github.io/LALIGA-TOTAL/",
-              "daniferjim20082008-cloud/pericos1900": "daniferjim20082008-cloud/LALIGA-TOTAL",
-              'ROOT / "laliga" / "live-data.json"': 'ROOT / "live-data.json"',
-              "hasta el 8 de octubre de 2026": "disponibles en la fuente consultada hasta el 20 de septiembre de 2026",
-          }
-          for name in [
-              "index.html", "data.js", "app.js", "enhancements.js",
-              "home-away-fallback.js", "client-rosters.js",
-              "scripts/update_laliga_total.py", "scripts/update_laliga_espn.py",
-          ]:
-              path = Path(name)
-              if not path.exists():
-                  continue
-              text = path.read_text(encoding="utf-8")
-              for old, new in replacements.items():
-                  text = text.replace(old, new)
-              path.write_text(text, encoding="utf-8")
-          PY
-
-            git config user.name "LALIGA TOTAL Bot"
-            git config user.email "actions@users.noreply.github.com"
-            git add index.html app.js data.js style.css pro.css theme.css players.css enhancements.js home-away-fallback.js client-rosters.js live-data.json scripts
-            git commit -m "Migrar LALIGA TOTAL a repositorio independiente" || true
-            git push
-          fi
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Actualizar LALIGA TOTAL · proveedor principal
+      - name: Actualizar datos · proveedor principal
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -83,16 +40,15 @@ jobs:
         continue-on-error: true
         run: python scripts/update_laliga_espn.py
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Guardar actualización y publicar en gh-pages
+        shell: bash
+        run: |
+          touch .nojekyll
+          git config user.name "LALIGA TOTAL Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add live-data.json .nojekyll
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar datos de LALIGA TOTAL"
+            git push origin HEAD:main
+          fi
+          git push origin HEAD:gh-pages --force
