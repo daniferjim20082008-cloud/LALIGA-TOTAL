@@ -38,7 +38,11 @@
       if(btn.dataset.sofaLinked)return;btn.dataset.sofaLinked="1";
       const p=livePlayer(btn.dataset.team,btn.dataset.player);
       const name=p?.name||p?.shortName||btn.querySelector("strong")?.textContent||"Jugador";
-      const a=document.createElement("a");a.className="player-sofa-card-link";a.href=sofaUrl(name,p?.provider==="ESPN"?null:btn.dataset.player);a.target="_blank";a.rel="noopener";a.textContent="SofaScore ↗";
+      const sid=p?.provider==="ESPN"?null:btn.dataset.player;
+      if(sid&&!btn.querySelector(".sofa-card-photo")){
+        const img=document.createElement("img");img.className="sofa-card-photo";img.src=photo(sid);img.alt=name;img.loading="lazy";img.onerror=()=>img.remove();btn.prepend(img);
+      }
+      const a=document.createElement("a");a.className="player-sofa-card-link";a.href=sofaUrl(name,sid);a.target="_blank";a.rel="noopener";a.textContent="SofaScore ↗";
       btn.insertAdjacentElement("afterend",a);
     });
   }
