@@ -92,7 +92,7 @@ def load_old():
 
 def fresh(old):
     try:
-        dt=datetime.fromisoformat((old.get('updated') or '').replace('Z','+00:00'));return datetime.now(timezone.utc)-dt<timedelta(hours=12) and len(old.get('clubs',{}))>=18
+        dt=datetime.fromisoformat((old.get('updated') or '').replace('Z','+00:00'));return datetime.now(timezone.utc)-dt<timedelta(hours=12) and sum(bool(c.get('players')) for c in old.get('clubs',{}).values())>=18
     except Exception:return False
 
 def main():
@@ -106,6 +106,10 @@ def main():
             if players:clubs[code]={'name':name,'url':url,'crest':crest,'players':players}
             else:warnings.append(f'{code}: sin jugadores parseados')
         except Exception as e:warnings.append(f'{code}: {e}')
+    if not any(clubs.get(code, {}).get('players') for code in CLUBS):
+        print('AVISO: no hay plantillas verificadas; se conserva el archivo anterior')
+        for w in warnings[-10:]: print('AVISO:', w)
+        return
     result={'updated':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),'source':'LALIGA oficial','clubs':clubs,'warnings':warnings[-20:]}
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n','utf-8')
     print('Plantillas oficiales:',len(clubs),'clubes,',sum(len(x.get('players',[])) for x in clubs.values()),'jugadores')
