@@ -61,11 +61,14 @@ def team_code(team) -> str | None:
     candidates = [team.get("name"), team.get("shortName"), team.get("slug"), team.get("nameCode")] if isinstance(team, dict) else [team]
     for candidate in candidates:
         n = norm(str(candidate or ""))
+        if not n:
+            continue
         if n in ALIAS_TO_CODE:
             return ALIAS_TO_CODE[n]
-        for alias, code in ALIAS_TO_CODE.items():
-            if alias and n and (alias in n or n in alias) and len(n) >= 4:
-                return code
+        matches = [(len(alias), code) for alias, code in ALIAS_TO_CODE.items() if len(alias) >= 4 and (alias in n or n in alias)]
+        if matches:
+            matches.sort(reverse=True)
+            return matches[0][1]
     return None
 
 def http_json(url: str, *, method="GET", payload=None, headers=None, timeout=25):

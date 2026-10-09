@@ -68,9 +68,10 @@ def code_for(team: dict | str | None):
             continue
         if n in ALIAS_TO_CODE:
             return ALIAS_TO_CODE[n]
-        for alias, code in ALIAS_TO_CODE.items():
-            if len(n) >= 4 and (n in alias or alias in n):
-                return code
+        matches = [(len(alias), code) for alias, code in ALIAS_TO_CODE.items() if len(alias) >= 4 and (n in alias or alias in n)]
+        if matches:
+            matches.sort(reverse=True)
+            return matches[0][1]
     return None
 
 def get_json(url: str):

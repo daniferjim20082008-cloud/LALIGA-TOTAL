@@ -12,7 +12,19 @@
     ALA:["deportivo alaves","alaves"],ATH:["athletic club","athletic bilbao"],ATM:["atletico madrid","atletico de madrid"],BAR:["barcelona","fc barcelona"],BET:["real betis","real betis balompie","betis"],CEL:["celta vigo","rc celta","celta","celta de vigo"],DEP:["deportivo la coruna","deportivo de la coruna","rc deportivo","deportivo"],ELC:["elche","elche cf"],ESP:["espanyol","rcd espanyol","espanyol barcelona"],GET:["getafe","getafe cf"],LEV:["levante","levante ud"],MGA:["malaga","malaga cf"],OSA:["osasuna","ca osasuna"],RAC:["racing santander","racing de santander","real racing club","racing club"],RAY:["rayo vallecano","rayo"],RMA:["real madrid","real madrid cf"],RSO:["real sociedad","real sociedad san sebastian"],SEV:["sevilla","sevilla fc"],VAL:["valencia","valencia cf"],VIL:["villarreal","villarreal cf"]
   };
   const aliasEntries=Object.entries(aliases).flatMap(([code,list])=>list.map(x=>[norm(x),code]));
-  function codeFor(t={}){const vals=[t.displayName,t.shortDisplayName,t.name,t.location,t.slug,t.abbreviation];for(const v of vals){const n=norm(v);if(!n)continue;for(const[a,c]of aliasEntries)if(n===a||(n.length>=4&&(n.includes(a)||a.includes(n))))return c;}return null;}
+  function codeFor(t={}) {
+    const vals = typeof t === "string" ? [t] : [t.displayName,t.shortDisplayName,t.name,t.location,t.slug,t.abbreviation];
+    for (const v of vals) {
+      const n=norm(v); if(!n) continue;
+      const exact=aliasEntries.find(([a])=>n===a);
+      if(exact) return exact[1];
+      const matches=aliasEntries
+        .filter(([a])=>a.length>=4 && (n.includes(a)||a.includes(n)))
+        .sort((x,y)=>y[0].length-x[0].length);
+      if(matches.length) return matches[0][1];
+    }
+    return null;
+  }
   function logoOf(t){return t?.logos?.[0]?.href||t?.logo||"";}
   function photoOf(p){return p?.headshot?.href||p?.headshot||p?.photo||`https://a.espncdn.com/i/headshots/soccer/players/full/${p?.id}.png`;}
   function position(p,group){const x=p?.position;return (typeof x==="object"?(x.abbreviation||x.displayName||x.name):x)||group||"—";}

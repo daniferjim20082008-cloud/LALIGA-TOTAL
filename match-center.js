@@ -23,7 +23,12 @@
     const vals = typeof t === "string" ? [t] : [t.displayName,t.shortDisplayName,t.name,t.location,t.slug,t.abbreviation];
     for (const v of vals) {
       const n=norm(v); if(!n) continue;
-      for (const [a,c] of aliasEntries) if(n===a || (n.length>=4 && (n.includes(a)||a.includes(n)))) return c;
+      const exact=aliasEntries.find(([a])=>n===a);
+      if(exact) return exact[1];
+      const matches=aliasEntries
+        .filter(([a])=>a.length>=4 && (n.includes(a)||a.includes(n)))
+        .sort((x,y)=>y[0].length-x[0].length);
+      if(matches.length) return matches[0][1];
     }
     return null;
   }

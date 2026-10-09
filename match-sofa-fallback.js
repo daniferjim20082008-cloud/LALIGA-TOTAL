@@ -7,7 +7,19 @@
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const aliases={ALA:["deportivo alaves","alaves"],ATH:["athletic club","athletic bilbao"],ATM:["atletico madrid","atletico de madrid"],BAR:["barcelona","fc barcelona"],BET:["real betis","betis"],CEL:["celta vigo","rc celta","celta"],DEP:["deportivo la coruna","rc deportivo","deportivo"],ELC:["elche","elche cf"],ESP:["espanyol","rcd espanyol"],GET:["getafe","getafe cf"],LEV:["levante","levante ud"],MGA:["malaga","malaga cf"],OSA:["osasuna","ca osasuna"],RAC:["racing santander","racing de santander","real racing club"],RAY:["rayo vallecano","rayo"],RMA:["real madrid","real madrid cf"],RSO:["real sociedad"],SEV:["sevilla","sevilla fc"],VAL:["valencia","valencia cf"],VIL:["villarreal","villarreal cf"]};
   const aliasEntries=Object.entries(aliases).flatMap(([c,a])=>a.map(x=>[norm(x),c]));
-  function codeFor(t={}){const vals=typeof t==="string"?[t]:[t.name,t.shortName,t.slug,t.nameCode];for(const v of vals){const n=norm(v);if(!n)continue;for(const [a,c] of aliasEntries)if(n===a||(n.length>=4&&(n.includes(a)||a.includes(n))))return c;}return null;}
+  function codeFor(t={}) {
+    const vals = typeof t === "string" ? [t] : [t.displayName,t.shortDisplayName,t.name,t.location,t.slug,t.abbreviation];
+    for (const v of vals) {
+      const n=norm(v); if(!n) continue;
+      const exact=aliasEntries.find(([a])=>n===a);
+      if(exact) return exact[1];
+      const matches=aliasEntries
+        .filter(([a])=>a.length>=4 && (n.includes(a)||a.includes(n)))
+        .sort((x,y)=>y[0].length-x[0].length);
+      if(matches.length) return matches[0][1];
+    }
+    return null;
+  }
   async function json(path){for(const base of BASES){try{const r=await fetch(base+path,{cache:"no-store",mode:"cors"});if(r.ok)return await r.json();}catch(_){}}return null;}
   function seedFor(key){const [,h,a]=String(key||"").split(":");return SEED.find(e=>e.home===h&&e.away===a)||null;}
   function madridDate(iso){const d=new Date(iso);if(Number.isNaN(d.getTime()))return null;const parts=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Madrid",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(d);const x={};parts.forEach(p=>x[p.type]=p.value);return `${x.year}-${x.month}-${x.day}`;}
