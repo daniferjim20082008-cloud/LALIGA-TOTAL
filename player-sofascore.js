@@ -33,6 +33,35 @@
     }
     state.cache.set(k,null);return null;
   }
+  async function openResolvedSofa(name, knownId, anchor){
+    if(knownId){anchor.href=sofaUrl(name,knownId);return true;}
+    const popup=window.open("about:blank","_blank");
+    if(popup){
+      try{popup.document.title="Abriendo SofaScore…";popup.document.body.innerHTML="<p style='font-family:system-ui;padding:24px'>Buscando la ficha del jugador en SofaScore…</p>";}catch(_){}
+    }
+    const found=await resolveByName(name);
+    const target=sofaUrl(name,found?.id||null);
+    if(found?.id){
+      anchor.href=target;
+      anchor.dataset.sofaId=String(found.id);
+      anchor.textContent="SofaScore ↗";
+    }else{
+      anchor.textContent="Buscar en SofaScore ↗";
+    }
+    if(popup) popup.location.href=target;
+    else window.open(target,"_blank","noopener");
+    return false;
+  }
+  function attachDeferredLink(anchor,name,knownId){
+    if(knownId){anchor.href=sofaUrl(name,knownId);anchor.dataset.sofaId=String(knownId);return;}
+    anchor.href=`${SOFA}/es`;
+    anchor.textContent="Buscar en SofaScore ↗";
+    anchor.addEventListener("click",async e=>{
+      if(anchor.dataset.sofaId)return;
+      e.preventDefault();e.stopPropagation();
+      await openResolvedSofa(name,null,anchor);
+    });
+  }
   function addCardLinks(){
     document.querySelectorAll(".player-card[data-player][data-team]").forEach(btn=>{
       if(btn.dataset.sofaLinked)return;btn.dataset.sofaLinked="1";
@@ -42,7 +71,17 @@
       if(sid&&!btn.querySelector(".sofa-card-photo")){
         const img=document.createElement("img");img.className="sofa-card-photo";img.src=photo(sid);img.alt=name;img.loading="lazy";img.onerror=()=>img.remove();btn.prepend(img);
       }
-      const a=document.createElement("a");a.className="player-sofa-card-link";a.href=sofaUrl(name,sid);a.target="_blank";a.rel="noopener";a.textContent="SofaScore ↗";
+      const a=document.createElement("a");a.className="player-sofa-card-link";a.target="_blank";a.rel="noopener";a.textContent="SofaScore ↗";
+      attachDeferredLink(a,name,sid);
+      btn.insertAdjacentElement("afterend",a);
+    });
+  }
+  function addFallbackLinks(){
+    document.querySelectorAll(".fallback-player-card[data-fallback-player][data-fallback-team]").forEach(btn=>{
+      if(btn.dataset.sofaLinked)return;btn.dataset.sofaLinked="1";
+      const name=btn.querySelector(".pericos-player-copy strong")?.textContent?.trim()||btn.querySelector("strong")?.textContent?.trim()||"Jugador";
+      const a=document.createElement("a");a.className="player-sofa-card-link fallback-sofa-link";a.target="_blank";a.rel="noopener";a.textContent="Buscar en SofaScore ↗";
+      attachDeferredLink(a,name,null);
       btn.insertAdjacentElement("afterend",a);
     });
   }
@@ -60,14 +99,14 @@
       const img=document.createElement("img");img.className="sofa-player-photo";img.src=photo(sid);img.alt=`${name} en SofaScore`;img.loading="lazy";img.onerror=()=>img.remove();hero.prepend(img);
     }
     const actions=document.createElement("div");actions.className="player-sofa-actions";
-    actions.innerHTML=`<a class="sofa-primary" href="${esc(sofaUrl(name,sid))}" target="_blank" rel="noopener">${sid?"Ver ficha en SofaScore ↗":"Abrir SofaScore ↗"}</a><a class="sofa-secondary" href="${esc(window.LIGA_DATA?.teams?.[code]?.official||"#")}" target="_blank" rel="noopener">Web oficial del club ↗</a>`;
+    actions.innerHTML=`<a class="sofa-primary" href="${esc(sofaUrl(name,sid))}" target="_blank" rel="noopener">${sid?"Ver ficha en SofaScore ↗":"Buscar en SofaScore ↗"}</a><a class="sofa-secondary" href="${esc(window.LIGA_DATA?.teams?.[code]?.official||"#")}" target="_blank" rel="noopener">Web oficial del club ↗</a>`;
     target.appendChild(actions);
   }
   document.addEventListener("click",e=>{
     const native=e.target.closest("[data-player][data-team]");if(native)state.active={code:native.dataset.team,id:native.dataset.player,name:native.querySelector("strong,b")?.textContent||"",fallback:false};
     const fb=e.target.closest("[data-fallback-player][data-fallback-team]");if(fb)state.active={code:fb.dataset.fallbackTeam,id:fb.dataset.fallbackPlayer,name:fb.querySelector("strong")?.textContent||"",fallback:true};
   },true);
-  function patch(){addCardLinks();decorateDetail();}
+  function patch(){addCardLinks();addFallbackLinks();decorateDetail();}
   async function init(){await load();patch();}
   document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();
   new MutationObserver(()=>requestAnimationFrame(patch)).observe(document.documentElement,{subtree:true,childList:true});
