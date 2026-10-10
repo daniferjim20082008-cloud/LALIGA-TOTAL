@@ -1,56 +1,127 @@
 {
-  "updated": "2026-10-10T16:25:55.456446Z",
+  "updated": "2026-10-10T16:42:33.870951Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
       "round": 8,
       "home": "ALA",
       "away": "ATM",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Johnny Cardoso (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "87'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 1, Atlético de Madrid 2. Cristian Romero (Atlético de Madrid) remate de cabeza a quemarropa desde el lado derecho por el lado derecho de la portería. Asistencia de Álex Baena con un centro al área."
+        },
+        {
+          "minute": "61'",
+          "type": "red",
+          "text": "Ángel Pérez (Deportivo Alavés) ha visto tarjeta roja."
+        },
+        {
+          "minute": "60'",
+          "type": "red",
+          "text": "Decisión del VAR: Se revoca la Tarjeta Roja Ángel Pérez (Deportivo Alavés)."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 1, Atlético de Madrid 1. Lucas Boyé (Deportivo Alavés) convirtió el penalti remate con la derecha al centro de la portería."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Robin Le Normand (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Ademola Lookman (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "33'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 0, Atlético de Madrid 1. Alejandro Grimaldo (Atlético de Madrid) remate con la izquierda desde el lado izquierdo del interior del área al centro de la portería. Asistencia de Jonathan David."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "32.3%",
+          "away": "67.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "8",
+          "away": "22"
+        },
+        {
+          "name": "Efectividad",
+          "home": "16.7%",
+          "away": "18.2%"
+        },
+        {
           "name": "Faltas",
-          "home": "7",
-          "away": "90"
+          "home": "11",
+          "away": "14"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "0",
+          "away": "10"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:30:48.446992Z"
+      "updated": "2026-10-10T16:42:10.817354Z"
     },
     "8:BAR:GET": {
       "round": 8,
       "home": "BAR",
       "away": "GET",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "7",
-          "away": "66"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "minute": "2'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Getafe 0. Anthony Gordon (Barcelona) remate con la derecha desde fuera del área al centro de la portería."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:30:50.448149Z"
+      "updated": "2026-10-10T16:42:11.656658Z"
     },
     "8:ELC:CEL": {
       "round": 8,
@@ -75,7 +146,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:30:56.007834Z"
+      "updated": "2026-10-10T16:42:16.637944Z"
     },
     "8:LEV:SEV": {
       "round": 8,
@@ -100,7 +171,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:30:59.057411Z"
+      "updated": "2026-10-10T16:42:19.557070Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -241,7 +312,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:02.022687Z"
+      "updated": "2026-10-10T16:42:22.857446Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -266,7 +337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:08.377630Z"
+      "updated": "2026-10-10T16:42:28.978370Z"
     },
     "7:CEL:RAC": {
       "round": 7,
@@ -715,7 +786,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:30:53.586251Z"
+      "updated": "2026-10-10T16:42:13.759221Z"
     },
     "8:RAY:ATH": {
       "round": 8,
@@ -726,10 +797,56 @@
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "55.1%",
+          "away": "44.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:03.232239Z"
+      "updated": "2026-10-10T16:42:24.446766Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -754,7 +871,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:05.373118Z"
+      "updated": "2026-10-10T16:42:26.767602Z"
     },
     "7:ATH:ALA": {
       "round": 7,
@@ -890,7 +1007,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:14.794126Z"
+      "updated": "2026-10-10T16:42:30.816995Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -1925,7 +2042,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T12:31:17.103687Z"
+      "updated": "2026-10-10T16:42:33.870923Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -7209,8 +7326,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
