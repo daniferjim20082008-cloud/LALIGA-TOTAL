@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T20:41:36.036262Z",
+  "updated": "2026-10-10T20:55:16.219876Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -107,21 +107,107 @@
       "round": 8,
       "home": "BAR",
       "away": "GET",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Fermín López (Barcelona) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Ramón Terrats (Getafe) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "73'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 3, Getafe 0. Jules Koundé (Barcelona) remate con la izquierda desde muy cerca por el lado derecho de la portería. Asistencia de Lamine Yamal con un centro al área tras un saque de esquina.Gol confirmado tras la revisión del VAR"
+        },
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "Sebastián Boselli (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "46'",
+          "type": "yellow",
+          "text": "Dani Olmo (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Johan Mojica (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "34'",
+          "type": "yellow",
+          "text": "Kiko Femenía (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "30'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 2, Getafe 0. Gabriel Jesus (Barcelona) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo."
+        },
         {
           "minute": "2'",
           "type": "goal",
           "text": "¡Gooooool! Barcelona 1, Getafe 0. Anthony Gordon (Barcelona) remate con la derecha desde fuera del área al centro de la portería."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "82.9%",
+          "away": "17.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "4"
+        },
+        {
+          "name": "Efectividad",
+          "home": "21.4%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:11.656658Z"
+      "updated": "2026-10-10T20:54:43.873873Z"
     },
     "8:ELC:CEL": {
       "round": 8,
@@ -146,7 +232,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:16.637944Z"
+      "updated": "2026-10-10T20:54:55.159242Z"
     },
     "8:LEV:SEV": {
       "round": 8,
@@ -171,7 +257,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:19.557070Z"
+      "updated": "2026-10-10T20:54:57.840876Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -312,7 +398,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:22.857446Z"
+      "updated": "2026-10-10T20:55:00.845289Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -337,7 +423,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:28.978370Z"
+      "updated": "2026-10-10T20:55:07.153610Z"
     },
     "7:CEL:RAC": {
       "round": 7,
@@ -786,7 +872,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:13.759221Z"
+      "updated": "2026-10-10T20:54:51.243804Z"
     },
     "8:RAY:ATH": {
       "round": 8,
@@ -846,32 +932,72 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:24.446766Z"
+      "updated": "2026-10-10T20:55:02.368919Z"
     },
     "8:RMA:VIL": {
       "round": 8,
       "home": "RMA",
       "away": "VIL",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "12",
-          "away": "97"
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Kylian Mbappé (Real Madrid) ha visto tarjeta amarilla."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Aurélien Tchouaméni (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Pau Navarro (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "83'",
+          "type": "yellow",
+          "text": "Antonio Rüdiger (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Ibrahima Konaté (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "72'",
+          "type": "red",
+          "text": "Vinícius Júnior (Real Madrid) ha visto tarjeta roja por pelearse."
+        },
+        {
+          "minute": "71'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Vinícius Júnior (Real Madrid) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        },
+        {
+          "minute": "62'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 1, Villarreal 0. Yan Diomande (Real Madrid) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Federico Valverde.El gol ha subido al marcador tras la revisión del VAR"
+        },
+        {
+          "minute": "19'",
+          "type": "yellow",
+          "text": "Jude Bellingham (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "10'",
+          "type": "yellow",
+          "text": "Renato Veiga (Villarreal) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:26.767602Z"
+      "updated": "2026-10-10T20:55:03.848347Z"
     },
     "7:ATH:ALA": {
       "round": 7,
@@ -1007,7 +1133,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:30.816995Z"
+      "updated": "2026-10-10T20:55:13.450542Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -2042,7 +2168,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T16:42:33.870923Z"
+      "updated": "2026-10-10T20:55:16.219843Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -7326,8 +7452,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 10,
+    "updatedThisRun": 10,
     "maxPerRun": 18
   }
 }
