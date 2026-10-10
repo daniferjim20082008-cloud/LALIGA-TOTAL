@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T12:07:23.175674Z",
+  "updated": "2026-10-10T12:31:17.103755Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -25,7 +25,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:09:18.710309Z"
+      "updated": "2026-10-10T12:30:48.446992Z"
     },
     "8:BAR:GET": {
       "round": 8,
@@ -50,7 +50,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:14.782278Z"
+      "updated": "2026-10-10T12:30:50.448149Z"
     },
     "8:ELC:CEL": {
       "round": 8,
@@ -75,7 +75,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:21.173261Z"
+      "updated": "2026-10-10T12:30:56.007834Z"
     },
     "8:LEV:SEV": {
       "round": 8,
@@ -100,7 +100,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:09:22.541417Z"
+      "updated": "2026-10-10T12:30:59.057411Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -241,7 +241,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:09:25.668972Z"
+      "updated": "2026-10-10T12:31:02.022687Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -266,7 +266,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:31.089022Z"
+      "updated": "2026-10-10T12:31:08.377630Z"
     },
     "7:CEL:RAC": {
       "round": 7,
@@ -715,32 +715,21 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:16.847241Z"
+      "updated": "2026-10-10T12:30:53.586251Z"
     },
     "8:RAY:ATH": {
       "round": 8,
       "home": "RAY",
       "away": "ATH",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "6",
-          "away": "86"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
-        }
-      ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:24.671659Z"
+      "updated": "2026-10-10T12:31:03.232239Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -765,7 +754,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:28.198870Z"
+      "updated": "2026-10-10T12:31:05.373118Z"
     },
     "7:ATH:ALA": {
       "round": 7,
@@ -901,7 +890,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:36.147374Z"
+      "updated": "2026-10-10T12:31:14.794126Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -1936,7 +1925,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T08:27:41.541831Z"
+      "updated": "2026-10-10T12:31:17.103687Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -7220,8 +7209,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
