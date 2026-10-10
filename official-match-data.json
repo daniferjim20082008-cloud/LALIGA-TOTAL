@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T07:56:37.850391Z",
+  "updated": "2026-10-10T08:09:25.669004Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -25,7 +25,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T03:58:56.253121Z"
+      "updated": "2026-10-10T08:09:18.710309Z"
     },
     "8:BAR:GET": {
       "round": 8,
@@ -100,7 +100,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T03:58:59.993472Z"
+      "updated": "2026-10-10T08:09:22.541417Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -241,7 +241,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T03:59:02.866066Z"
+      "updated": "2026-10-10T08:09:25.668972Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -7220,8 +7220,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 3,
+    "updatedThisRun": 3,
     "maxPerRun": 18
   }
 }
