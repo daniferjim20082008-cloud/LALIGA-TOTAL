@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T17:27:15.746297Z",
+  "updated": "2026-10-11T17:43:03.074368Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -213,11 +213,21 @@
       "round": 8,
       "home": "ELC",
       "away": "CEL",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Marc Aguado (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Aleix Febas (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "59'",
           "type": "yellow",
@@ -229,10 +239,56 @@
           "text": "Yoel Lago (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "66.6%",
+          "away": "33.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "19",
+          "away": "21"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T13:32:37.863407Z"
+      "updated": "2026-10-11T17:42:38.646461Z"
     },
     "8:LEV:SEV": {
       "round": 8,
@@ -257,7 +313,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T13:32:43.303310Z"
+      "updated": "2026-10-11T17:42:44.188459Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -398,32 +454,118 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T13:32:47.987830Z"
+      "updated": "2026-10-11T17:42:50.873757Z"
     },
     "8:RSO:DEP": {
       "round": 8,
       "home": "RSO",
       "away": "DEP",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Yangel Herrera (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "red",
+          "text": "Lorenzo Amatucci (Deportivo de A Coruña) ha visto tarjeta roja."
+        },
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "José María Giménez (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "69'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 3, Deportivo de A Coruña 2. Yeremay Hernández (Deportivo de A Coruña) convirtió el penalti remate con la derecha por el lado derecho de la portería."
+        },
+        {
+          "minute": "66'",
+          "type": "red",
+          "text": "Pablo Marín (Real Sociedad) ha visto tarjeta roja."
+        },
+        {
+          "minute": "61'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 3, Deportivo de A Coruña 1. Mario Soriano (Deportivo de A Coruña) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Riki Rodríguez."
+        },
+        {
+          "minute": "54'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 3, Deportivo de A Coruña 0. Gonçalo Guedes (Real Sociedad) remate con la izquierda desde el lado izquierdo del interior del área a la escuadra derecha. Asistencia de Ander Barrenetxea tras un contraataque."
+        },
+        {
+          "minute": "40'",
+          "type": "yellow",
+          "text": "David Mella (Deportivo de A Coruña) ha visto tarjeta amarilla por tocar el balón con la mano."
+        },
+        {
+          "minute": "34'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 2, Deportivo de A Coruña 0. Arsen Zakharyan (Real Sociedad) remate con la izquierda desde fuera del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "29'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 1, Deportivo de A Coruña 0. Jon Martín (Real Sociedad) remate de cabeza desde el centro del área a la escuadra izquierda. Asistencia de Carlos Soler con un centro al área tras un saque de esquina."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "40%",
+          "away": "60%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "21"
+        },
+        {
+          "name": "Efectividad",
+          "home": "37.5%",
+          "away": "13.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "8",
-          "away": "69"
+          "home": "14",
+          "away": "13"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "4",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "10"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T13:32:57.335829Z"
+      "updated": "2026-10-11T17:43:03.074337Z"
     },
     "7:CEL:RAC": {
       "round": 7,
@@ -932,7 +1074,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T13:32:53.134924Z"
+      "updated": "2026-10-11T17:42:57.115259Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -7495,11 +7637,13 @@
       "updated": "2026-10-09T12:11:45.079360Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "8:BET:OSA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 5,
     "maxPerRun": 18
   }
 }
