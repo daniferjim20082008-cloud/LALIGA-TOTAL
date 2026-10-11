@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T00:37:04.010739Z",
+  "updated": "2026-10-11T01:01:52.483871Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -232,7 +232,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:54:55.159242Z"
+      "updated": "2026-10-11T01:01:36.550304Z"
     },
     "8:LEV:SEV": {
       "round": 8,
@@ -257,7 +257,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:54:57.840876Z"
+      "updated": "2026-10-11T01:01:38.752011Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -398,7 +398,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:00.845289Z"
+      "updated": "2026-10-11T01:01:39.853656Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -423,7 +423,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:07.153610Z"
+      "updated": "2026-10-11T01:01:44.655313Z"
     },
     "7:CEL:RAC": {
       "round": 7,
@@ -872,7 +872,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:54:51.243804Z"
+      "updated": "2026-10-11T01:01:35.336229Z"
     },
     "8:RAY:ATH": {
       "round": 8,
@@ -932,15 +932,15 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:02.368919Z"
+      "updated": "2026-10-11T01:01:41.766715Z"
     },
     "8:RMA:VIL": {
       "round": 8,
       "home": "RMA",
       "away": "VIL",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
         {
@@ -994,10 +994,56 @@
           "text": "Renato Veiga (Villarreal) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "46.3%",
+          "away": "53.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "11",
+          "away": "15"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "8",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "5",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:03.848347Z"
+      "updated": "2026-10-11T01:01:43.453113Z"
     },
     "7:ATH:ALA": {
       "round": 7,
@@ -1133,7 +1179,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:13.450542Z"
+      "updated": "2026-10-11T01:01:49.002375Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -2168,7 +2214,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-10T20:55:16.219843Z"
+      "updated": "2026-10-11T01:01:52.483837Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -7452,8 +7498,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
