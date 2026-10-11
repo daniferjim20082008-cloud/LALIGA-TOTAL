@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T21:26:47.537374Z",
+  "updated": "2026-10-11T21:43:21.906171Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -313,7 +313,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:42:44.188459Z"
+      "updated": "2026-10-11T21:43:18.817333Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -435,26 +435,112 @@
       "round": 8,
       "home": "RAC",
       "away": "VAL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Iván Martín (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "72'",
+          "type": "yellow",
+          "text": "Pablo Maffeo (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "65'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Valencia 2. David Otorbi (Valencia) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Javi Guerra."
+        },
+        {
+          "minute": "47'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Valencia 1. Iván Martín (Racing de Santander) remate con la izquierda desde fuera del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Dani Raba (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Jorge Salinas (Racing de Santander) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Guido Rodríguez (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "32'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 1, Valencia 1. Yassir Zabiri (Racing de Santander) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Iñigo Vicente después de un pase en profundidad tras botar una falta."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Pablo Ramón (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "2'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 0, Valencia 1. Dani Raba (Valencia) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Justin de Haas con un pase de cabeza tras un contraataque."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "54.1%",
+          "away": "45.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "10"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "25.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "13",
-          "away": "96"
+          "home": "15",
+          "away": "10"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:42:50.873757Z"
+      "updated": "2026-10-11T21:43:20.390015Z"
     },
     "8:RSO:DEP": {
       "round": 8,
@@ -1104,7 +1190,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:42:57.115259Z"
+      "updated": "2026-10-11T21:43:21.906148Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -7670,8 +7756,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 3,
+    "updatedThisRun": 3,
     "maxPerRun": 18
   }
 }
