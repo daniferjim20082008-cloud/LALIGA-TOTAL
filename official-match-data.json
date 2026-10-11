@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T21:43:21.906171Z",
+  "updated": "2026-10-11T21:57:04.670333Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1081,15 +1081,45 @@
       "round": 8,
       "home": "BET",
       "away": "OSA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 5,
+      "awayScore": 2,
       "scorers": [],
       "incidents": [
         {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Alejandro Catena (Osasuna) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 5, Osasuna 2. José Antonio Morante (Real Betis) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Héctor Bellerín."
+        },
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Valentin Rosier (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Marc Roca (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 4, Osasuna 2. Isco (Real Betis) remate con la izquierda desde el centro del área a la escuadra izquierda."
+        },
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Lucas Torró (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
           "minute": "56'",
           "type": "goal",
-          "text": "¡Gooooool! Real Betis 3, Osasuna 2. Raúl García (Osasuna) remate con la izquierda a quemarropa desde el lado izquierdo por bajo, junto al palo izquierdo. Asistencia de Alejandro Catena tras un saque de esquina."
+          "text": "¡Gooooool! Real Betis 3, Osasuna 2. Raúl García (Osasuna) remate con la izquierda desde muy cerca por el centro de la portería. Asistencia de Alejandro Catena tras un saque de esquina."
         },
         {
           "minute": "51'",
@@ -1127,10 +1157,56 @@
           "text": "¡Gooooool! Real Betis 1, Osasuna 0. Isco (Real Betis) convirtió el penalti remate con la derecha por bajo, junto al palo izquierdo."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "51.7%",
+          "away": "48.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "33.3%",
+          "away": "28.6%"
+        },
+        {
+          "name": "Faltas",
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "5"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:54:43.318959Z"
+      "updated": "2026-10-11T21:56:55.011601Z"
     },
     "8:RAY:ATH": {
       "round": 8,
@@ -1437,7 +1513,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:54:48.618046Z"
+      "updated": "2026-10-11T21:56:59.021743Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -2472,7 +2548,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-11T17:54:51.688311Z"
+      "updated": "2026-10-11T21:57:04.670304Z"
     },
     "6:MGA:VIL": {
       "round": 6,
