@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T22:59:25.855781Z",
+  "updated": "2026-10-12T23:16:24.869693Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -294,26 +294,132 @@
       "round": 8,
       "home": "LEV",
       "away": "SEV",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 3,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 3, Sevilla 3. Ifeanyi Ndukwe (Levante UD) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo.Gol confirmado tras la revisión del VAR"
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Isaac Romero (Sevilla) segunda tarjeta amarilla por excederse con la celebración."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Juan Iglesias (Sevilla) ha visto tarjeta amarilla por excederse con la celebración."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 2, Sevilla 3. Isaac Romero (Sevilla) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Youssouf Fofana."
+        },
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 2, Sevilla 2. Adrián de la Fuente (Levante UD) remate con la izquierda desde fuera del área a la escuadra derecha."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Isaac Romero (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Alfon González (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Dani Requena (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Andrés Castrín (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "57'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Sevilla 2. Iván Romero (Levante UD) remate con la derecha muy escorado desde la derecha a la escuadra derecha. Asistencia de Roger Brugué después de un pase en profundidad."
+        },
+        {
+          "minute": "54'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 0, Sevilla 2. Félix Correia (Sevilla) remate con la derecha desde muy cerca por bajo, junto al palo izquierdo. Asistencia de Robbie Ure con un pase de cabeza.El gol ha subido al marcador tras la revisión del VAR"
+        },
+        {
+          "minute": "48'",
+          "type": "yellow",
+          "text": "Félix Correia (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "39'",
+          "type": "yellow",
+          "text": "Adrián de la Fuente (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "13'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 0, Sevilla 1. Robbie Ure (Sevilla) remate con la derecha desde el centro del área a la escuadra derecha."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "56.7%",
+          "away": "43.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "18"
+        },
+        {
+          "name": "Efectividad",
+          "home": "20.0%",
+          "away": "23.1%"
+        },
+        {
           "name": "Faltas",
-          "home": "9",
-          "away": "63"
+          "home": "7",
+          "away": "17"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T19:00:30.547608Z"
+      "updated": "2026-10-12T23:16:04.541919Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -1266,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T19:00:32.424856Z"
+      "updated": "2026-10-12T23:16:06.611288Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -1513,7 +1619,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T19:00:40.880112Z"
+      "updated": "2026-10-12T23:16:14.864558Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -7829,11 +7935,13 @@
       "updated": "2026-10-09T12:11:45.079360Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "6:LEV:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 3,
     "maxPerRun": 18
   }
 }
