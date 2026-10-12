@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T14:00:17.823248Z",
+  "updated": "2026-10-12T14:35:21.505718Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -313,7 +313,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-sevilla-fc-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T10:32:01.766489Z"
+      "updated": "2026-10-12T14:35:03.739099Z"
     },
     "8:MGA:ESP": {
       "round": 8,
@@ -1266,7 +1266,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T10:32:05.116228Z"
+      "updated": "2026-10-12T14:35:13.890745Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -1513,7 +1513,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T10:32:08.580592Z"
+      "updated": "2026-10-12T14:35:18.430263Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -2548,7 +2548,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T10:32:13.352521Z"
+      "updated": "2026-10-12T14:35:21.505682Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -7832,8 +7832,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
