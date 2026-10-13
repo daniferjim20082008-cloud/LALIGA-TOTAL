@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T03:11:57.470129Z",
+  "updated": "2026-10-13T03:32:55.309361Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1619,7 +1619,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-12T23:16:14.864558Z"
+      "updated": "2026-10-13T03:32:55.309329Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -7935,11 +7935,13 @@
       "updated": "2026-10-09T12:11:45.079360Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "8:RAY:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 8,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
