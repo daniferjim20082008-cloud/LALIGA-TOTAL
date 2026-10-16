@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T08:42:34.934615Z",
+  "updated": "2026-10-16T09:13:29.258153Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-16T05:10:38.735539Z"
+      "updated": "2026-10-16T09:13:29.258123Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8188,8 +8188,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 10,
-    "updatedThisRun": 10,
+    "checkedThisRun": 1,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
