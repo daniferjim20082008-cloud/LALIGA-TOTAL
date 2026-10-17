@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T20:18:45.567358Z",
+  "updated": "2026-10-17T20:50:55.883340Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -2644,7 +2644,7 @@
         {
           "name": "Faltas",
           "home": "6",
-          "away": "78"
+          "away": "94"
         },
         {
           "name": "Tarjetas amarillas",
@@ -2654,7 +2654,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-16T20:39:21.283534Z"
+      "updated": "2026-10-17T20:50:55.883310Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -8497,8 +8497,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 1,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
