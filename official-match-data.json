@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T15:01:26.327757Z",
+  "updated": "2026-10-17T15:36:02.374669Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:03:12.138477Z"
+      "updated": "2026-10-17T15:36:02.374640Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -7957,7 +7957,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-fc-barcelona-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:38.132864Z"
+      "updated": "2026-10-17T15:35:40.468537Z"
     },
     "9:CEL:ALA": {
       "round": 9,
@@ -7982,7 +7982,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:41.080680Z"
+      "updated": "2026-10-17T15:35:43.315913Z"
     },
     "9:DEP:LEV": {
       "round": 9,
@@ -8079,26 +8079,102 @@
       "round": 9,
       "home": "ESP",
       "away": "ATM",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "89'",
+          "type": "goal",
+          "text": "¡Gooooool! Espanyol 0, Atlético de Madrid 1. Álex Baena (Atlético de Madrid) remate con la derecha desde fuera del área a la escuadra izquierda. Asistencia de Julián Alvarez."
+        },
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Unai Núñez (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Roger Hinojo (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "79'",
+          "type": "yellow",
+          "text": "Rodrigo Mendoza (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "68'",
+          "type": "yellow",
+          "text": "Álex Baena (Atlético de Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "66'",
+          "type": "yellow",
+          "text": "Cristian Romero (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "43'",
+          "type": "yellow",
+          "text": "Lee Kang-In (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Morten Hjulmand (Atlético de Madrid) ha visto tarjeta amarilla."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "29.4%",
+          "away": "70.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "10",
+          "away": "19"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "6.7%"
+        },
+        {
           "name": "Faltas",
-          "home": "8",
-          "away": "79"
+          "home": "10",
+          "away": "9"
         },
         {
           "name": "Tarjetas amarillas",
           "home": "2",
-          "away": "1º"
+          "away": "5"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "4"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "12"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-atletico-de-madrid-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:43.505209Z"
+      "updated": "2026-10-17T15:35:47.000223Z"
     },
     "9:GET:RAY": {
       "round": 9,
@@ -8123,7 +8199,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:47.042236Z"
+      "updated": "2026-10-17T15:35:49.323437Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8148,7 +8224,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:50.707268Z"
+      "updated": "2026-10-17T15:35:51.131974Z"
     },
     "9:OSA:RAC": {
       "round": 9,
@@ -8173,7 +8249,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:02:54.809450Z"
+      "updated": "2026-10-17T15:35:53.068385Z"
     },
     "9:RMA:SEV": {
       "round": 9,
@@ -8198,7 +8274,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:03:02.853417Z"
+      "updated": "2026-10-17T15:35:56.249832Z"
     },
     "9:VAL:ATH": {
       "round": 9,
@@ -8223,39 +8299,34 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-athletic-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:03:04.643998Z"
+      "updated": "2026-10-17T15:35:58.002041Z"
     },
     "9:VIL:ELC": {
       "round": 9,
       "home": "VIL",
       "away": "ELC",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "17",
-          "away": "96"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "minute": "38'",
+          "type": "yellow",
+          "text": "Gonzalo Villar (Elche) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-elche-cf-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T11:03:06.169873Z"
+      "updated": "2026-10-17T15:35:58.472582Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 10,
+    "updatedThisRun": 10,
     "maxPerRun": 18
   }
 }
