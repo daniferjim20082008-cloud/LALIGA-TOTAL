@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T19:14:17.161743Z",
+  "updated": "2026-10-17T19:37:59.352335Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:36:02.374640Z"
+      "updated": "2026-10-17T19:37:59.352305Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -7938,26 +7938,132 @@
       "round": 9,
       "home": "BET",
       "away": "BAR",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 5,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "81'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 2, Barcelona 5. Dani Olmo (Barcelona) remate con la derecha desde fuera del área por el lado derecho de la portería. Asistencia de Pau Cubarsí."
+        },
+        {
+          "minute": "62'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 2, Barcelona 4. Eric García (Barcelona) remate con la derecha desde muy cerca al centro de la portería. Asistencia de Pau Cubarsí con un pase de cabeza tras botar una falta."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "Diego Llorente (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "55'",
+          "type": "yellow",
+          "text": "Lamine Yamal (Barcelona) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "54'",
+          "type": "red",
+          "text": "Facundo Bernal (Real Betis) ha visto tarjeta roja por pelearse."
+        },
+        {
+          "minute": "53'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 2, Barcelona 3. Abde Ezzalzouli (Real Betis) remate con la derecha desde fuera del área por el lado derecho de la portería. Asistencia de Giovani Lo Celso después de un pase en profundidad tras un contraataque."
+        },
+        {
+          "minute": "53'",
+          "type": "yellow",
+          "text": "Facundo Bernal (Real Betis) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "51'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 1, Barcelona 3. Gabriel Jesus (Barcelona) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Lamine Yamal."
+        },
+        {
+          "minute": "43'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Giovani Lo Celso (Real Betis) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        },
+        {
+          "minute": "41'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 1, Barcelona 2. Rodri (Barcelona) remate de cabeza desde el centro del área por el lado derecho de la portería. Asistencia de Fermín López con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "27'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 1, Barcelona 1. Valentín Gómez (Real Betis) remate de cabeza desde muy cerca por el centro de la portería. Asistencia de Pablo Fornals con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "22'",
+          "type": "yellow",
+          "text": "Héctor Bellerín (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "20'",
+          "type": "yellow",
+          "text": "Fermín López (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "10'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 0, Barcelona 1. Lamine Yamal (Barcelona) remate con la izquierda desde fuera del área a la escuadra izquierda. Asistencia de Jules Koundé."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "30.7%",
+          "away": "69.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "6",
+          "away": "18"
+        },
+        {
+          "name": "Efectividad",
+          "home": "40.0%",
+          "away": "31.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "7",
-          "away": "92"
+          "home": "10",
+          "away": "11"
         },
         {
           "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
           "home": "2",
-          "away": "1º"
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-fc-barcelona-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:40.468537Z"
+      "updated": "2026-10-17T19:37:35.956234Z"
     },
     "9:CEL:ALA": {
       "round": 9,
@@ -7982,7 +8088,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:43.315913Z"
+      "updated": "2026-10-17T19:37:39.842547Z"
     },
     "9:DEP:LEV": {
       "round": 9,
@@ -8199,7 +8305,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:49.323437Z"
+      "updated": "2026-10-17T19:37:42.214213Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8224,7 +8330,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:51.131974Z"
+      "updated": "2026-10-17T19:37:45.056494Z"
     },
     "9:OSA:RAC": {
       "round": 9,
@@ -8249,7 +8355,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:53.068385Z"
+      "updated": "2026-10-17T19:37:48.982648Z"
     },
     "9:RMA:SEV": {
       "round": 9,
@@ -8274,59 +8380,125 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:56.249832Z"
+      "updated": "2026-10-17T19:37:51.251078Z"
     },
     "9:VAL:ATH": {
       "round": 9,
       "home": "VAL",
       "away": "ATH",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
-      "scorers": [],
-      "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "6",
-          "away": "88"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
-        }
-      ],
-      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-athletic-club-9",
-      "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:58.002041Z"
-    },
-    "9:VIL:ELC": {
-      "round": 9,
-      "home": "VIL",
-      "away": "ELC",
       "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [
         {
+          "minute": "19'",
+          "type": "yellow",
+          "text": "Dani Raba (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-athletic-club-9",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-17T19:37:53.741421Z"
+    },
+    "9:VIL:ELC": {
+      "round": 9,
+      "home": "VIL",
+      "away": "ELC",
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Juan Foyth (Villarreal) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Víctor Chust (Elche) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Alex Freeman (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Roy Revivo (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "Tete Morente (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
           "minute": "38'",
           "type": "yellow",
           "text": "Gonzalo Villar (Elche) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "57.6%",
+          "away": "42.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "12",
+          "away": "7"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "6",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "10",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-elche-cf-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T15:35:58.472582Z"
+      "updated": "2026-10-17T19:37:57.368659Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
