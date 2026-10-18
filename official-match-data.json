@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T12:00:29.138110Z",
+  "updated": "2026-10-18T12:42:18.988307Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:28.947747Z"
+      "updated": "2026-10-18T12:42:18.988285Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8088,7 +8088,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:20.363396Z"
+      "updated": "2026-10-18T12:42:05.995380Z"
     },
     "9:DEP:LEV": {
       "round": 9,
@@ -8305,7 +8305,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:22.271372Z"
+      "updated": "2026-10-18T12:42:07.714871Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8330,32 +8330,42 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:23.604489Z"
+      "updated": "2026-10-18T12:42:09.464030Z"
     },
     "9:OSA:RAC": {
       "round": 9,
       "home": "OSA",
       "away": "RAC",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "23",
-          "away": "94"
+          "minute": "28'",
+          "type": "yellow",
+          "text": "Valentin Rosier (Osasuna) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "minute": "9'",
+          "type": "goal",
+          "text": "¡Gooooool! Osasuna 1, Racing de Santander 0. Ante Budimir (Osasuna) convirtió el penalti remate con la izquierda por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "6'",
+          "type": "yellow",
+          "text": "Álvaro Mantilla (Racing de Santander) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "3'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Jonathan Dubasin (Osasuna) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:24.826298Z"
+      "updated": "2026-10-18T12:42:11.910646Z"
     },
     "9:RMA:SEV": {
       "round": 9,
@@ -8380,7 +8390,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T08:15:25.980842Z"
+      "updated": "2026-10-18T12:42:13.578229Z"
     },
     "9:VAL:ATH": {
       "round": 9,
@@ -8568,8 +8578,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
