@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T20:50:03.307500Z",
+  "updated": "2026-10-18T21:13:40.588921Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T17:04:36.867436Z"
+      "updated": "2026-10-18T21:13:37.955728Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -2648,13 +2648,13 @@
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "2",
+          "home": "3",
           "away": "1º"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-17T20:50:55.883310Z"
+      "updated": "2026-10-18T21:13:40.588893Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -8366,17 +8366,52 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T17:04:26.998914Z"
+      "updated": "2026-10-18T21:13:27.956235Z"
     },
     "9:MGA:RSO": {
       "round": 9,
       "home": "MGA",
       "away": "RSO",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 5,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "73'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 2, Real Sociedad 5. Gonçalo Guedes (Real Sociedad) remate con la derecha a quemarropa desde el lado derecho al centro de la portería."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 2, Real Sociedad 4. Mikel Oyarzabal (Real Sociedad) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Jon Martín."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 2, Real Sociedad 3. Pablo Martínez (Málaga CF) remate con la derecha desde el lado izquierdo del interior del área a la escuadra derecha tras un saque de esquina."
+        },
+        {
+          "minute": "62'",
+          "type": "yellow",
+          "text": "Mamadou Sarr (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "59'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 1, Real Sociedad 3. Mikel Oyarzabal (Real Sociedad) remate con la izquierda desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Takefusa Kubo."
+        },
+        {
+          "minute": "54'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 1, Real Sociedad 2. Adrián Niño (Málaga CF) remate con la derecha desde el centro del área a la escuadra derecha. Asistencia de Pablo Martínez."
+        },
+        {
+          "minute": "37'",
+          "type": "yellow",
+          "text": "Jon Martín (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "26'",
           "type": "goal",
@@ -8388,10 +8423,56 @@
           "text": "¡Gooooool! Málaga CF 0, Real Sociedad 1. Takefusa Kubo (Real Sociedad) remate con la izquierda desde fuera del área a la escuadra izquierda. Asistencia de Héctor Fort."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "45.3%",
+          "away": "54.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "17",
+          "away": "21"
+        },
+        {
+          "name": "Efectividad",
+          "home": "15.4%",
+          "away": "33.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "4",
+          "away": "9"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T17:04:29.083633Z"
+      "updated": "2026-10-18T21:13:30.473920Z"
     },
     "9:OSA:RAC": {
       "round": 9,
@@ -8498,26 +8579,107 @@
       "round": 9,
       "home": "RMA",
       "away": "SEV",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "82'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 4, Sevilla 1. Yan Diomande (Real Madrid) remate con la derecha desde fuera del área a la escuadra izquierda. Asistencia de Aurélien Tchouaméni."
+        },
+        {
+          "minute": "80'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 3, Sevilla 1. Manu Bueno (Sevilla) remate con la izquierda desde el lado derecho del interior del área por bajo, junto al palo izquierdo. Asistencia de Lucas Stassin."
+        },
+        {
+          "minute": "73'",
+          "type": "yellow",
+          "text": "Marc Cucurella (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "69'",
+          "type": "yellow",
+          "text": "Juan Iglesias (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 3, Sevilla 0. Kylian Mbappé (Real Madrid) convirtió el penalti remate con la derecha por el centro de la portería."
+        },
+        {
+          "minute": "37'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 2, Sevilla 0. Kylian Mbappé (Real Madrid) remate con la izquierda a quemarropa desde el lado izquierdo al centro de la portería. Asistencia de Jude Bellingham."
+        },
+        {
+          "minute": "30'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 1, Sevilla 0. Arda Güler (Real Madrid) remate con la izquierda desde el lado izquierdo del interior del área a la escuadra derecha. Asistencia de Yan Diomande tras un contraataque."
+        },
+        {
+          "minute": "23'",
+          "type": "yellow",
+          "text": "Dean Huijsen (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "23'",
+          "type": "yellow",
+          "text": "Félix Correia (Sevilla) ha visto tarjeta amarilla."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "65%",
+          "away": "35%"
+        },
+        {
+          "name": "Remates",
+          "home": "15",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "30.8%",
+          "away": "11.1%"
+        },
+        {
           "name": "Faltas",
-          "home": "12",
-          "away": "110"
+          "home": "10",
+          "away": "14"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T17:04:34.340663Z"
+      "updated": "2026-10-18T21:13:33.761870Z"
     },
     "9:VAL:ATH": {
       "round": 9,
@@ -8705,8 +8867,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 5,
+    "updatedThisRun": 5,
     "maxPerRun": 18
   }
 }
