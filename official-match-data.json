@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T19:13:33.305943Z",
+  "updated": "2026-10-18T19:37:13.982397Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1619,7 +1619,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T15:35:26.019696Z"
+      "updated": "2026-10-18T19:37:13.982366Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -8705,8 +8705,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 1,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
