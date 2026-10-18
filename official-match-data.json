@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T07:52:25.552720Z",
+  "updated": "2026-10-18T08:15:28.947778Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:09:02.853731Z"
+      "updated": "2026-10-18T08:15:28.947747Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8088,7 +8088,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:08:47.920679Z"
+      "updated": "2026-10-18T08:15:20.363396Z"
     },
     "9:DEP:LEV": {
       "round": 9,
@@ -8305,7 +8305,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:08:50.355552Z"
+      "updated": "2026-10-18T08:15:22.271372Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8330,7 +8330,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:08:53.105345Z"
+      "updated": "2026-10-18T08:15:23.604489Z"
     },
     "9:OSA:RAC": {
       "round": 9,
@@ -8355,7 +8355,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:08:55.729707Z"
+      "updated": "2026-10-18T08:15:24.826298Z"
     },
     "9:RMA:SEV": {
       "round": 9,
@@ -8380,7 +8380,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T04:08:58.714778Z"
+      "updated": "2026-10-18T08:15:25.980842Z"
     },
     "9:VAL:ATH": {
       "round": 9,
@@ -8568,8 +8568,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
