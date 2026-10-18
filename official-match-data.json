@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T16:37:26.338496Z",
+  "updated": "2026-10-18T17:04:36.867464Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:18.988285Z"
+      "updated": "2026-10-18T17:04:36.867436Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8069,26 +8069,87 @@
       "round": 9,
       "home": "CEL",
       "away": "ALA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "87'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 2, Deportivo Alavés 1. Hugo Novoa (Deportivo Alavés) remate con la izquierda desde el lado derecho del interior del área a la escuadra izquierda. Asistencia de Mariano Díaz tras un contraataque."
+        },
+        {
+          "minute": "71'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 2, Deportivo Alavés 0. Javi Rodríguez (Celta de Vigo) remate con la derecha a quemarropa desde el lado derecho por bajo, junto al palo izquierdo. Asistencia de Iago Aspas."
+        },
+        {
+          "minute": "53'",
+          "type": "goal",
+          "text": "¡Gooooool! Celta de Vigo 1, Deportivo Alavés 0. Ferran Jutglà (Celta de Vigo) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Javi Rodríguez después de un pase en profundidad."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Toni Martínez (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "15'",
+          "type": "yellow",
+          "text": "Sebastián Cáceres (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "47.8%",
+          "away": "52.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "6",
+          "away": "20"
+        },
+        {
+          "name": "Efectividad",
+          "home": "33.3%",
+          "away": "7.1%"
+        },
+        {
           "name": "Faltas",
-          "home": "8",
-          "away": "108"
+          "home": "14",
+          "away": "17"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "0",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:05.995380Z"
+      "updated": "2026-10-18T17:04:23.779179Z"
     },
     "9:DEP:LEV": {
       "round": 9,
@@ -8305,42 +8366,62 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:07.714871Z"
+      "updated": "2026-10-18T17:04:26.998914Z"
     },
     "9:MGA:RSO": {
       "round": 9,
       "home": "MGA",
       "away": "RSO",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
-      "scorers": [],
-      "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "15",
-          "away": "93"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
-        }
-      ],
-      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
-      "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:09.464030Z"
-    },
-    "9:OSA:RAC": {
-      "round": 9,
-      "home": "OSA",
-      "away": "RAC",
       "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "26'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 0, Real Sociedad 2. Orri Óskarsson (Real Sociedad) remate con la derecha desde el centro del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "3'",
+          "type": "goal",
+          "text": "¡Gooooool! Málaga CF 0, Real Sociedad 1. Takefusa Kubo (Real Sociedad) remate con la izquierda desde fuera del área a la escuadra izquierda. Asistencia de Héctor Fort."
+        }
+      ],
+      "statistics": [],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-real-sociedad-9",
+      "source": "LALIGA oficial",
+      "updated": "2026-10-18T17:04:29.083633Z"
+    },
+    "9:OSA:RAC": {
+      "round": 9,
+      "home": "OSA",
+      "away": "RAC",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
+      "scorers": [],
+      "incidents": [
+        {
+          "minute": "88'",
+          "type": "goal",
+          "text": "¡Gooooool! Osasuna 2, Racing de Santander 0. Asier Osambela (Osasuna) remate con la izquierda desde el centro del área al centro de la portería tras un contraataque."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Iván Martín (Racing de Santander) ha visto tarjeta amarilla por tocar el balón con la mano."
+        },
+        {
+          "minute": "60'",
+          "type": "yellow",
+          "text": "Ante Budimir (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "51'",
+          "type": "yellow",
+          "text": "Jorge Salinas (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "28'",
           "type": "yellow",
@@ -8362,10 +8443,56 @@
           "text": "GOL ANULADO POR EL VAR: Jonathan Dubasin (Osasuna) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "43.6%",
+          "away": "56.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "21",
+          "away": "9"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "4",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:11.910646Z"
+      "updated": "2026-10-18T17:04:32.435947Z"
     },
     "9:RMA:SEV": {
       "round": 9,
@@ -8390,7 +8517,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-18T12:42:13.578229Z"
+      "updated": "2026-10-18T17:04:34.340663Z"
     },
     "9:VAL:ATH": {
       "round": 9,
@@ -8578,8 +8705,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
