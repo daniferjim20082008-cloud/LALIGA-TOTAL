@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T18:20:26.422683Z",
+  "updated": "2026-10-19T19:08:15.061589Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-19T14:21:25.355126Z"
+      "updated": "2026-10-19T19:08:15.061551Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8347,26 +8347,21 @@
       "round": 9,
       "home": "GET",
       "away": "RAY",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "16",
-          "away": "102"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "minute": "1'",
+          "type": "yellow",
+          "text": "Kiko Femenía (Getafe) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-19T14:21:21.389659Z"
+      "updated": "2026-10-19T19:08:11.264470Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8867,8 +8862,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
