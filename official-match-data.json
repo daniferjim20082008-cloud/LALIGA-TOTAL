@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T23:06:07.538835Z",
+  "updated": "2026-10-19T23:38:48.043033Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-19T19:08:15.061551Z"
+      "updated": "2026-10-19T23:38:48.043004Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -8347,21 +8347,122 @@
       "round": 9,
       "home": "GET",
       "away": "RAY",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Sergio Camello (Rayo Vallecano) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Nemanja Gudelj (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Enes Ünal (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "79'",
+          "type": "yellow",
+          "text": "Dani Carvajal (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "69'",
+          "type": "yellow",
+          "text": "Pathé Ciss (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "56'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 1, Rayo Vallecano 1. Martín Satriano (Getafe) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Francho Serrano con un centro al área."
+        },
+        {
+          "minute": "51'",
+          "type": "yellow",
+          "text": "Francho Serrano (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Iván Balliu (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "28'",
+          "type": "red",
+          "text": "Djené Dakonam (Getafe) ha visto tarjeta roja."
+        },
+        {
+          "minute": "16'",
+          "type": "yellow",
+          "text": "Djené Dakonam (Getafe) ha visto tarjeta amarilla por tocar el balón con la mano."
+        },
+        {
+          "minute": "11'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 0, Rayo Vallecano 1. Álvaro García (Rayo Vallecano) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Jorge de Frutos con un centro al área tras un contraataque."
+        },
         {
           "minute": "1'",
           "type": "yellow",
           "text": "Kiko Femenía (Getafe) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "31.5%",
+          "away": "68.5%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "21"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "7.7%"
+        },
+        {
+          "name": "Faltas",
+          "home": "12",
+          "away": "9"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "6",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "8"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "source": "LALIGA oficial",
-      "updated": "2026-10-19T19:08:11.264470Z"
+      "updated": "2026-10-19T23:38:44.665073Z"
     },
     "9:MGA:RSO": {
       "round": 9,
@@ -8862,8 +8963,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
