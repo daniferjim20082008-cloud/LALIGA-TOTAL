@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T22:10:31.111885Z",
+  "updated": "2026-10-21T22:39:41.928257Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-21T18:22:15.362268Z"
+      "updated": "2026-10-21T22:39:39.242033Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -2635,26 +2635,102 @@
       "round": 6,
       "home": "LEV",
       "away": "ATH",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 3, Athletic Club 1. Karl Etta Eyong (Levante UD) remate con la derecha desde muy cerca por el centro de la portería.Gol confirmado tras la revisión del VAR"
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Yuri Berchiche (Athletic Club) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Jeremy Toljan (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "77'",
+          "type": "yellow",
+          "text": "Karl Etta Eyong (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "73'",
+          "type": "red",
+          "text": "Aymeric Laporte (Athletic Club) ha visto tarjeta roja."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 2, Athletic Club 1. Alex Berenguer (Athletic Club) convirtió el penalti remate con la derecha por el lado derecho de la portería."
+        },
+        {
+          "minute": "22'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 2, Athletic Club 0. Roger Brugué (Levante UD) remate con la derecha desde el centro del área al centro de la portería."
+        },
+        {
+          "minute": "20'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Athletic Club 0. Roger Brugué (Levante UD) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Dani Requena."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "38.1%",
+          "away": "61.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "21"
+        },
+        {
+          "name": "Efectividad",
+          "home": "30.0%",
+          "away": "6.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "6",
-          "away": "94"
+          "home": "13",
+          "away": "12"
         },
         {
           "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
           "home": "3",
-          "away": "1º"
+          "away": "9"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
       "source": "LALIGA oficial",
-      "updated": "2026-10-20T21:56:30.479299Z"
+      "updated": "2026-10-21T22:39:41.928223Z"
     },
     "6:MGA:VIL": {
       "round": 6,
@@ -8960,13 +9036,11 @@
       "updated": "2026-10-17T19:37:57.368659Z"
     }
   },
-  "warnings": [
-    "6:LEV:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6: The read operation timed out"
-  ],
+  "warnings": [],
   "meta": {
     "roundLimit": 9,
-    "checkedThisRun": 1,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
