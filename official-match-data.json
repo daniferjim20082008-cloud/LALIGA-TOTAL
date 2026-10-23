@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T20:56:45.466504Z",
+  "updated": "2026-10-23T21:22:34.241875Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:43.563761Z"
+      "updated": "2026-10-23T21:22:34.241845Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9039,26 +9039,87 @@
       "round": 10,
       "home": "ALA",
       "away": "MGA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "89'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 1, Málaga CF 1. Aitor Mañas (Deportivo Alavés) remate con la izquierda desde muy cerca al centro de la portería."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Carlos Dotor (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Nahuel Tenaglia (Deportivo Alavés) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "44'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 0, Málaga CF 1. Adrián Niño (Málaga CF) remate con la izquierda desde el centro del área a la escuadra izquierda. Asistencia de Ramón Enríquez.El gol ha subido al marcador tras la revisión del VAR"
+        },
+        {
+          "minute": "39'",
+          "type": "yellow",
+          "text": "Lucas Boyé (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
-          "name": "Faltas",
+          "name": "Posesión",
+          "home": "49.7%",
+          "away": "50.3%"
+        },
+        {
+          "name": "Remates",
           "home": "18",
-          "away": "116"
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "8.3%",
+          "away": "14.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "12"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:19.752496Z"
+      "updated": "2026-10-23T21:22:03.674997Z"
     },
     "10:ATH:GET": {
       "round": 10,
@@ -9083,7 +9144,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:23.626385Z"
+      "updated": "2026-10-23T21:22:06.687828Z"
     },
     "10:ATM:DEP": {
       "round": 10,
@@ -9108,7 +9169,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:25.492384Z"
+      "updated": "2026-10-23T21:22:09.527314Z"
     },
     "10:BAR:RMA": {
       "round": 10,
@@ -9122,7 +9183,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:27.876932Z"
+      "updated": "2026-10-23T21:22:12.006308Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9147,7 +9208,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:31.482373Z"
+      "updated": "2026-10-23T21:22:15.632882Z"
     },
     "10:RAC:ESP": {
       "round": 10,
@@ -9172,7 +9233,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:33.937815Z"
+      "updated": "2026-10-23T21:22:18.106188Z"
     },
     "10:RAY:ELC": {
       "round": 10,
@@ -9197,7 +9258,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:35.144928Z"
+      "updated": "2026-10-23T21:22:21.137916Z"
     },
     "10:RSO:LEV": {
       "round": 10,
@@ -9222,7 +9283,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:37.099088Z"
+      "updated": "2026-10-23T21:22:23.864875Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9247,7 +9308,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:40.793806Z"
+      "updated": "2026-10-23T21:22:26.914122Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9272,14 +9333,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T17:00:42.283770Z"
+      "updated": "2026-10-23T21:22:29.158717Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
