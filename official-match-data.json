@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T08:03:34.535233Z",
+  "updated": "2026-10-23T08:43:08.985924Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T03:45:25.806282Z"
+      "updated": "2026-10-23T08:43:08.985892Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9058,7 +9058,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:13.681206Z"
+      "updated": "2026-10-23T08:42:43.653190Z"
     },
     "10:ATH:GET": {
       "round": 10,
@@ -9083,7 +9083,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:15.554708Z"
+      "updated": "2026-10-23T08:42:46.233527Z"
     },
     "10:ATM:DEP": {
       "round": 10,
@@ -9108,7 +9108,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:17.219755Z"
+      "updated": "2026-10-23T08:42:47.517483Z"
     },
     "10:BAR:RMA": {
       "round": 10,
@@ -9122,7 +9122,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:18.914088Z"
+      "updated": "2026-10-23T08:42:50.046736Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9147,7 +9147,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:20.966956Z"
+      "updated": "2026-10-23T08:42:53.186101Z"
     },
     "10:RAC:ESP": {
       "round": 10,
@@ -9172,7 +9172,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:22.689057Z"
+      "updated": "2026-10-23T08:42:55.721972Z"
     },
     "10:RAY:ELC": {
       "round": 10,
@@ -9197,7 +9197,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:25.057775Z"
+      "updated": "2026-10-23T08:42:57.970686Z"
     },
     "10:RSO:LEV": {
       "round": 10,
@@ -9222,7 +9222,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:27.427333Z"
+      "updated": "2026-10-23T08:43:00.583825Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9247,7 +9247,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:29.619152Z"
+      "updated": "2026-10-23T08:43:03.642961Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9272,16 +9272,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-23T04:21:32.500882Z"
+      "updated": "2026-10-23T08:43:06.458652Z"
     }
   },
-  "warnings": [
-    "8:RAY:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8: The read operation timed out"
-  ],
+  "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 1,
-    "updatedThisRun": 0,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
