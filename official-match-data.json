@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T14:15:20.261362Z",
+  "updated": "2026-10-24T14:53:00.379571Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9144,7 +9144,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:39.162280Z"
+      "updated": "2026-10-24T14:52:38.338159Z"
     },
     "10:ATM:DEP": {
       "round": 10,
@@ -9169,7 +9169,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:42.157153Z"
+      "updated": "2026-10-24T14:52:41.752091Z"
     },
     "10:BAR:RMA": {
       "round": 10,
@@ -9183,7 +9183,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:44.273815Z"
+      "updated": "2026-10-24T14:52:43.647377Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9208,57 +9208,138 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:46.151600Z"
+      "updated": "2026-10-24T14:52:46.260317Z"
     },
     "10:RAC:ESP": {
       "round": 10,
       "home": "RAC",
       "away": "ESP",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "12",
-          "away": "125"
+          "minute": "17'",
+          "type": "yellow",
+          "text": "Pol Lozano (Espanyol) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "minute": "8'",
+          "type": "yellow",
+          "text": "Iñigo Vicente (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:48.302501Z"
+      "updated": "2026-10-24T14:52:48.173889Z"
     },
     "10:RAY:ELC": {
       "round": 10,
       "home": "RAY",
       "away": "ELC",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 3,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Álvaro García (Rayo Vallecano) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "68'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 0, Elche 3. Germán Valera (Elche) remate con la izquierda desde el lado izquierdo del interior del área por bajo, junto al palo izquierdo. Asistencia de Facundo Buonanotte."
+        },
+        {
+          "minute": "54'",
+          "type": "yellow",
+          "text": "Adrià Pedrosa (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "36'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 0, Elche 2. Fer Niño (Elche) convirtió el penalti remate con la derecha por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "35'",
+          "type": "yellow",
+          "text": "Pathé Ciss (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "30'",
+          "type": "yellow",
+          "text": "Federico Redondo (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "30'",
+          "type": "yellow",
+          "text": "Gonzalo Villar (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "23'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 0, Elche 1. Federico Redondo (Elche) convirtió el penalti remate con la derecha por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "10'",
+          "type": "yellow",
+          "text": "Javi Morcillo (Elche) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "56.8%",
+          "away": "43.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "18",
+          "away": "16"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "25.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "17",
-          "away": "97"
+          "home": "15",
+          "away": "11"
         },
         {
           "name": "Tarjetas amarillas",
           "home": "3",
-          "away": "1º"
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "4",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (0)",
+          "away": "2 (2)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:50.120561Z"
+      "updated": "2026-10-24T14:52:52.724999Z"
     },
     "10:RSO:LEV": {
       "round": 10,
@@ -9283,7 +9364,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:52.230394Z"
+      "updated": "2026-10-24T14:52:55.795410Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9308,7 +9389,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:54.512891Z"
+      "updated": "2026-10-24T14:52:58.198176Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9333,14 +9414,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T10:37:57.234775Z"
+      "updated": "2026-10-24T14:53:00.379538Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
