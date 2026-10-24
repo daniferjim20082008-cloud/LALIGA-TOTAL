@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T18:45:29.797576Z",
+  "updated": "2026-10-24T19:17:18.399977Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9144,32 +9144,21 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:38.338159Z"
+      "updated": "2026-10-24T19:17:02.507209Z"
     },
     "10:ATM:DEP": {
       "round": 10,
       "home": "ATM",
       "away": "DEP",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "12",
-          "away": "100"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
-        }
-      ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:41.752091Z"
+      "updated": "2026-10-24T19:17:04.094885Z"
     },
     "10:BAR:RMA": {
       "round": 10,
@@ -9183,7 +9172,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:43.647377Z"
+      "updated": "2026-10-24T19:17:05.348421Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9208,17 +9197,57 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:46.260317Z"
+      "updated": "2026-10-24T19:17:08.118716Z"
     },
     "10:RAC:ESP": {
       "round": 10,
       "home": "RAC",
       "away": "ESP",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Jorge Salinas (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Edu Expósito (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Javi Puado (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "84'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Espanyol 1. Yassir Zabiri (Racing de Santander) remate con la izquierda desde muy cerca por bajo, junto al palo izquierdo. Asistencia de Álvaro Mantilla tras un saque de esquina."
+        },
+        {
+          "minute": "70'",
+          "type": "yellow",
+          "text": "Urko González de Zárate (Espanyol) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "69'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 1, Espanyol 1. Jeanuël Belocian (Racing de Santander) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Sergio Canales."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Pablo Ramón (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "62'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 0, Espanyol 1. Edu Expósito (Espanyol) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Javi Hernández."
+        },
         {
           "minute": "17'",
           "type": "yellow",
@@ -9230,10 +9259,56 @@
           "text": "Iñigo Vicente (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "54.9%",
+          "away": "45.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "13.3%",
+          "away": "20.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "17"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "3",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "4"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:48.173889Z"
+      "updated": "2026-10-24T19:17:10.470543Z"
     },
     "10:RAY:ELC": {
       "round": 10,
@@ -9364,7 +9439,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:55.795410Z"
+      "updated": "2026-10-24T19:17:13.302057Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9389,39 +9464,140 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:52:58.198176Z"
+      "updated": "2026-10-24T19:17:16.099116Z"
     },
     "10:VAL:VIL": {
       "round": 10,
       "home": "VAL",
       "away": "VIL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Valencia 1, Villarreal 2. Georges Mikautadze (Villarreal) remate con la izquierda desde el lado izquierdo del interior del área al centro de la portería. Asistencia de Alberto Moleiro tras un contraataque."
+        },
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Harvey Elliott (Valencia) segunda tarjeta amarilla."
+        },
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Harvey Elliott (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "79'",
+          "type": "red",
+          "text": "Pape Gueye (Villarreal) ha visto tarjeta roja por pelearse."
+        },
+        {
+          "minute": "78'",
+          "type": "red",
+          "text": "Decisión del VAR: Se revoca la Tarjeta Roja Pape Gueye (Villarreal)."
+        },
+        {
+          "minute": "69'",
+          "type": "goal",
+          "text": "¡Gooooool! Valencia 1, Villarreal 1. Alex Freeman (Villarreal) remate de cabeza desde el centro del área al centro de la portería. Asistencia de Sergi Cardona."
+        },
+        {
+          "minute": "62'",
+          "type": "yellow",
+          "text": "Guido Rodríguez (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "60'",
+          "type": "yellow",
+          "text": "Pablo Maffeo (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "59'",
+          "type": "yellow",
+          "text": "Tajon Buchanan (Villarreal) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "43'",
+          "type": "yellow",
+          "text": "Ayoze Pérez (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "38'",
+          "type": "goal",
+          "text": "¡Gooooool! Valencia 1, Villarreal 0. Pepelu (Valencia) convirtió el penalti remate con la derecha a la escuadra izquierda."
+        },
+        {
+          "minute": "37'",
+          "type": "yellow",
+          "text": "Renato Veiga (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "34'",
+          "type": "yellow",
+          "text": "Dani Raba (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "38.5%",
+          "away": "61.5%"
+        },
+        {
+          "name": "Remates",
+          "home": "9",
+          "away": "19"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "13.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "13",
-          "away": "100"
+          "home": "18",
+          "away": "9"
         },
         {
           "name": "Tarjetas amarillas",
           "home": "3",
-          "away": "1º"
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "6",
+          "away": "9"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-24T14:53:00.379538Z"
+      "updated": "2026-10-24T19:17:18.399941Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 8,
+    "updatedThisRun": 8,
     "maxPerRun": 18
   }
 }
