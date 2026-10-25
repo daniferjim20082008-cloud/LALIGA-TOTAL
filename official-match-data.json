@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T20:20:59.694522Z",
+  "updated": "2026-10-25T20:51:56.316337Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9327,25 +9327,36 @@
       "round": 10,
       "home": "BAR",
       "away": "RMA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "inprogress",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "41'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 0, Real Madrid 1. Kylian Mbappé (Real Madrid) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo."
+        }
+      ],
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T16:38:44.913334Z"
+      "updated": "2026-10-25T20:51:51.326848Z"
     },
     "10:CEL:BET": {
       "round": 10,
       "home": "CEL",
       "away": "BET",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Sergio Carreira (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "43'",
           "type": "yellow",
@@ -9357,10 +9368,56 @@
           "text": "Ilaix Moriba (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "43.6%",
+          "away": "56.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "15"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "9",
+          "away": "12"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "3",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T16:38:47.311665Z"
+      "updated": "2026-10-25T20:51:52.908365Z"
     },
     "10:RAC:ESP": {
       "round": 10,
@@ -9583,26 +9640,97 @@
       "round": 10,
       "home": "RSO",
       "away": "LEV",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Víctor García (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Yanis Musuayi (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Manu Sánchez (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Jon Martín (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "27'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 2, Levante UD 1. Beñat Turrientes (Real Sociedad) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Gonçalo Guedes."
+        },
+        {
+          "minute": "22'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 1, Levante UD 1. Nacho Pérez (Levante UD) remate con la derecha a quemarropa desde el lado derecho al centro de la portería. Asistencia de Thiago Fernández."
+        },
+        {
+          "minute": "6'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 1, Levante UD 0. Orri Óskarsson (Real Sociedad) remate con la derecha desde el centro del área por el lado derecho de la portería."
+        }
+      ],
       "statistics": [
         {
-          "name": "Faltas",
+          "name": "Posesión",
+          "home": "62%",
+          "away": "38%"
+        },
+        {
+          "name": "Remates",
           "home": "17",
-          "away": "84"
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "14.3%",
+          "away": "16.7%"
+        },
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "13"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T16:38:48.696559Z"
+      "updated": "2026-10-25T20:51:55.122595Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9627,7 +9755,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T16:38:50.711320Z"
+      "updated": "2026-10-25T20:51:56.316313Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9759,8 +9887,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
