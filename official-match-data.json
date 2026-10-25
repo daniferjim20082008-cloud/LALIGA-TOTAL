@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T16:07:03.195355Z",
+  "updated": "2026-10-25T16:38:50.711351Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9125,26 +9125,107 @@
       "round": 10,
       "home": "ATH",
       "away": "GET",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 4,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "88'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 4, Getafe 0. Yuri Berchiche (Athletic Club) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Alex Berenguer tras botar una falta."
+        },
+        {
+          "minute": "86'",
+          "type": "red",
+          "text": "Mario Martín (Getafe) ha visto tarjeta roja."
+        },
+        {
+          "minute": "72'",
+          "type": "yellow",
+          "text": "Beñat Gerenabarrena (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "70'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 3, Getafe 0. Aitor Paredes (Athletic Club) remate de cabeza desde el centro del área al centro de la portería. Asistencia de Alex Berenguer con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Johan Mojica (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "43'",
+          "type": "yellow",
+          "text": "Dani Carvajal (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "39'",
+          "type": "yellow",
+          "text": "Ramón Terrats (Getafe) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "35'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 2, Getafe 0. Iñaki Williams (Athletic Club) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Alex Berenguer."
+        },
+        {
+          "minute": "17'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 1, Getafe 0. Alex Berenguer (Athletic Club) marca de libre directo, remate con la derecha por el lado derecho de la portería."
+        }
+      ],
       "statistics": [
+        {
+          "name": "Posesión",
+          "home": "62.5%",
+          "away": "37.5%"
+        },
+        {
+          "name": "Remates",
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "50.0%",
+          "away": "0.0%"
+        },
         {
           "name": "Faltas",
           "home": "11",
-          "away": "95"
+          "away": "15"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T12:17:29.480343Z"
+      "updated": "2026-10-25T16:38:43.087906Z"
     },
     "10:ATM:DEP": {
       "round": 10,
@@ -9254,32 +9335,32 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T12:17:31.623005Z"
+      "updated": "2026-10-25T16:38:44.913334Z"
     },
     "10:CEL:BET": {
       "round": 10,
       "home": "CEL",
       "away": "BET",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "14",
-          "away": "125"
+          "minute": "43'",
+          "type": "yellow",
+          "text": "Diego Llorente (Real Betis) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "minute": "30'",
+          "type": "yellow",
+          "text": "Ilaix Moriba (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T12:17:34.099059Z"
+      "updated": "2026-10-25T16:38:47.311665Z"
     },
     "10:RAC:ESP": {
       "round": 10,
@@ -9521,7 +9602,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T12:17:35.943429Z"
+      "updated": "2026-10-25T16:38:48.696559Z"
     },
     "10:SEV:OSA": {
       "round": 10,
@@ -9546,7 +9627,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T12:17:38.093250Z"
+      "updated": "2026-10-25T16:38:50.711320Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9678,8 +9759,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 5,
+    "updatedThisRun": 5,
     "maxPerRun": 18
   }
 }
