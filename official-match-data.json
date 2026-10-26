@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T00:38:16.091982Z",
+  "updated": "2026-10-26T01:27:34.431367Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1372,7 +1372,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T21:14:42.525970Z"
+      "updated": "2026-10-26T01:27:34.431337Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9327,11 +9327,51 @@
       "round": 10,
       "home": "BAR",
       "away": "RMA",
-      "status": "inprogress",
-      "homeScore": 0,
-      "awayScore": 1,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Alejandro Balde (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Karim Adeyemi (Barcelona) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Kylian Mbappé (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Dean Huijsen (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "87'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Real Madrid 2. Kylian Mbappé (Real Madrid) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Eduardo Camavinga tras un contraataque."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Anthony Gordon (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "61'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Real Madrid 1. Raphinha (Barcelona) remate con la izquierda desde el lado derecho del interior del área por bajo, junto al palo izquierdo. Asistencia de Pedri tras un saque de esquina."
+        },
+        {
+          "minute": "46'",
+          "type": "yellow",
+          "text": "Aurélien Tchouaméni (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "41'",
           "type": "goal",
@@ -9341,7 +9381,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T20:51:51.326848Z"
+      "updated": "2026-10-26T01:27:28.370953Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9755,7 +9795,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T20:51:56.316313Z"
+      "updated": "2026-10-26T01:27:30.082079Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9887,8 +9927,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 3,
+    "updatedThisRun": 3,
     "maxPerRun": 18
   }
 }
