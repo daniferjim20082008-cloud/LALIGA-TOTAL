@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T12:36:00.357331Z",
+  "updated": "2026-10-26T15:05:07.584688Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9924,10 +9924,14 @@
       "updated": "2026-10-24T19:17:18.399941Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "10:BAR:RMA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10: The read operation timed out",
+    "10:SEV:OSA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10: The read operation timed out",
+    "8:RAY:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
+    "checkedThisRun": 3,
     "updatedThisRun": 0,
     "maxPerRun": 18
   }
