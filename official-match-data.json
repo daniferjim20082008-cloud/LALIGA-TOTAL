@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T19:32:55.264536Z",
+  "updated": "2026-10-26T20:11:43.925369Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9776,26 +9776,15 @@
       "round": 10,
       "home": "SEV",
       "away": "OSA",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "18",
-          "away": "114"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
-        }
-      ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-26T16:08:53.738221Z"
+      "updated": "2026-10-26T20:11:34.081916Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9924,11 +9913,14 @@
       "updated": "2026-10-24T19:17:18.399941Z"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "10:BAR:RMA: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10: The read operation timed out",
+    "8:RAY:ATH: https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8: The read operation timed out"
+  ],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 3,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
