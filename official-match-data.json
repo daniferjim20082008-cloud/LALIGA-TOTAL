@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T23:55:14.833532Z",
+  "updated": "2026-10-27T00:20:52.659570Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1619,7 +1619,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-10-25T23:59:02.548648Z"
+      "updated": "2026-10-27T00:20:52.659533Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -9776,15 +9776,87 @@
       "round": 10,
       "home": "SEV",
       "away": "OSA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
-      "statistics": [],
+      "incidents": [
+        {
+          "minute": "82'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 2, Osasuna 0. Félix Correia (Sevilla) remate con la derecha desde el lado izquierdo del interior del área al centro de la portería. Asistencia de Youssouf Fofana tras un contraataque."
+        },
+        {
+          "minute": "68'",
+          "type": "yellow",
+          "text": "Valentin Rosier (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "55'",
+          "type": "yellow",
+          "text": "Isaac Romero (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "29'",
+          "type": "yellow",
+          "text": "Alejandro Catena (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "24'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 1, Osasuna 0. Isaac Romero (Sevilla) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Youssouf Fofana."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "44.7%",
+          "away": "55.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "17",
+          "away": "10"
+        },
+        {
+          "name": "Efectividad",
+          "home": "14.3%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-26T20:11:34.081916Z"
+      "updated": "2026-10-27T00:20:45.013143Z"
     },
     "10:VAL:VIL": {
       "round": 10,
@@ -9916,8 +9988,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
