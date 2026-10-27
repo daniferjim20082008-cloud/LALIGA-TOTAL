@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T14:14:07.107800Z",
+  "updated": "2026-10-27T14:59:34.751775Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9988,8 +9988,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 2,
-    "updatedThisRun": 2,
+    "checkedThisRun": 0,
+    "updatedThisRun": 0,
     "maxPerRun": 18
   }
 }
