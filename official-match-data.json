@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T16:31:32.229454Z",
+  "updated": "2026-10-29T17:28:34.712095Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1318,61 +1318,26 @@
       "round": 8,
       "home": "RAY",
       "away": "ATH",
-      "status": "unknown",
+      "status": "notstarted",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
       "statistics": [
         {
-          "name": "Posesión",
-          "home": "55.1%",
-          "away": "44.9%"
-        },
-        {
-          "name": "Remates",
-          "home": "1",
-          "away": "1"
-        },
-        {
-          "name": "Efectividad",
-          "home": "0.0%",
-          "away": "0.0%"
-        },
-        {
           "name": "Faltas",
-          "home": "2",
-          "away": "0"
+          "home": "9",
+          "away": "106"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "0",
-          "away": "0"
-        },
-        {
-          "name": "Tarjetas rojas",
-          "home": "0",
-          "away": "0"
-        },
-        {
-          "name": "Fueras de juego",
-          "home": "2",
-          "away": "0"
-        },
-        {
-          "name": "Córners lanzados",
-          "home": "1",
-          "away": "2"
-        },
-        {
-          "name": "Penaltis",
-          "home": "0 (0)",
-          "away": "0 (0)"
+          "home": "3",
+          "away": "1º"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-29T12:31:59.316937Z"
+      "updated": "2026-10-29T17:28:34.712062Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9988,8 +9953,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 10,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 1,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
