@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:25:26.279253Z",
+  "updated": "2026-10-30T22:00:29.914989Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-10-29T21:55:01.181308Z"
+      "updated": "2026-10-30T22:00:29.914959Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:32.775534Z"
+      "updated": "2026-10-30T21:59:57.926470Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -9997,7 +9997,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:34.858442Z"
+      "updated": "2026-10-30T22:00:01.139770Z"
     },
     "11:BET:MGA": {
       "round": 11,
@@ -10022,7 +10022,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:36.835173Z"
+      "updated": "2026-10-30T22:00:04.443001Z"
     },
     "11:DEP:OSA": {
       "round": 11,
@@ -10047,7 +10047,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:40.004093Z"
+      "updated": "2026-10-30T22:00:08.041768Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10072,7 +10072,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:42.758846Z"
+      "updated": "2026-10-30T22:00:10.653204Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10097,7 +10097,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:45.763454Z"
+      "updated": "2026-10-30T22:00:13.752716Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10122,7 +10122,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-atletico-de-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:49.240656Z"
+      "updated": "2026-10-30T22:00:15.741734Z"
     },
     "11:RAC:RMA": {
       "round": 11,
@@ -10147,7 +10147,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:52.258893Z"
+      "updated": "2026-10-30T22:00:16.924747Z"
     },
     "11:RAY:CEL": {
       "round": 11,
@@ -10172,39 +10172,115 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rc-celta-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:55.686111Z"
+      "updated": "2026-10-30T22:00:23.054517Z"
     },
     "11:VIL:ESP": {
       "round": 11,
       "home": "VIL",
       "away": "ESP",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Carlos Maciá (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "yellow",
+          "text": "Bryan Zaragoza (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "60'",
+          "type": "goal",
+          "text": "¡Gooooool! Villarreal 0, Espanyol 1. Leandro Cabrera (Espanyol) remate con la izquierda desde el centro del área a la escuadra izquierda. Asistencia de Bryan Zaragoza con un centro al área tras botar una falta."
+        },
+        {
+          "minute": "56'",
+          "type": "yellow",
+          "text": "Santi Comesaña (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "53'",
+          "type": "yellow",
+          "text": "Sergi Cardona (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "48'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Roberto Fernández (Espanyol) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        },
+        {
+          "minute": "41'",
+          "type": "yellow",
+          "text": "Roger Hinojo (Espanyol) ha visto tarjeta amarilla por tocar el balón con la mano."
+        },
+        {
+          "minute": "21'",
+          "type": "yellow",
+          "text": "Rafel Bauzà (Espanyol) ha visto tarjeta amarilla."
+        }
+      ],
       "statistics": [
         {
-          "name": "Faltas",
+          "name": "Posesión",
+          "home": "62.8%",
+          "away": "37.2%"
+        },
+        {
+          "name": "Remates",
           "home": "14",
-          "away": "118"
+          "away": "5"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "25.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "15",
+          "away": "13"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-rcd-espanyol-de-barcelona-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-30T17:48:58.597389Z"
+      "updated": "2026-10-30T22:00:25.224275Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 1,
-    "updatedThisRun": 1,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
