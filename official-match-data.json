@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T18:56:07.801715Z",
+  "updated": "2026-10-31T19:29:09.557248Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T14:58:40.994058Z"
+      "updated": "2026-10-31T19:29:09.557209Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:27:55.492649Z"
+      "updated": "2026-10-31T19:28:44.193540Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -9997,32 +9997,52 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:27:57.670716Z"
+      "updated": "2026-10-31T19:28:46.587937Z"
     },
     "11:BET:MGA": {
       "round": 11,
       "home": "BET",
       "away": "MGA",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "19",
-          "away": "111"
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Nelson Deossa (Real Betis) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "minute": "68'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 2, Málaga CF 1. Adrián Niño (Málaga CF) remate con la izquierda desde el centro del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 2, Málaga CF 0. Pablo Fornals (Real Betis) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo tras botar una falta."
+        },
+        {
+          "minute": "38'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Betis 1, Málaga CF 0. Marc Bartra (Real Betis) remate de cabeza desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Isco con un centro al área tras botar una falta."
+        },
+        {
+          "minute": "38'",
+          "type": "yellow",
+          "text": "Rafita (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "20'",
+          "type": "yellow",
+          "text": "David Larrubia (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:27:59.156214Z"
+      "updated": "2026-10-31T19:28:48.252538Z"
     },
     "11:DEP:OSA": {
       "round": 11,
@@ -10047,7 +10067,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:28:00.821287Z"
+      "updated": "2026-10-31T19:28:50.605510Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10072,7 +10092,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:28:04.096646Z"
+      "updated": "2026-10-31T19:28:56.049408Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10097,7 +10117,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:28:06.053905Z"
+      "updated": "2026-10-31T19:28:57.666484Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10198,21 +10218,98 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:28:13.711109Z"
+      "updated": "2026-10-31T19:29:00.765733Z"
     },
     "11:RAY:CEL": {
       "round": 11,
       "home": "RAY",
       "away": "CEL",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
-      "statistics": [],
+      "incidents": [
+        {
+          "minute": "82'",
+          "type": "yellow",
+          "text": "Williot Swedberg (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "73'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 3, Celta de Vigo 0. Unai López (Rayo Vallecano) remate con la derecha desde fuera del área por el lado derecho de la portería. Asistencia de Gnangoro tras un contraataque."
+        },
+        {
+          "minute": "72'",
+          "type": "yellow",
+          "text": "Gnangoro (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "55'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 2, Celta de Vigo 0. Jorge de Frutos (Rayo Vallecano) remate con la derecha desde el centro del área a la escuadra derecha. Asistencia de Andrei Ratiu."
+        },
+        {
+          "minute": "36'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 1, Celta de Vigo 0. Jorge de Frutos (Rayo Vallecano) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Sergio Camello después de un pase en profundidad tras un contraataque."
+        },
+        {
+          "minute": "26'",
+          "type": "yellow",
+          "text": "Unai López (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "52.6%",
+          "away": "47.4%"
+        },
+        {
+          "name": "Remates",
+          "home": "14",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "23.1%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "11",
+          "away": "16"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rc-celta-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T15:28:16.479437Z"
+      "updated": "2026-10-31T19:29:07.145115Z"
     },
     "11:VIL:ESP": {
       "round": 11,
@@ -10319,8 +10416,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
