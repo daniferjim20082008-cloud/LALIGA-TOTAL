@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T23:15:38.791224Z",
+  "updated": "2026-10-31T23:56:52.150623Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:29:09.557209Z"
+      "updated": "2026-10-31T23:56:52.150586Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9972,42 +9972,143 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:44.193540Z"
+      "updated": "2026-10-31T23:56:33.722559Z"
     },
     "11:BAR:ALA": {
       "round": 11,
       "home": "BAR",
       "away": "ALA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 6,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "84'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 6, Deportivo Alavés 1. Mariano Díaz (Deportivo Alavés) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "81'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 6, Deportivo Alavés 0. Anthony Gordon (Barcelona) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Rodri después de un pase en profundidad."
+        },
+        {
+          "minute": "64'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 5, Deportivo Alavés 0. Lamine Yamal (Barcelona) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Gabriel Jesus después de un pase en profundidad.El gol ha subido al marcador tras la revisión del VAR"
+        },
+        {
+          "minute": "60'",
+          "type": "yellow",
+          "text": "Pablo Ibáñez (Deportivo Alavés) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "57'",
+          "type": "yellow",
+          "text": "João Cancelo (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Ángel Pérez (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 4, Deportivo Alavés 0. Lamine Yamal (Barcelona) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de João Cancelo."
+        },
+        {
+          "minute": "41'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 3, Deportivo Alavés 0. Raphinha (Barcelona) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Fermín López después de un pase en profundidad."
+        },
+        {
+          "minute": "40'",
+          "type": "yellow",
+          "text": "Pedri (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "27'",
+          "type": "yellow",
+          "text": "Carlos Protesoni (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "23'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 2, Deportivo Alavés 0. Fermín López (Barcelona) remate con la derecha muy escorado desde la derecha a la escuadra izquierda. Asistencia de Lamine Yamal."
+        },
+        {
+          "minute": "8'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Deportivo Alavés 0. Raphinha (Barcelona) remate con la izquierda desde el centro del área por el lado derecho de la portería. Asistencia de Fermín López."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "77.1%",
+          "away": "22.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "60.0%",
+          "away": "25.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "11",
-          "away": "97"
+          "home": "14",
+          "away": "11"
         },
         {
           "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "5"
+        },
+        {
+          "name": "Córners lanzados",
           "home": "3",
-          "away": "1º"
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:46.587937Z"
+      "updated": "2026-10-31T23:56:35.674852Z"
     },
     "11:BET:MGA": {
       "round": 11,
       "home": "BET",
       "away": "MGA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Aitor Ruibal (Real Betis) ha visto tarjeta amarilla."
+        },
         {
           "minute": "90'",
           "type": "yellow",
@@ -10039,10 +10140,56 @@
           "text": "David Larrubia (Málaga CF) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "58.7%",
+          "away": "41.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "10"
+        },
+        {
+          "name": "Efectividad",
+          "home": "10.5%",
+          "away": "12.5%"
+        },
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "15"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "10",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:48.252538Z"
+      "updated": "2026-10-31T23:56:37.893955Z"
     },
     "11:DEP:OSA": {
       "round": 11,
@@ -10067,7 +10214,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:50.605510Z"
+      "updated": "2026-10-31T23:56:40.050044Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10092,7 +10239,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:56.049408Z"
+      "updated": "2026-10-31T23:56:43.132484Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10117,7 +10264,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:28:57.666484Z"
+      "updated": "2026-10-31T23:56:45.642572Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10218,7 +10365,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T19:29:00.765733Z"
+      "updated": "2026-10-31T23:56:49.395928Z"
     },
     "11:RAY:CEL": {
       "round": 11,
@@ -10416,8 +10563,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 8,
+    "updatedThisRun": 8,
     "maxPerRun": 18
   }
 }
