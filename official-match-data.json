@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T14:58:40.994093Z",
+  "updated": "2026-10-31T15:28:16.479468Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:58:48.595094Z"
+      "updated": "2026-10-31T15:27:55.492649Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -9997,7 +9997,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:58:51.113131Z"
+      "updated": "2026-10-31T15:27:57.670716Z"
     },
     "11:BET:MGA": {
       "round": 11,
@@ -10022,7 +10022,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:58:53.336430Z"
+      "updated": "2026-10-31T15:27:59.156214Z"
     },
     "11:DEP:OSA": {
       "round": 11,
@@ -10047,7 +10047,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:58:55.652866Z"
+      "updated": "2026-10-31T15:28:00.821287Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10072,7 +10072,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:58:59.130156Z"
+      "updated": "2026-10-31T15:28:04.096646Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10097,32 +10097,83 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:59:01.151201Z"
+      "updated": "2026-10-31T15:28:06.053905Z"
     },
     "11:LEV:ATM": {
       "round": 11,
       "home": "LEV",
       "away": "ATM",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "62'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 0, Atlético de Madrid 2. Giuliano Simeone (Atlético de Madrid) remate con la izquierda desde el centro del área al centro de la portería. Asistencia de Álex Baena después de un pase en profundidad."
+        },
+        {
+          "minute": "36'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 0, Atlético de Madrid 1. Alejandro Grimaldo (Atlético de Madrid) remate con la izquierda desde el lado izquierdo del interior del área a la escuadra izquierda."
+        },
+        {
+          "minute": "16'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Morten Hjulmand (Atlético de Madrid) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "46%",
+          "away": "54%"
+        },
+        {
+          "name": "Remates",
+          "home": "20",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "25.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "8",
-          "away": "119"
+          "home": "7",
+          "away": "7"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "5"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-atletico-de-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:59:04.715267Z"
+      "updated": "2026-10-31T15:28:10.402268Z"
     },
     "11:RAC:RMA": {
       "round": 11,
@@ -10147,32 +10198,21 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:59:05.926357Z"
+      "updated": "2026-10-31T15:28:13.711109Z"
     },
     "11:RAY:CEL": {
       "round": 11,
       "home": "RAY",
       "away": "CEL",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "7",
-          "away": "106"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
-        }
-      ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rc-celta-11",
       "source": "LALIGA oficial",
-      "updated": "2026-10-31T10:59:08.055919Z"
+      "updated": "2026-10-31T15:28:16.479437Z"
     },
     "11:VIL:ESP": {
       "round": 11,
@@ -10279,8 +10319,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 1,
-    "updatedThisRun": 1,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
