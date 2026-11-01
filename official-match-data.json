@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T20:59:24.358381Z",
+  "updated": "2026-11-01T21:30:47.208850Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T17:22:17.545545Z"
+      "updated": "2026-11-01T21:30:47.208812Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9953,26 +9953,41 @@
       "round": 11,
       "home": "ATH",
       "away": "RSO",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "18",
-          "away": "109"
+          "minute": "55'",
+          "type": "yellow",
+          "text": "Mikel Oyarzabal (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Iñaki Williams (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 2, Real Sociedad 1. Alex Berenguer (Athletic Club) convirtió el penalti remate con la derecha al centro de la portería."
+        },
+        {
+          "minute": "30'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 1, Real Sociedad 1. Luka Sucic (Real Sociedad) remate con la izquierda desde fuera del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "14'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 1, Real Sociedad 0. Iñaki Williams (Athletic Club) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Nico Williams después de un pase en profundidad."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T17:22:06.680504Z"
+      "updated": "2026-11-01T21:30:38.155907Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -10214,32 +10229,98 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T17:22:09.396126Z"
+      "updated": "2026-11-01T21:30:40.436146Z"
     },
     "11:ELC:VAL": {
       "round": 11,
       "home": "ELC",
       "away": "VAL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Stole Dimitrievski (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "73'",
+          "type": "yellow",
+          "text": "Javi Guerra (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "69'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Valencia 1. Umar Sadiq (Valencia) remate con la izquierda desde muy cerca por el lado derecho de la portería. Asistencia de Arnaut Danjuma tras un contraataque."
+        },
+        {
+          "minute": "62'",
+          "type": "yellow",
+          "text": "Facundo Buonanotte (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "42'",
+          "type": "yellow",
+          "text": "Víctor Chust (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "36'",
+          "type": "yellow",
+          "text": "Germán Valera (Elche) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "69.1%",
+          "away": "30.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "16",
+          "away": "5"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "20.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "17",
-          "away": "129"
+          "home": "9",
+          "away": "15"
         },
         {
           "name": "Tarjetas amarillas",
           "home": "3",
-          "away": "1º"
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "6"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "6",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T17:22:10.947590Z"
+      "updated": "2026-11-01T21:30:42.964226Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10715,8 +10796,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
