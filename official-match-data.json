@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T16:49:14.350445Z",
+  "updated": "2026-11-01T17:22:17.545582Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:57.195419Z"
+      "updated": "2026-11-01T17:22:17.545545Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:41.524097Z"
+      "updated": "2026-11-01T17:22:06.680504Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -10214,7 +10214,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:44.796264Z"
+      "updated": "2026-11-01T17:22:09.396126Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10239,21 +10239,123 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:47.061903Z"
+      "updated": "2026-11-01T17:22:10.947590Z"
     },
     "11:GET:SEV": {
       "round": 11,
       "home": "GET",
       "away": "SEV",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
-      "statistics": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 3, Sevilla 1. Orel Mangala (Getafe) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Andrés García."
+        },
+        {
+          "minute": "90'",
+          "type": "red",
+          "text": "Manu Bueno (Sevilla) ha visto tarjeta roja."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Nemanja Gudelj (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "77'",
+          "type": "yellow",
+          "text": "Arouna Sangante (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "77'",
+          "type": "yellow",
+          "text": "Andrés Castrín (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "77'",
+          "type": "yellow",
+          "text": "Lucien Agoumé (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "73'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 2, Sevilla 1. Martín Satriano (Getafe) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Enes Ünal con un centro al área.El gol ha subido al marcador tras la revisión del VAR"
+        },
+        {
+          "minute": "68'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 1, Sevilla 1. Enes Ünal (Getafe) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Martín Satriano con un centro al área."
+        },
+        {
+          "minute": "59'",
+          "type": "yellow",
+          "text": "Davinchi (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "27'",
+          "type": "yellow",
+          "text": "Gabriel Suazo (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "19'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 0, Sevilla 1. Kike Salas (Sevilla) remate de cabeza desde el centro del área a la escuadra derecha. Asistencia de Félix Correia con un centro al área tras un saque de esquina."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "47%",
+          "away": "53%"
+        },
+        {
+          "name": "Remates",
+          "home": "11",
+          "away": "12"
+        },
+        {
+          "name": "Efectividad",
+          "home": "33.3%",
+          "away": "9.1%"
+        },
+        {
+          "name": "Faltas",
+          "home": "18",
+          "away": "18"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:48.677805Z"
+      "updated": "2026-11-01T17:22:13.066845Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10335,26 +10437,87 @@
       "round": 11,
       "home": "RAC",
       "away": "RMA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 3,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Iker Luque (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "36'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 0, Real Madrid 3. Yan Diomande (Real Madrid) remate con la derecha desde fuera del área a la escuadra izquierda tras un saque de esquina."
+        },
+        {
+          "minute": "34'",
+          "type": "yellow",
+          "text": "Jeanuël Belocian (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "21'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 0, Real Madrid 2. Jude Bellingham (Real Madrid) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Arda Güler después de un pase en profundidad."
+        },
+        {
+          "minute": "11'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 0, Real Madrid 1. Kylian Mbappé (Real Madrid) convirtió el penalti remate con la derecha por bajo, junto al palo izquierdo."
+        }
+      ],
       "statistics": [
+        {
+          "name": "Posesión",
+          "home": "46.4%",
+          "away": "53.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "9",
+          "away": "22"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "17.6%"
+        },
         {
           "name": "Faltas",
           "home": "10",
-          "away": "142"
+          "away": "8"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "6"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T13:05:51.534623Z"
+      "updated": "2026-11-01T17:22:14.362160Z"
     },
     "11:RAY:CEL": {
       "round": 11,
@@ -10552,8 +10715,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
