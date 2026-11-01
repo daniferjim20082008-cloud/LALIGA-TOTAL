@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T12:15:11.431753Z",
+  "updated": "2026-11-01T13:05:57.195458Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:24.715682Z"
+      "updated": "2026-11-01T13:05:57.195419Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:05.432625Z"
+      "updated": "2026-11-01T13:05:41.524097Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -10214,7 +10214,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:09.201974Z"
+      "updated": "2026-11-01T13:05:44.796264Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10239,32 +10239,21 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:13.751139Z"
+      "updated": "2026-11-01T13:05:47.061903Z"
     },
     "11:GET:SEV": {
       "round": 11,
       "home": "GET",
       "away": "SEV",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
       "incidents": [],
-      "statistics": [
-        {
-          "name": "Faltas",
-          "home": "16",
-          "away": "120"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
-        }
-      ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:16.691982Z"
+      "updated": "2026-11-01T13:05:48.677805Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10365,7 +10354,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T08:26:19.853742Z"
+      "updated": "2026-11-01T13:05:51.534623Z"
     },
     "11:RAY:CEL": {
       "round": 11,
@@ -10563,8 +10552,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
