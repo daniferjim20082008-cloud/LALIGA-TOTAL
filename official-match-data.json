@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T07:39:01.310899Z",
+  "updated": "2026-11-01T08:26:24.715722Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:22.772391Z"
+      "updated": "2026-11-01T08:26:24.715682Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9972,7 +9972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:05.981497Z"
+      "updated": "2026-11-01T08:26:05.432625Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -10214,7 +10214,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:08.498530Z"
+      "updated": "2026-11-01T08:26:09.201974Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10239,7 +10239,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:11.766862Z"
+      "updated": "2026-11-01T08:26:13.751139Z"
     },
     "11:GET:SEV": {
       "round": 11,
@@ -10264,7 +10264,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:14.559996Z"
+      "updated": "2026-11-01T08:26:16.691982Z"
     },
     "11:LEV:ATM": {
       "round": 11,
@@ -10365,7 +10365,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T04:18:17.671194Z"
+      "updated": "2026-11-01T08:26:19.853742Z"
     },
     "11:RAY:CEL": {
       "round": 11,
@@ -10563,8 +10563,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
