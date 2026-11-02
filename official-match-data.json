@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T00:37:08.886200Z",
+  "updated": "2026-11-02T01:45:41.849498Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T01:45:06.495351Z"
+      "updated": "2026-11-02T01:45:41.849463Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T21:30:47.208812Z"
+      "updated": "2026-11-02T01:45:36.753800Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -9953,11 +9953,26 @@
       "round": 11,
       "home": "ATH",
       "away": "RSO",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Hugo Rincón (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Jon Aramburu (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Mamadou Sarr (Real Sociedad) ha visto tarjeta amarilla."
+        },
         {
           "minute": "55'",
           "type": "yellow",
@@ -9984,10 +9999,56 @@
           "text": "¡Gooooool! Athletic Club 1, Real Sociedad 0. Iñaki Williams (Athletic Club) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Nico Williams después de un pase en profundidad."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "38%",
+          "away": "62%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "14"
+        },
+        {
+          "name": "Efectividad",
+          "home": "28.6%",
+          "away": "11.1%"
+        },
+        {
+          "name": "Faltas",
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "8"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T21:30:38.155907Z"
+      "updated": "2026-11-02T01:45:31.016964Z"
     },
     "11:BAR:ALA": {
       "round": 11,
@@ -10229,7 +10290,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-01T21:30:40.436146Z"
+      "updated": "2026-11-02T01:45:31.997151Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10796,8 +10857,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 4,
+    "updatedThisRun": 4,
     "maxPerRun": 18
   }
 }
