@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T14:53:06.954756Z",
+  "updated": "2026-11-02T15:47:36.364129Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-02T11:07:01.528591Z"
+      "updated": "2026-11-02T15:47:36.364085Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -10290,7 +10290,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-02T11:06:54.311645Z"
+      "updated": "2026-11-02T15:47:30.146117Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10857,8 +10857,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
