@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T00:17:04.004853Z",
+  "updated": "2026-11-03T01:33:48.006468Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-02T20:24:23.467655Z"
+      "updated": "2026-11-03T01:33:48.006423Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -10271,15 +10271,97 @@
       "round": 11,
       "home": "DEP",
       "away": "OSA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
-      "statistics": [],
+      "incidents": [
+        {
+          "minute": "87'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo de A Coruña 2, Osasuna 1. Bil Nsongo (Deportivo de A Coruña) remate con la derecha desde muy cerca por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Kike Barja (Osasuna) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Abel Bretones (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "64'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo de A Coruña 1, Osasuna 1. Mario Soriano (Deportivo de A Coruña) marca de libre directo, remate con la derecha por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Alejandro Catena (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "35'",
+          "type": "yellow",
+          "text": "Moi Gómez (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "32'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo de A Coruña 0, Osasuna 1. Ante Budimir (Osasuna) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Moi Gómez."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "62.1%",
+          "away": "37.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "18",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "13.3%",
+          "away": "14.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "5",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "0",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
       "source": "LALIGA oficial",
-      "updated": "2026-11-02T20:24:19.713239Z"
+      "updated": "2026-11-03T01:33:45.766599Z"
     },
     "11:ELC:VAL": {
       "round": 11,
@@ -10846,8 +10928,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 11,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
