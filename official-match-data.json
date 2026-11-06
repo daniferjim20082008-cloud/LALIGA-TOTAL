@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T21:49:02.008338Z",
+  "updated": "2026-11-06T22:28:47.782497Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -10947,7 +10947,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-fc-barcelona-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:19.562155Z"
+      "updated": "2026-11-06T22:28:18.045767Z"
     },
     "12:CEL:LEV": {
       "round": 12,
@@ -10972,7 +10972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-levante-ud-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:22.482230Z"
+      "updated": "2026-11-06T22:28:20.746573Z"
     },
     "12:ELC:BET": {
       "round": 12,
@@ -10997,7 +10997,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-real-betis-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:24.775716Z"
+      "updated": "2026-11-06T22:28:24.054553Z"
     },
     "12:ESP:DEP": {
       "round": 12,
@@ -11022,7 +11022,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-rc-deportivo-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:28.083329Z"
+      "updated": "2026-11-06T22:28:27.904159Z"
     },
     "12:MGA:RAC": {
       "round": 12,
@@ -11047,7 +11047,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-r-racing-club-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:30.960975Z"
+      "updated": "2026-11-06T22:28:30.694934Z"
     },
     "12:OSA:ATH": {
       "round": 12,
@@ -11072,7 +11072,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-athletic-club-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:34.621297Z"
+      "updated": "2026-11-06T22:28:34.405408Z"
     },
     "12:RSO:RAY": {
       "round": 12,
@@ -11097,32 +11097,88 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rayo-vallecano-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:37.770154Z"
+      "updated": "2026-11-06T22:28:37.985926Z"
     },
     "12:SEV:ALA": {
       "round": 12,
       "home": "SEV",
       "away": "ALA",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Nicolás Valentini (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Toni Martínez (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "47'",
+          "type": "yellow",
+          "text": "Arouna Sangante (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "30'",
+          "type": "yellow",
+          "text": "Pablo Ibáñez (Deportivo Alavés) ha visto tarjeta amarilla."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "60.1%",
+          "away": "39.9%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "17",
-          "away": "139"
+          "home": "14",
+          "away": "19"
         },
         {
           "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
           "home": "3",
-          "away": "1º"
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "5",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-deportivo-alaves-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:39.108346Z"
+      "updated": "2026-11-06T22:28:42.161424Z"
     },
     "12:VAL:RMA": {
       "round": 12,
@@ -11147,7 +11203,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-madrid-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:42.873742Z"
+      "updated": "2026-11-06T22:28:44.154706Z"
     },
     "12:VIL:GET": {
       "round": 12,
@@ -11172,14 +11228,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T18:09:46.335494Z"
+      "updated": "2026-11-06T22:28:47.782462Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 10,
+    "updatedThisRun": 10,
     "maxPerRun": 18
   }
 }
