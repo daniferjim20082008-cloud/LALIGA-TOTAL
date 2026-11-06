@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:16:03.396328Z",
+  "updated": "2026-11-06T04:22:44.132692Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-05T03:30:05.950987Z"
+      "updated": "2026-11-06T04:22:44.132658Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -10947,7 +10947,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-fc-barcelona-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:00.065541Z"
+      "updated": "2026-11-06T04:22:10.715592Z"
     },
     "12:CEL:LEV": {
       "round": 12,
@@ -10972,7 +10972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-levante-ud-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:03.698710Z"
+      "updated": "2026-11-06T04:22:14.057511Z"
     },
     "12:ELC:BET": {
       "round": 12,
@@ -10997,7 +10997,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-real-betis-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:06.180114Z"
+      "updated": "2026-11-06T04:22:16.985266Z"
     },
     "12:ESP:DEP": {
       "round": 12,
@@ -11022,7 +11022,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-rc-deportivo-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:07.777863Z"
+      "updated": "2026-11-06T04:22:19.625145Z"
     },
     "12:MGA:RAC": {
       "round": 12,
@@ -11047,7 +11047,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-r-racing-club-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:10.196717Z"
+      "updated": "2026-11-06T04:22:22.277104Z"
     },
     "12:OSA:ATH": {
       "round": 12,
@@ -11072,7 +11072,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-athletic-club-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:13.386572Z"
+      "updated": "2026-11-06T04:22:24.911243Z"
     },
     "12:RSO:RAY": {
       "round": 12,
@@ -11097,7 +11097,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rayo-vallecano-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:16.494085Z"
+      "updated": "2026-11-06T04:22:28.493131Z"
     },
     "12:SEV:ALA": {
       "round": 12,
@@ -11122,7 +11122,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-deportivo-alaves-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:18.879767Z"
+      "updated": "2026-11-06T04:22:31.712560Z"
     },
     "12:VAL:RMA": {
       "round": 12,
@@ -11147,7 +11147,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-madrid-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:20.550518Z"
+      "updated": "2026-11-06T04:22:35.054895Z"
     },
     "12:VIL:GET": {
       "round": 12,
@@ -11172,14 +11172,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-06T00:04:23.904807Z"
+      "updated": "2026-11-06T04:22:38.433763Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 11,
+    "updatedThisRun": 11,
     "maxPerRun": 18
   }
 }
