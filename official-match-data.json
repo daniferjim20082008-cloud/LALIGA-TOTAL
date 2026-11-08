@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:33:05.057528Z",
+  "updated": "2026-11-08T06:42:34.359119Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T04:56:39.825359Z"
+      "updated": "2026-11-08T06:42:34.359079Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:53.373202Z"
+      "updated": "2026-11-08T06:42:27.762398Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -10947,7 +10947,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-fc-barcelona-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:33.063678Z"
+      "updated": "2026-11-08T06:42:09.035970Z"
     },
     "12:CEL:LEV": {
       "round": 12,
@@ -10972,7 +10972,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-levante-ud-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:36.608229Z"
+      "updated": "2026-11-08T06:42:12.006490Z"
     },
     "12:ELC:BET": {
       "round": 12,
@@ -10997,7 +10997,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-real-betis-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:39.655010Z"
+      "updated": "2026-11-08T06:42:15.271898Z"
     },
     "12:ESP:DEP": {
       "round": 12,
@@ -11330,7 +11330,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rayo-vallecano-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:45.979443Z"
+      "updated": "2026-11-08T06:42:17.362288Z"
     },
     "12:SEV:ALA": {
       "round": 12,
@@ -11417,11 +11417,51 @@
       "round": 12,
       "home": "VAL",
       "away": "RMA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 3,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Kylian Mbappé (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "yellow",
+          "text": "Pepelu (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Yan Diomande (Real Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Luis Rioja (Valencia) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "79'",
+          "type": "red",
+          "text": "José Gayà (Valencia) ha visto tarjeta roja."
+        },
+        {
+          "minute": "75'",
+          "type": "goal",
+          "text": "¡Gooooool! Valencia 0, Real Madrid 3. Kylian Mbappé (Real Madrid) remate con la derecha a quemarropa desde el lado derecho al centro de la portería. Asistencia de Arda Güler después de un pase en profundidad."
+        },
+        {
+          "minute": "50'",
+          "type": "yellow",
+          "text": "Guido Rodríguez (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Andrii Lunin (Real Madrid) ha visto tarjeta amarilla."
+        },
         {
           "minute": "36'",
           "type": "goal",
@@ -11438,10 +11478,56 @@
           "text": "Pablo Maffeo (Valencia) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "31.7%",
+          "away": "68.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "4",
+          "away": "19"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "21.4%"
+        },
+        {
+          "name": "Faltas",
+          "home": "26",
+          "away": "6"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "3"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "3",
+          "away": "5"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-madrid-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:47.247753Z"
+      "updated": "2026-11-08T06:42:19.534387Z"
     },
     "12:VIL:GET": {
       "round": 12,
@@ -11466,14 +11552,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T20:49:50.156483Z"
+      "updated": "2026-11-08T06:42:21.463972Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 8,
+    "updatedThisRun": 8,
     "maxPerRun": 18
   }
 }
