@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T13:52:46.521525Z",
+  "updated": "2026-11-08T18:36:55.044897Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:46.521480Z"
+      "updated": "2026-11-08T18:36:55.044863Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -10947,46 +10947,123 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-fc-barcelona-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:35.872935Z"
+      "updated": "2026-11-08T18:36:42.243755Z"
     },
     "12:CEL:LEV": {
       "round": 12,
       "home": "CEL",
       "away": "LEV",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "inprogress",
+      "homeScore": 0,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "21",
-          "away": "148"
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Dani Requena (Levante UD) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "minute": "26'",
+          "type": "goal",
+          "text": "GOL ANULADO POR EL VAR: Pablo Durán (Celta de Vigo) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-levante-ud-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:38.470949Z"
+      "updated": "2026-11-08T18:36:44.130780Z"
     },
     "12:ELC:BET": {
       "round": 12,
       "home": "ELC",
       "away": "BET",
-      "status": "inprogress",
+      "status": "finished",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
-      "statistics": [],
+      "incidents": [
+        {
+          "minute": "89'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Real Betis 2. Marc Bartra (Real Betis) remate de cabeza desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Dani Ceballos con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Javi Morcillo (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "82'",
+          "type": "yellow",
+          "text": "Martim Neto (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "goal",
+          "text": "¡Gooooool! Elche 0, Real Betis 1. Rodrigo Riquelme (Real Betis) remate con la derecha desde muy cerca por el centro de la portería."
+        },
+        {
+          "minute": "68'",
+          "type": "yellow",
+          "text": "Grady Diangana (Elche) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "59'",
+          "type": "yellow",
+          "text": "Federico Redondo (Elche) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "47.9%",
+          "away": "52.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "13",
+          "away": "18"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "13.3%"
+        },
+        {
+          "name": "Faltas",
+          "home": "12",
+          "away": "7"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "4",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "8"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-real-betis-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:39.857127Z"
+      "updated": "2026-11-08T18:36:47.056480Z"
     },
     "12:ESP:DEP": {
       "round": 12,
@@ -11300,26 +11377,87 @@
       "round": 12,
       "home": "RSO",
       "away": "RAY",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Gnangoro (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Sociedad 1, Rayo Vallecano 0. Orri Óskarsson (Real Sociedad) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Ander Barrenetxea después de un pase en profundidad tras un contraataque."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "Beñat Turrientes (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "50'",
+          "type": "yellow",
+          "text": "Igor Zubeldia (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "34'",
+          "type": "yellow",
+          "text": "Giorgi Tsitaishvili (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "50.8%",
+          "away": "49.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "17",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "11.1%",
+          "away": "0.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "20",
-          "away": "106"
+          "home": "11",
+          "away": "8"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "5",
-          "away": "1º"
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "6"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rayo-vallecano-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:41.480361Z"
+      "updated": "2026-11-08T18:36:50.779536Z"
     },
     "12:SEV:ALA": {
       "round": 12,
@@ -11522,26 +11660,21 @@
       "round": 12,
       "home": "VIL",
       "away": "GET",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "16",
-          "away": "129"
-        },
-        {
-          "name": "Tarjetas amarillas",
-          "home": "5",
-          "away": "1º"
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Mario Martín (Getafe) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T13:52:43.134981Z"
+      "updated": "2026-11-08T18:36:52.382563Z"
     }
   },
   "warnings": [],
