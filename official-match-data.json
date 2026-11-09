@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T22:28:46.424764Z",
+  "updated": "2026-11-09T01:51:08.699297Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-07T23:46:25.414711Z"
+      "updated": "2026-11-09T01:51:08.699261Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T18:36:55.044863Z"
+      "updated": "2026-11-09T01:51:05.753200Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -10928,36 +10928,122 @@
       "round": 12,
       "home": "ATM",
       "away": "BAR",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Morten Hjulmand (Atlético de Madrid) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Marc Pubill (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "87'",
+          "type": "yellow",
+          "text": "Marcos Llorente (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Marc Bernal (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Barcelona 2. Fermín López (Barcelona) remate con la derecha desde el centro del área al centro de la portería. Asistencia de Lamine Yamal después de un pase en profundidad."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Barcelona 1. Fermín López (Barcelona) remate con la izquierda desde el centro del área por el lado derecho de la portería."
+        },
+        {
+          "minute": "43'",
+          "type": "yellow",
+          "text": "Álex Baena (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "10'",
+          "type": "goal",
+          "text": "¡Gooooool! Atlético de Madrid 1, Barcelona 0. Giuliano Simeone (Atlético de Madrid) remate con la derecha desde muy cerca al centro de la portería. Asistencia de Julián Alvarez."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "37%",
+          "away": "63%"
+        },
+        {
+          "name": "Remates",
+          "home": "9",
+          "away": "19"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "14.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "12",
-          "away": "113"
+          "home": "14",
+          "away": "14"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
-          "away": "1º"
+          "home": "4",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "5",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-fc-barcelona-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T18:36:42.243755Z"
+      "updated": "2026-11-09T01:50:53.379040Z"
     },
     "12:CEL:LEV": {
       "round": 12,
       "home": "CEL",
       "away": "LEV",
-      "status": "inprogress",
+      "status": "finished",
       "homeScore": 0,
       "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Javi Galán (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Adrián de la Fuente (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "32'",
           "type": "yellow",
@@ -10969,10 +11055,56 @@
           "text": "GOL ANULADO POR EL VAR: Pablo Durán (Celta de Vigo) ha marcado pero tras la revisión del VAR el gol no sube al marcador."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "58.7%",
+          "away": "41.3%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "8",
+          "away": "9"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "10",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "6",
+          "away": "1"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-levante-ud-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T18:36:44.130780Z"
+      "updated": "2026-11-09T01:50:55.596952Z"
     },
     "12:ELC:BET": {
       "round": 12,
@@ -11660,28 +11792,99 @@
       "round": 12,
       "home": "VIL",
       "away": "GET",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Villarreal 2, Getafe 0. Carlos Romero (Villarreal) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Ayoze Pérez después de un pase en profundidad."
+        },
+        {
+          "minute": "80'",
+          "type": "goal",
+          "text": "¡Gooooool! Villarreal 1, Getafe 0. Tajon Buchanan (Villarreal) remate con la derecha a quemarropa desde el lado izquierdo a la escuadra izquierda. Asistencia de Nicolas Pepe con un centro al área."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Renato Veiga (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "67'",
+          "type": "yellow",
+          "text": "Santi Comesaña (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "62'",
+          "type": "yellow",
+          "text": "Nemanja Gudelj (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "32'",
           "type": "yellow",
           "text": "Mario Martín (Getafe) ha visto tarjeta amarilla por juego peligroso."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "72.4%",
+          "away": "27.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "22",
+          "away": "9"
+        },
+        {
+          "name": "Efectividad",
+          "home": "16.7%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "6",
+          "away": "13"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "4"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
-      "updated": "2026-11-08T18:36:52.382563Z"
+      "updated": "2026-11-09T01:51:00.736701Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 5,
+    "updatedThisRun": 5,
     "maxPerRun": 18
   }
 }
