@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T10:10:50.991141Z",
+  "updated": "2026-11-10T17:47:31.622626Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-10T10:10:45.786319Z"
+      "updated": "2026-11-10T17:47:31.622581Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -11883,8 +11883,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 2,
-    "updatedThisRun": 2,
+    "checkedThisRun": 1,
+    "updatedThisRun": 1,
     "maxPerRun": 18
   }
 }
