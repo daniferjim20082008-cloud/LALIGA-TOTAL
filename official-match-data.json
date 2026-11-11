@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T02:16:00.206226Z",
+  "updated": "2026-11-11T09:41:09.470709Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-10T02:20:23.466110Z"
+      "updated": "2026-11-11T09:41:09.470676Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-10T22:42:44.447421Z"
+      "updated": "2026-11-11T09:41:06.177844Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -11883,8 +11883,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 12,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 2,
+    "updatedThisRun": 2,
     "maxPerRun": 18
   }
 }
