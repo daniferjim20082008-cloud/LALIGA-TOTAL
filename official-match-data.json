@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:06:50.485940Z",
+  "updated": "2026-11-20T22:40:23.061386Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1326,18 +1326,18 @@
       "statistics": [
         {
           "name": "Faltas",
-          "home": "11",
+          "home": "12",
           "away": "131"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "3",
+          "home": "4",
           "away": "1º"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-19T17:53:32.569751Z"
+      "updated": "2026-11-20T22:40:17.054362Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-19T17:53:28.906057Z"
+      "updated": "2026-11-20T22:40:23.061343Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -11902,32 +11902,93 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-rc-deportivo-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:25.686147Z"
+      "updated": "2026-11-20T22:39:45.638020Z"
     },
     "13:ATH:ESP": {
       "round": 13,
       "home": "ATH",
       "away": "ESP",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Clemens Riedel (Espanyol) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "83'",
+          "type": "yellow",
+          "text": "Yeray Álvarez (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "70'",
+          "type": "yellow",
+          "text": "Iñigo Ruiz de Galarreta (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Athletic Club 0, Espanyol 1. Roberto Fernández (Espanyol) remate con la derecha desde el lado izquierdo del interior del área al centro de la portería. Asistencia de Tyrhys Dolan."
+        },
+        {
+          "minute": "58'",
+          "type": "yellow",
+          "text": "Iñaki Williams (Athletic Club) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "57.8%",
+          "away": "42.2%"
+        },
+        {
+          "name": "Remates",
+          "home": "17",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "20.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "14",
-          "away": "141"
+          "home": "16",
+          "away": "13"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "5",
-          "away": "1º"
+          "home": "3",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-rcd-espanyol-de-barcelona-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:28.480877Z"
+      "updated": "2026-11-20T22:39:47.429698Z"
     },
     "13:BAR:VIL": {
       "round": 13,
@@ -11952,7 +12013,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-villarreal-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:31.558090Z"
+      "updated": "2026-11-20T22:39:51.354613Z"
     },
     "13:GET:ATM": {
       "round": 13,
@@ -11977,7 +12038,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:33.476115Z"
+      "updated": "2026-11-20T22:39:54.576292Z"
     },
     "13:LEV:ELC": {
       "round": 13,
@@ -12002,7 +12063,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:36.914329Z"
+      "updated": "2026-11-20T22:39:57.313011Z"
     },
     "13:OSA:MGA": {
       "round": 13,
@@ -12027,7 +12088,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:38.155168Z"
+      "updated": "2026-11-20T22:40:00.719795Z"
     },
     "13:RAC:RSO": {
       "round": 13,
@@ -12052,7 +12113,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-sociedad-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:40.142920Z"
+      "updated": "2026-11-20T22:40:05.089511Z"
     },
     "13:RAY:VAL": {
       "round": 13,
@@ -12077,7 +12138,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-valencia-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:43.126082Z"
+      "updated": "2026-11-20T22:40:08.173461Z"
     },
     "13:RMA:CEL": {
       "round": 13,
@@ -12102,7 +12163,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-rc-celta-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:44.264233Z"
+      "updated": "2026-11-20T22:40:11.254383Z"
     },
     "13:SEV:BET": {
       "round": 13,
@@ -12127,14 +12188,14 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-real-betis-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:46.461833Z"
+      "updated": "2026-11-20T22:40:13.327438Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 11,
-    "updatedThisRun": 11,
+    "checkedThisRun": 12,
+    "updatedThisRun": 12,
     "maxPerRun": 18
   }
 }
