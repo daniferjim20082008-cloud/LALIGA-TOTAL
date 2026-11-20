@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T17:53:32.569780Z",
+  "updated": "2026-11-20T00:08:25.681273Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -11878,13 +11878,263 @@
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
       "source": "LALIGA oficial",
       "updated": "2026-11-09T01:51:00.736701Z"
+    },
+    "13:ALA:DEP": {
+      "round": 13,
+      "home": "ALA",
+      "away": "DEP",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "155"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-rc-deportivo-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:07:59.413295Z"
+    },
+    "13:ATH:ESP": {
+      "round": 13,
+      "home": "ATH",
+      "away": "ESP",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "14",
+          "away": "141"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "5",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-rcd-espanyol-de-barcelona-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:02.510489Z"
+    },
+    "13:BAR:VIL": {
+      "round": 13,
+      "home": "BAR",
+      "away": "VIL",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "15",
+          "away": "122"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-villarreal-cf-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:05.419158Z"
+    },
+    "13:GET:ATM": {
+      "round": 13,
+      "home": "GET",
+      "away": "ATM",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "144"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:08.414669Z"
+    },
+    "13:LEV:ELC": {
+      "round": 13,
+      "home": "LEV",
+      "away": "ELC",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "20",
+          "away": "132"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:11.224239Z"
+    },
+    "13:OSA:MGA": {
+      "round": 13,
+      "home": "OSA",
+      "away": "MGA",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "23",
+          "away": "127"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:15.220538Z"
+    },
+    "13:RAC:RSO": {
+      "round": 13,
+      "home": "RAC",
+      "away": "RSO",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "20",
+          "away": "161"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-sociedad-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:18.313307Z"
+    },
+    "13:RAY:VAL": {
+      "round": 13,
+      "home": "RAY",
+      "away": "VAL",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "20",
+          "away": "131"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-valencia-cf-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:22.408183Z"
+    },
+    "13:RMA:CEL": {
+      "round": 13,
+      "home": "RMA",
+      "away": "CEL",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "10",
+          "away": "171"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "4",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-rc-celta-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:23.873255Z"
+    },
+    "13:SEV:BET": {
+      "round": 13,
+      "home": "SEV",
+      "away": "BET",
+      "status": "notstarted",
+      "homeScore": null,
+      "awayScore": null,
+      "scorers": [],
+      "incidents": [],
+      "statistics": [
+        {
+          "name": "Faltas",
+          "home": "15",
+          "away": "157"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "1º"
+        }
+      ],
+      "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-real-betis-13",
+      "source": "LALIGA oficial",
+      "updated": "2026-11-20T00:08:25.681240Z"
     }
   },
   "warnings": [],
   "meta": {
-    "roundLimit": 12,
-    "checkedThisRun": 2,
-    "updatedThisRun": 2,
+    "roundLimit": 13,
+    "checkedThisRun": 10,
+    "updatedThisRun": 10,
     "maxPerRun": 18
   }
 }
