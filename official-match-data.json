@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:37:21.904935Z",
+  "updated": "2026-11-21T18:13:28.355110Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T16:06:50.485905Z"
+      "updated": "2026-11-21T18:13:28.355068Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -11883,26 +11883,122 @@
       "round": 13,
       "home": "ALA",
       "away": "DEP",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 3, Deportivo de A Coruña 1. Denis Suárez (Deportivo Alavés) remate con la derecha desde el centro del área por el lado derecho de la portería. Asistencia de Lucas Boyé."
+        },
+        {
+          "minute": "89'",
+          "type": "yellow",
+          "text": "Ander Guevara (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "65'",
+          "type": "yellow",
+          "text": "Lucas Boyé (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "62'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 2, Deportivo de A Coruña 1. Lucas Boyé (Deportivo Alavés) remate de cabeza desde muy cerca al centro de la portería. Asistencia de Ángel Pérez con un centro al área."
+        },
+        {
+          "minute": "56'",
+          "type": "yellow",
+          "text": "Abde Rebbach (Deportivo Alavés) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "56'",
+          "type": "yellow",
+          "text": "Adama Traoré (Deportivo de A Coruña) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "48'",
+          "type": "yellow",
+          "text": "Miguel Loureiro (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "41'",
+          "type": "goal",
+          "text": "Gol en propia puerta de Nahuel Tenaglia, Deportivo Alavés. Deportivo Alavés 1, Deportivo de A Coruña 1."
+        },
+        {
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Ángel Pérez (Deportivo Alavés) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "19'",
+          "type": "yellow",
+          "text": "Giacomo Quagliata (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "5'",
+          "type": "yellow",
+          "text": "Ximo Navarro (Deportivo de A Coruña) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "2'",
+          "type": "goal",
+          "text": "¡Gooooool! Deportivo Alavés 1, Deportivo de A Coruña 0. Ángel Pérez (Deportivo Alavés) remate con la derecha a quemarropa desde el lado derecho a la escuadra derecha. Asistencia de Antonio Blanco después de un pase en profundidad."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "48.4%",
+          "away": "51.6%"
+        },
+        {
+          "name": "Remates",
+          "home": "21",
+          "away": "7"
+        },
+        {
+          "name": "Efectividad",
+          "home": "18.8%",
+          "away": "33.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "14",
-          "away": "155"
+          "home": "20",
+          "away": "15"
         },
         {
           "name": "Tarjetas amarillas",
           "home": "4",
-          "away": "1º"
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-rc-deportivo-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:00.754869Z"
+      "updated": "2026-11-21T18:13:06.588863Z"
     },
     "13:ATH:ESP": {
       "round": 13,
@@ -12013,7 +12109,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-villarreal-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:03.391307Z"
+      "updated": "2026-11-21T18:13:07.945276Z"
     },
     "13:GET:ATM": {
       "round": 13,
@@ -12038,7 +12134,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:09.175324Z"
+      "updated": "2026-11-21T18:13:10.011789Z"
     },
     "13:LEV:ELC": {
       "round": 13,
@@ -12063,7 +12159,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:12.280687Z"
+      "updated": "2026-11-21T18:13:11.259183Z"
     },
     "13:OSA:MGA": {
       "round": 13,
@@ -12088,7 +12184,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:14.025608Z"
+      "updated": "2026-11-21T18:13:13.491794Z"
     },
     "13:RAC:RSO": {
       "round": 13,
@@ -12113,32 +12209,88 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-sociedad-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:16.315530Z"
+      "updated": "2026-11-21T18:13:15.568669Z"
     },
     "13:RAY:VAL": {
       "round": 13,
       "home": "RAY",
       "away": "VAL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "Jorge de Frutos (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "64'",
+          "type": "yellow",
+          "text": "Javi Guerra (Valencia) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "45'",
+          "type": "yellow",
+          "text": "Sergio Camello (Rayo Vallecano) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "41'",
+          "type": "goal",
+          "text": "¡Gooooool! Rayo Vallecano 0, Valencia 1. Copete (Valencia) remate de cabeza desde el centro del área por el lado derecho de la portería. Asistencia de Javi Guerra con un centro al área tras un saque de esquina."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "63.9%",
+          "away": "36.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "21",
+          "away": "11"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "14.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "20",
-          "away": "131"
+          "home": "12",
+          "away": "17"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-valencia-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:18.208133Z"
+      "updated": "2026-11-21T18:13:18.698220Z"
     },
     "13:RMA:CEL": {
       "round": 13,
@@ -12163,39 +12315,49 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-rc-celta-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:20.109230Z"
+      "updated": "2026-11-21T18:13:20.201043Z"
     },
     "13:SEV:BET": {
       "round": 13,
       "home": "SEV",
       "away": "BET",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "15",
-          "away": "157"
+          "minute": "18'",
+          "type": "yellow",
+          "text": "Kike Salas (Sevilla) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "2",
-          "away": "1º"
+          "minute": "15'",
+          "type": "yellow",
+          "text": "Lucien Agoumé (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "11'",
+          "type": "yellow",
+          "text": "Cucho Hernández (Real Betis) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "11'",
+          "type": "yellow",
+          "text": "Junior Firpo (Real Betis) ha visto tarjeta amarilla."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-real-betis-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T11:37:21.904904Z"
+      "updated": "2026-11-21T18:13:21.711187Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 9,
-    "updatedThisRun": 9,
+    "checkedThisRun": 10,
+    "updatedThisRun": 10,
     "maxPerRun": 18
   }
 }
