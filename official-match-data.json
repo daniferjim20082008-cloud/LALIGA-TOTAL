@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T18:13:28.355110Z",
+  "updated": "2026-11-21T23:17:09.867925Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T22:40:17.054362Z"
+      "updated": "2026-11-21T23:17:06.080501Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-20T22:40:23.061343Z"
+      "updated": "2026-11-21T23:17:09.867882Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -12109,7 +12109,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-villarreal-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:07.945276Z"
+      "updated": "2026-11-21T23:16:43.962799Z"
     },
     "13:GET:ATM": {
       "round": 13,
@@ -12134,7 +12134,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:10.011789Z"
+      "updated": "2026-11-21T23:16:46.987817Z"
     },
     "13:LEV:ELC": {
       "round": 13,
@@ -12159,7 +12159,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:11.259183Z"
+      "updated": "2026-11-21T23:16:50.555103Z"
     },
     "13:OSA:MGA": {
       "round": 13,
@@ -12184,7 +12184,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:13.491794Z"
+      "updated": "2026-11-21T23:16:52.688584Z"
     },
     "13:RAC:RSO": {
       "round": 13,
@@ -12209,7 +12209,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-sociedad-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:15.568669Z"
+      "updated": "2026-11-21T23:16:56.257112Z"
     },
     "13:RAY:VAL": {
       "round": 13,
@@ -12296,36 +12296,137 @@
       "round": 13,
       "home": "RMA",
       "away": "CEL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Carlos Espí (Real Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "85'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 2, Celta de Vigo 1. Carlos Espí (Real Madrid) remate con la derecha desde muy cerca al centro de la portería."
+        },
+        {
+          "minute": "82'",
+          "type": "yellow",
+          "text": "Javi Rodríguez (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Yoel Lago (Celta de Vigo) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 1, Celta de Vigo 1. Jude Bellingham (Real Madrid) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Kylian Mbappé."
+        },
+        {
+          "minute": "6'",
+          "type": "goal",
+          "text": "¡Gooooool! Real Madrid 0, Celta de Vigo 1. Pablo Durán (Celta de Vigo) remate con la derecha desde muy cerca por el lado derecho de la portería. Asistencia de Williot Swedberg."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "63.5%",
+          "away": "36.5%"
+        },
+        {
+          "name": "Remates",
+          "home": "24",
+          "away": "8"
+        },
+        {
+          "name": "Efectividad",
+          "home": "12.5%",
+          "away": "14.3%"
+        },
+        {
           "name": "Faltas",
-          "home": "10",
-          "away": "171"
+          "home": "4",
+          "away": "13"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "1",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "8",
+          "away": "3"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-rc-celta-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:20.201043Z"
+      "updated": "2026-11-21T23:16:58.228786Z"
     },
     "13:SEV:BET": {
       "round": 13,
       "home": "SEV",
       "away": "BET",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 1,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 1, Real Betis 1. Kike Salas (Sevilla) remate con la izquierda desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Isaac Romero."
+        },
+        {
+          "minute": "86'",
+          "type": "yellow",
+          "text": "Pablo Fornals (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "86'",
+          "type": "yellow",
+          "text": "Juan Iglesias (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Robbie Ure (Sevilla) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "79'",
+          "type": "yellow",
+          "text": "Héctor Bellerín (Real Betis) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "61'",
+          "type": "yellow",
+          "text": "Andrés Castrín (Sevilla) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "50'",
+          "type": "goal",
+          "text": "¡Gooooool! Sevilla 0, Real Betis 1. Antony (Real Betis) remate con la izquierda desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Isco."
+        },
         {
           "minute": "18'",
           "type": "yellow",
@@ -12347,17 +12448,63 @@
           "text": "Junior Firpo (Real Betis) ha visto tarjeta amarilla."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "50%",
+          "away": "50%"
+        },
+        {
+          "name": "Remates",
+          "home": "25",
+          "away": "6"
+        },
+        {
+          "name": "Efectividad",
+          "home": "5.6%",
+          "away": "20.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "21",
+          "away": "14"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "5",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "1"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "2"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-real-betis-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:21.711187Z"
+      "updated": "2026-11-21T23:17:01.840854Z"
     }
   },
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 10,
-    "updatedThisRun": 10,
+    "checkedThisRun": 9,
+    "updatedThisRun": 9,
     "maxPerRun": 18
   }
 }
