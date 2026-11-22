@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T11:46:05.932913Z",
+  "updated": "2026-11-22T18:54:57.476130Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T18:13:28.355068Z"
+      "updated": "2026-11-22T18:54:57.476094Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -12090,26 +12090,132 @@
       "round": 13,
       "home": "BAR",
       "away": "VIL",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Pau Navarro (Villarreal) segunda tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Marc Bernal (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "76'",
+          "type": "yellow",
+          "text": "Raphinha (Barcelona) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "75'",
+          "type": "red",
+          "text": "Fermín López (Barcelona) ha visto tarjeta roja."
+        },
+        {
+          "minute": "67'",
+          "type": "goal",
+          "text": "Gol en propia puerta de Pau Navarro, Villarreal. Barcelona 3, Villarreal 2."
+        },
+        {
+          "minute": "63'",
+          "type": "yellow",
+          "text": "Carlos Romero (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "61'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 2, Villarreal 2. Fermín López (Barcelona) remate con la izquierda desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Lamine Yamal."
+        },
+        {
+          "minute": "57'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 1, Villarreal 2. Gerard Martín (Barcelona) remate de cabeza desde el centro del área a la escuadra derecha. Asistencia de Pedri con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "49'",
+          "type": "yellow",
+          "text": "Alex Freeman (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "47'",
+          "type": "yellow",
+          "text": "Pau Navarro (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "32'",
+          "type": "yellow",
+          "text": "Alberto Moleiro (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "11'",
+          "type": "yellow",
+          "text": "Pape Gueye (Villarreal) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "7'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 0, Villarreal 2. Tani Oluwaseyi (Villarreal) remate con la izquierda desde el lado izquierdo del interior del área por el centro de la portería. Asistencia de Alberto Moleiro tras un contraataque."
+        },
+        {
+          "minute": "5'",
+          "type": "goal",
+          "text": "¡Gooooool! Barcelona 0, Villarreal 1. Tajon Buchanan (Villarreal) remate con la derecha desde fuera del área por el lado derecho de la portería."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "69.9%",
+          "away": "30.1%"
+        },
+        {
+          "name": "Remates",
+          "home": "30",
+          "away": "4"
+        },
+        {
+          "name": "Efectividad",
+          "home": "15.0%",
+          "away": "50.0%"
+        },
+        {
           "name": "Faltas",
-          "home": "15",
-          "away": "122"
+          "home": "11",
+          "away": "19"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "2",
+          "away": "4"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "1"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "10",
+          "away": "0"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-villarreal-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T11:45:59.664935Z"
+      "updated": "2026-11-22T18:54:42.634641Z"
     },
     "13:GET:ATM": {
       "round": 13,
@@ -12134,7 +12240,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T11:46:00.740783Z"
+      "updated": "2026-11-22T18:54:46.401988Z"
     },
     "13:LEV:ELC": {
       "round": 13,
@@ -12159,57 +12265,138 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T11:46:03.318363Z"
+      "updated": "2026-11-22T18:54:50.112690Z"
     },
     "13:OSA:MGA": {
       "round": 13,
       "home": "OSA",
       "away": "MGA",
-      "status": "notstarted",
+      "status": "unknown",
       "homeScore": null,
       "awayScore": null,
       "scorers": [],
-      "incidents": [],
-      "statistics": [
+      "incidents": [
         {
-          "name": "Faltas",
-          "home": "23",
-          "away": "127"
+          "minute": "42'",
+          "type": "yellow",
+          "text": "Alejandro Catena (Osasuna) ha visto tarjeta amarilla por juego peligroso."
         },
         {
-          "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "minute": "20'",
+          "type": "goal",
+          "text": "¡Gooooool! Osasuna 1, Málaga CF 0. Ante Budimir (Osasuna) remate de cabeza desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Valentin Rosier con un centro al área."
         }
       ],
+      "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T11:46:04.322893Z"
+      "updated": "2026-11-22T18:54:51.378918Z"
     },
     "13:RAC:RSO": {
       "round": 13,
       "home": "RAC",
       "away": "RSO",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 2,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Iñigo Vicente (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "80'",
+          "type": "yellow",
+          "text": "Mamadou Sarr (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Iker Luque (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "68'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 3, Real Sociedad 2. Sergio Canales (Racing de Santander) convirtió el penalti remate con la izquierda por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "66'",
+          "type": "yellow",
+          "text": "Álex Remiro (Real Sociedad) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "60'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Real Sociedad 2. Gonçalo Guedes (Real Sociedad) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Jon Gorrotxategi tras un saque de esquina."
+        },
+        {
+          "minute": "45'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Real Sociedad 1. Mikel Oyarzabal (Real Sociedad) remate con la izquierda desde el centro del área a la escuadra derecha. Asistencia de Sergio Gómez."
+        },
+        {
+          "minute": "8'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 2, Real Sociedad 0. Yassir Zabiri (Racing de Santander) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo."
+        },
+        {
+          "minute": "6'",
+          "type": "goal",
+          "text": "¡Gooooool! Racing de Santander 1, Real Sociedad 0. Yassir Zabiri (Racing de Santander) remate con la izquierda desde el centro del área por el centro de la portería. Asistencia de Iker Luque."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "37.2%",
+          "away": "62.8%"
+        },
+        {
+          "name": "Remates",
+          "home": "12",
+          "away": "31"
+        },
+        {
+          "name": "Efectividad",
+          "home": "30.0%",
+          "away": "11.1%"
+        },
+        {
           "name": "Faltas",
-          "home": "20",
-          "away": "161"
+          "home": "10",
+          "away": "10"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "7",
+          "away": "14"
+        },
+        {
+          "name": "Penaltis",
+          "home": "1 (1)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-sociedad-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T11:46:05.932882Z"
+      "updated": "2026-11-22T18:54:54.719291Z"
     },
     "13:RAY:VAL": {
       "round": 13,
@@ -12503,8 +12690,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 5,
-    "updatedThisRun": 5,
+    "checkedThisRun": 6,
+    "updatedThisRun": 6,
     "maxPerRun": 18
   }
 }
