@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T18:54:57.476130Z",
+  "updated": "2026-11-22T23:57:39.274663Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T23:17:06.080501Z"
+      "updated": "2026-11-22T23:57:32.785160Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-21T23:17:09.867882Z"
+      "updated": "2026-11-22T23:57:39.274627Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -12221,26 +12221,102 @@
       "round": 13,
       "home": "GET",
       "away": "ATM",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 0,
+      "awayScore": 3,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 0, Atlético de Madrid 3. Alejandro Grimaldo (Atlético de Madrid) convirtió el penalti remate con la izquierda a la escuadra derecha."
+        },
+        {
+          "minute": "90'",
+          "type": "red",
+          "text": "Djené Dakonam (Getafe) ha visto tarjeta roja."
+        },
+        {
+          "minute": "84'",
+          "type": "yellow",
+          "text": "Mario Martín (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "71'",
+          "type": "yellow",
+          "text": "Djené Dakonam (Getafe) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "49'",
+          "type": "yellow",
+          "text": "Robin Le Normand (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "36'",
+          "type": "yellow",
+          "text": "Johnny Cardoso (Atlético de Madrid) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "30'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 0, Atlético de Madrid 2. Johnny Cardoso (Atlético de Madrid) remate con la derecha desde muy cerca al centro de la portería. Asistencia de Julián Alvarez con un centro al área tras un saque de esquina."
+        },
+        {
+          "minute": "10'",
+          "type": "goal",
+          "text": "¡Gooooool! Getafe 0, Atlético de Madrid 1. Álex Baena (Atlético de Madrid) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Julián Alvarez."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "31.3%",
+          "away": "68.7%"
+        },
+        {
+          "name": "Remates",
+          "home": "11",
+          "away": "20"
+        },
+        {
+          "name": "Efectividad",
+          "home": "0.0%",
+          "away": "17.6%"
+        },
+        {
           "name": "Faltas",
-          "home": "10",
-          "away": "144"
+          "home": "11",
+          "away": "11"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "4",
-          "away": "1º"
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "0",
+          "away": "2"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "2",
+          "away": "7"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "1 (1)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-atletico-de-madrid-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T18:54:46.401988Z"
+      "updated": "2026-11-22T23:57:24.448560Z"
     },
     "13:LEV:ELC": {
       "round": 13,
@@ -12265,17 +12341,32 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-elche-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T18:54:50.112690Z"
+      "updated": "2026-11-22T23:57:26.923797Z"
     },
     "13:OSA:MGA": {
       "round": 13,
       "home": "OSA",
       "away": "MGA",
-      "status": "unknown",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 0,
       "scorers": [],
       "incidents": [
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Alejandro Catena (Osasuna) segunda tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "88'",
+          "type": "yellow",
+          "text": "Raúl García (Osasuna) ha visto tarjeta amarilla."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Asier Osambela (Osasuna) ha visto tarjeta amarilla por juego peligroso."
+        },
         {
           "minute": "42'",
           "type": "yellow",
@@ -12287,10 +12378,56 @@
           "text": "¡Gooooool! Osasuna 1, Málaga CF 0. Ante Budimir (Osasuna) remate de cabeza desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Valentin Rosier con un centro al área."
         }
       ],
-      "statistics": [],
+      "statistics": [
+        {
+          "name": "Posesión",
+          "home": "47.2%",
+          "away": "52.8%"
+        },
+        {
+          "name": "Remates",
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "name": "Efectividad",
+          "home": "20.0%",
+          "away": "0.0%"
+        },
+        {
+          "name": "Faltas",
+          "home": "15",
+          "away": "11"
+        },
+        {
+          "name": "Tarjetas amarillas",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "1",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "3"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "4",
+          "away": "1"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
+        }
+      ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-malaga-cf-13",
       "source": "LALIGA oficial",
-      "updated": "2026-11-22T18:54:51.378918Z"
+      "updated": "2026-11-22T23:57:30.039360Z"
     },
     "13:RAC:RSO": {
       "round": 13,
@@ -12690,8 +12827,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 6,
-    "updatedThisRun": 6,
+    "checkedThisRun": 5,
+    "updatedThisRun": 5,
     "maxPerRun": 18
   }
 }
