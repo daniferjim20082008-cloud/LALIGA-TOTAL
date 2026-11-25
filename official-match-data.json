@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T23:28:03.149628Z",
+  "updated": "2026-11-25T05:35:56.902992Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -1327,7 +1327,7 @@
         {
           "name": "Faltas",
           "home": "12",
-          "away": "131"
+          "away": "146"
         },
         {
           "name": "Tarjetas amarillas",
@@ -1337,7 +1337,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
       "source": "LALIGA oficial",
-      "updated": "2026-11-24T03:19:44.685692Z"
+      "updated": "2026-11-25T05:35:51.345174Z"
     },
     "8:RMA:VIL": {
       "round": 8,
@@ -1584,7 +1584,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-real-madrid-7",
       "source": "LALIGA oficial",
-      "updated": "2026-11-24T03:19:40.872450Z"
+      "updated": "2026-11-25T05:35:47.713210Z"
     },
     "7:DEP:BET": {
       "round": 7,
@@ -9346,7 +9346,7 @@
       "statistics": [],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
       "source": "LALIGA oficial",
-      "updated": "2026-11-24T03:19:49.359619Z"
+      "updated": "2026-11-25T05:35:56.902743Z"
     },
     "10:CEL:BET": {
       "round": 10,
@@ -12898,8 +12898,8 @@
   "warnings": [],
   "meta": {
     "roundLimit": 13,
-    "checkedThisRun": 0,
-    "updatedThisRun": 0,
+    "checkedThisRun": 3,
+    "updatedThisRun": 3,
     "maxPerRun": 18
   }
 }
