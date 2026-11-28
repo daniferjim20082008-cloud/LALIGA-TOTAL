@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T19:35:29.473315Z",
+  "updated": "2026-11-28T02:10:29.140004Z",
   "source": "LALIGA oficial",
   "matches": {
     "8:ALA:ATM": {
@@ -12917,7 +12917,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-betis-rayo-vallecano-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:13.600524Z"
+      "updated": "2026-11-28T02:09:59.040828Z"
     },
     "14:CEL:VIL": {
       "round": 14,
@@ -12942,7 +12942,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-villarreal-cf-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:14.911594Z"
+      "updated": "2026-11-28T02:10:02.572557Z"
     },
     "14:DEP:BAR": {
       "round": 14,
@@ -12967,7 +12967,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-fc-barcelona-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:15.969586Z"
+      "updated": "2026-11-28T02:10:04.483641Z"
     },
     "14:ELC:ATM": {
       "round": 14,
@@ -12992,7 +12992,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-atletico-de-madrid-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:17.404292Z"
+      "updated": "2026-11-28T02:10:07.578452Z"
     },
     "14:ESP:GET": {
       "round": 14,
@@ -13017,32 +13017,108 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-getafe-cf-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:18.477916Z"
+      "updated": "2026-11-28T02:10:11.250261Z"
     },
     "14:LEV:RAC": {
       "round": 14,
       "home": "LEV",
       "away": "RAC",
-      "status": "notstarted",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 3,
       "scorers": [],
-      "incidents": [],
+      "incidents": [
+        {
+          "minute": "90'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Racing de Santander 3. Pablo García (Racing de Santander) remate con la izquierda desde fuera del área por el centro de la portería. Asistencia de Jorge Salinas."
+        },
+        {
+          "minute": "90'",
+          "type": "yellow",
+          "text": "Jon Ander Olasagasti (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "81'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Racing de Santander 2. Yassir Zabiri (Racing de Santander) remate con la izquierda desde el lado izquierdo del interior del área por el lado derecho de la portería. Asistencia de Iñigo Vicente después de un pase en profundidad tras un contraataque."
+        },
+        {
+          "minute": "74'",
+          "type": "yellow",
+          "text": "Iker Luque (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "66'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Racing de Santander 1. Pablo García (Racing de Santander) remate con la izquierda desde el lado derecho del interior del área a la escuadra izquierda. Asistencia de André Almeida."
+        },
+        {
+          "minute": "57'",
+          "type": "yellow",
+          "text": "Dani Requena (Levante UD) ha visto tarjeta amarilla por juego peligroso."
+        },
+        {
+          "minute": "42'",
+          "type": "goal",
+          "text": "¡Gooooool! Levante UD 1, Racing de Santander 0. Iván Romero (Levante UD) remate con la derecha desde fuera del área por bajo, junto al palo izquierdo. Asistencia de Oriol Rey tras un contraataque."
+        },
+        {
+          "minute": "25'",
+          "type": "yellow",
+          "text": "Pedro Felipe (Racing de Santander) ha visto tarjeta amarilla por juego peligroso."
+        }
+      ],
       "statistics": [
         {
+          "name": "Posesión",
+          "home": "56.2%",
+          "away": "43.8%"
+        },
+        {
+          "name": "Remates",
+          "home": "23",
+          "away": "15"
+        },
+        {
+          "name": "Efectividad",
+          "home": "6.3%",
+          "away": "23.1%"
+        },
+        {
           "name": "Faltas",
-          "home": "32",
-          "away": "143"
+          "home": "16",
+          "away": "11"
         },
         {
           "name": "Tarjetas amarillas",
-          "home": "5",
-          "away": "1º"
+          "home": "2",
+          "away": "2"
+        },
+        {
+          "name": "Tarjetas rojas",
+          "home": "0",
+          "away": "0"
+        },
+        {
+          "name": "Fueras de juego",
+          "home": "2",
+          "away": "0"
+        },
+        {
+          "name": "Córners lanzados",
+          "home": "9",
+          "away": "5"
+        },
+        {
+          "name": "Penaltis",
+          "home": "0 (0)",
+          "away": "0 (0)"
         }
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-r-racing-club-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:19.879932Z"
+      "updated": "2026-11-28T02:10:16.355527Z"
     },
     "14:MGA:ATH": {
       "round": 14,
@@ -13067,7 +13143,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-athletic-club-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:23.022586Z"
+      "updated": "2026-11-28T02:10:20.768542Z"
     },
     "14:RMA:ALA": {
       "round": 14,
@@ -13092,7 +13168,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-deportivo-alaves-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:24.838126Z"
+      "updated": "2026-11-28T02:10:23.611068Z"
     },
     "14:RSO:SEV": {
       "round": 14,
@@ -13117,7 +13193,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-sevilla-fc-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:27.538482Z"
+      "updated": "2026-11-28T02:10:26.036936Z"
     },
     "14:VAL:OSA": {
       "round": 14,
@@ -13142,7 +13218,7 @@
       ],
       "url": "https://www.laliga.com/es-ES/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-ca-osasuna-14",
       "source": "LALIGA oficial",
-      "updated": "2026-11-27T19:35:29.473285Z"
+      "updated": "2026-11-28T02:10:29.139975Z"
     }
   },
   "warnings": [],
